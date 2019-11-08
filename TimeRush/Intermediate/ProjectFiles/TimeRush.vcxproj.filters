@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TimeRush.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E4A7B55B-2B40-422D-BD0B-38F515862B1F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TimeRush.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TimeRushEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B492D680-0438-4C64-8602-C82EDF9779D3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TimeRush">
+      <UniqueIdentifier>{B73F4E70-712A-41C5-930B-9BD0DDA4CE8B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TimeRush\TimeRush.Build.cs">
+      <Filter>Source\TimeRush</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TimeRush\TimeRush.cpp">
+      <Filter>Source\TimeRush</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimeRush\TimeRush.h">
+      <Filter>Source\TimeRush</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimeRush\TimeRushGameModeBase.cpp">
+      <Filter>Source\TimeRush</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimeRush\TimeRushGameModeBase.h">
+      <Filter>Source\TimeRush</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

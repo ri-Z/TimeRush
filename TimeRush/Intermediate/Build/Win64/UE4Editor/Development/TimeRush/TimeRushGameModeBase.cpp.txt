@@ -1,0 +1,7 @@
+D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\Definitions.TimeRush.h
+d:\universidade europeia\github\timerush\timerush\source\timerush\TimeRushGameModeBase.h
+D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Inc\TimeRush\TimeRushGameModeBase.generated.h

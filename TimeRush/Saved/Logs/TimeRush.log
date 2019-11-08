@@ -1,0 +1,1136 @@
+﻿Log file open, 11/08/19 17:11:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TimeRush
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.328670
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=sneaKyPie -epicuserid=0ec919422b334695a8bb8c80de01ba99 -epiclocale=en-US
+LogInit: Base Directory: D:/Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.08-17.11.33:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.08-17.11.33:426][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.08-17.11.33:427][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.08-17.11.33:427][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.08-17.11.33:432][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.08-17.11.33:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.08-17.11.33:433][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.08-17.11.33:434][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.08-17.11.33:434][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.08-17.11.33:434][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.08-17.11.33:454][  0]LogHAL: Display: Platform has ~ 16 GB [17073463296 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.08-17.11.33:454][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.08-17.11.33:454][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.08-17.11.33:455][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.08-17.11.33:455][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:455][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.08-17.11.33:456][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.08-17.11.33:457][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.08-17.11.33:458][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.08-17.11.33:459][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.08-17.11.33:459][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.08-17.11.33:459][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.08-17.11.33:459][  0]LogInit: Computer: DESKTOP-P7E93EO
+[2019.11.08-17.11.33:459][  0]LogInit: User: riZ
+[2019.11.08-17.11.33:459][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.08-17.11.33:460][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.08-17.11.33:460][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.08-17.11.33:460][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.08-17.11.33:460][  0]LogMemory: Process Physical Memory: 96.74 MB used, 96.75 MB peak
+[2019.11.08-17.11.33:460][  0]LogMemory: Process Virtual Memory: 89.00 MB used, 89.00 MB peak
+[2019.11.08-17.11.33:460][  0]LogMemory: Physical Memory: 9614.97 MB used,  6667.55 MB free, 16282.52 MB total
+[2019.11.08-17.11.33:460][  0]LogMemory: Virtual Memory: 4643.12 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.11.08-17.11.33:527][  0]LogInit: Using OS detected language (en-US).
+[2019.11.08-17.11.33:527][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.08-17.11.33:531][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.08-17.11.33:907][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.08-17.11.33:972][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.08-17.11.33:972][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.08-17.11.34:672][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.08-17.11.34:672][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.08-17.11.34:780][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.11.08-17.11.34:780][  0]LogD3D11RHI:       2010/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.08-17.11.34:798][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.11.08-17.11.34:798][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.08-17.11.34:802][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.08-17.11.34:802][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.08-17.11.34:802][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.08-17.11.34:874][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.08-17.11.34:874][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.11.08-17.11.34:874][  0]LogWindows: EnumDisplayDevices:
+[2019.11.08-17.11.34:874][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.11.08-17.11.34:875][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.11.08-17.11.34:876][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.11.08-17.11.34:877][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.08-17.11.34:877][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.11.08-17.11.34:877][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.08-17.11.34:877][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.08-17.11.34:877][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.11.08-17.11.34:961][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.08-17.11.34:969][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.08-17.11.34:970][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.08-17.11.34:970][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.08-17.11.34:981][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.08-17.11.35:787][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.08-17.11.35:828][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.08-17.11.35:865][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.08-17.11.35:895][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.08-17.11.35:929][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.08-17.11.35:958][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.08-17.11.35:987][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.08-17.11.36:012][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.08-17.11.36:023][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.08-17.11.36:189][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.08-17.11.36:193][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.08-17.11.36:261][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.08-17.11.36:261][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.08-17.11.36:304][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.08-17.11.36:304][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.08-17.11.36:326][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.08-17.11.36:344][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.08-17.11.36:363][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.08-17.11.36:382][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.08-17.11.36:455][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.08-17.11.36:455][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.08-17.11.36:455][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.08-17.11.36:473][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.08-17.11.36:596][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Intermediate/Shaders/WorkingDirectory/11296/).
+[2019.11.08-17.11.36:596][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/2011j/AppData/Local/Temp/UnrealShaderWorkingDir/371B76374E2AB972D36825B1AE3E90E6/'.
+[2019.11.08-17.11.36:603][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.08-17.11.36:603][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.08-17.11.36:603][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.08-17.11.37:970][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.08-17.11.38:067][  0]LogDerivedDataCache: Loaded boot cache 0.10s 75MB C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.08-17.11.38:067][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.08-17.11.38:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.08-17.11.38:068][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.08-17.11.38:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.08-17.11.38:068][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.08-17.11.38:092][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.08-17.11.38:092][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.08-17.11.38:092][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.08-17.11.38:105][  0]LogDerivedDataCache: Using Local data cache path C:/Users/2011j/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.08-17.11.38:105][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.08-17.11.38:105][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.08-17.11.38:156][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.08-17.11.38:157][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.08-17.11.38:159][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.08-17.11.38:378][  0]LogAssetRegistry: FAssetRegistry took 0.0544 seconds to start up
+[2019.11.08-17.11.39:217][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.08-17.11.39:521][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.08-17.11.39:521][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.08-17.11.39:521][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.08-17.11.39:521][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.08-17.11.39:521][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.08-17.11.39:542][  0]LogNetVersion: TimeRush 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1373495878)
+[2019.11.08-17.11.40:448][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.108120 seconds
+[2019.11.08-17.11.40:458][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.08-17.11.40:458][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.08-17.11.40:458][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.08-17.11.42:550][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.08-17.11.42:574][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.08-17.11.42:741][  0]SourceControl: Source control is disabled
+[2019.11.08-17.11.42:741][  0]SourceControl: Source control is disabled
+[2019.11.08-17.11.42:744][  0]SourceControl: Source control is disabled
+[2019.11.08-17.11.42:746][  0]SourceControl: Source control is disabled
+[2019.11.08-17.11.42:965][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.08-17.11.43:179][  0]LogOcInput: OculusInput pre-init called
+[2019.11.08-17.11.44:657][  0]LogEngine: Initializing Engine...
+[2019.11.08-17.11.44:658][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.08-17.11.44:659][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.11.08-17.11.44:966][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.08-17.11.44:988][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.08-17.11.45:026][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-17.11.45:135][  0]LogInit: FAudioDevice initialized.
+[2019.11.08-17.11.45:135][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.08-17.11.45:347][  0]LogDerivedDataCache: Saved boot cache 0.21s 75MB C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.08-17.11.45:357][  0]LogInit: Texture streaming: Enabled
+[2019.11.08-17.11.45:395][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.08-17.11.45:430][  0]LogInit: Transaction tracking system initialized
+[2019.11.08-17.11.45:477][  0]BlueprintLog: New page: Editor Load
+[2019.11.08-17.11.45:662][  0]LocalizationService: Localization service is disabled
+[2019.11.08-17.11.46:242][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/' took 0.01s
+[2019.11.08-17.11.46:242][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.08-17.11.46:242][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.08-17.11.46:695][  0]SourceControl: Source control is disabled
+[2019.11.08-17.11.46:792][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Games/UE_4.22/FeaturePacks/StarterContent.upack)
+[2019.11.08-17.11.46:903][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2019.11.08-17.11.46:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2019.11.08-17.11.46:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2019.11.08-17.11.47:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2019.11.08-17.11.47:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2019.11.08-17.11.47:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2019.11.08-17.11.47:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2019.11.08-17.11.47:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2019.11.08-17.11.47:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2019.11.08-17.11.47:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2019.11.08-17.11.47:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2019.11.08-17.11.47:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2019.11.08-17.11.47:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Collapse01.uasset"
+[2019.11.08-17.11.47:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Collapse02.uasset"
+[2019.11.08-17.11.47:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2019.11.08-17.11.47:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Explosion01.uasset"
+[2019.11.08-17.11.47:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Explosion02.uasset"
+[2019.11.08-17.11.47:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2019.11.08-17.11.47:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Fire01.uasset"
+[2019.11.08-17.11.47:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2019.11.08-17.11.47:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2019.11.08-17.11.47:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2019.11.08-17.11.47:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Light01.uasset"
+[2019.11.08-17.11.47:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2019.11.08-17.11.47:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Light02.uasset"
+[2019.11.08-17.11.47:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2019.11.08-17.11.47:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Smoke01.uasset"
+[2019.11.08-17.11.47:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2019.11.08-17.11.47:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2019.11.08-17.11.48:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2019.11.08-17.11.48:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2019.11.08-17.11.48:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2019.11.08-17.11.48:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2019.11.08-17.11.49:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2019.11.08-17.11.49:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Steam01.uasset"
+[2019.11.08-17.11.49:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2019.11.08-17.11.49:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2019.11.08-17.11.49:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2019.11.08-17.11.49:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2019.11.08-17.11.49:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2019.11.08-17.11.49:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2019.11.08-17.11.49:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2019.11.08-17.11.49:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2019.11.08-17.11.49:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2019.11.08-17.11.49:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2019.11.08-17.11.49:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2019.11.08-17.11.49:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2019.11.08-17.11.49:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2019.11.08-17.11.49:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2019.11.08-17.11.49:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2019.11.08-17.11.49:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2019.11.08-17.11.49:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2019.11.08-17.11.52:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2019.11.08-17.11.52:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2019.11.08-17.11.52:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2019.11.08-17.11.52:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Minimal_Default.umap"
+[2019.11.08-17.11.52:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2019.11.08-17.11.52:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/StarterMap.umap"
+[2019.11.08-17.11.53:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2019.11.08-17.11.53:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2019.11.08-17.11.53:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2019.11.08-17.11.53:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2019.11.08-17.11.53:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2019.11.08-17.11.53:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2019.11.08-17.11.53:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2019.11.08-17.11.53:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2019.11.08-17.11.53:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2019.11.08-17.11.53:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2019.11.08-17.11.53:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2019.11.08-17.11.53:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2019.11.08-17.11.53:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2019.11.08-17.11.53:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2019.11.08-17.11.53:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2019.11.08-17.11.53:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2019.11.08-17.11.53:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2019.11.08-17.11.53:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2019.11.08-17.11.53:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Glass.uasset"
+[2019.11.08-17.11.53:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2019.11.08-17.11.53:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2019.11.08-17.11.53:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2019.11.08-17.11.53:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2019.11.08-17.11.53:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2019.11.08-17.11.53:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2019.11.08-17.11.53:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2019.11.08-17.11.53:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2019.11.08-17.11.53:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2019.11.08-17.11.53:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2019.11.08-17.11.53:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2019.11.08-17.11.53:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2019.11.08-17.11.53:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2019.11.08-17.11.54:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2019.11.08-17.11.54:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2019.11.08-17.11.54:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2019.11.08-17.11.54:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2019.11.08-17.11.54:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2019.11.08-17.11.54:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2019.11.08-17.11.54:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2019.11.08-17.11.54:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2019.11.08-17.11.54:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2019.11.08-17.11.54:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2019.11.08-17.11.54:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2019.11.08-17.11.54:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2019.11.08-17.11.54:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2019.11.08-17.11.54:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/P_Explosion.uasset"
+[2019.11.08-17.11.54:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/P_Fire.uasset"
+[2019.11.08-17.11.54:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/P_Smoke.uasset"
+[2019.11.08-17.11.54:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/P_Sparks.uasset"
+[2019.11.08-17.11.54:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2019.11.08-17.11.54:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2019.11.08-17.11.54:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2019.11.08-17.11.54:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2019.11.08-17.11.54:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2019.11.08-17.11.54:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2019.11.08-17.11.54:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2019.11.08-17.11.54:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2019.11.08-17.11.54:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2019.11.08-17.11.54:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2019.11.08-17.11.54:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2019.11.08-17.11.54:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/MaterialSphere.uasset"
+[2019.11.08-17.11.54:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Bush.uasset"
+[2019.11.08-17.11.54:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Chair.uasset"
+[2019.11.08-17.11.54:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2019.11.08-17.11.54:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Couch.uasset"
+[2019.11.08-17.11.55:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Door.uasset"
+[2019.11.08-17.11.55:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2019.11.08-17.11.55:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2019.11.08-17.11.55:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2019.11.08-17.11.55:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2019.11.08-17.11.55:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2019.11.08-17.11.55:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2019.11.08-17.11.55:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2019.11.08-17.11.55:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Rock.uasset"
+[2019.11.08-17.11.55:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Shelf.uasset"
+[2019.11.08-17.11.55:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Stairs.uasset"
+[2019.11.08-17.11.55:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_Statue.uasset"
+[2019.11.08-17.11.55:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_TableRound.uasset"
+[2019.11.08-17.11.55:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2019.11.08-17.11.55:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2019.11.08-17.11.55:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2019.11.08-17.11.55:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2019.11.08-17.11.55:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2019.11.08-17.11.55:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2019.11.08-17.11.55:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2019.11.08-17.11.56:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2019.11.08-17.11.56:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2019.11.08-17.11.56:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2019.11.08-17.11.56:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2019.11.08-17.11.56:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2019.11.08-17.11.56:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2019.11.08-17.11.56:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2019.11.08-17.11.56:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2019.11.08-17.11.56:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2019.11.08-17.11.56:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2019.11.08-17.11.56:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2019.11.08-17.11.56:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2019.11.08-17.11.56:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2019.11.08-17.11.56:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2019.11.08-17.11.56:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2019.11.08-17.11.56:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2019.11.08-17.11.56:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2019.11.08-17.11.56:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2019.11.08-17.11.56:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2019.11.08-17.11.56:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2019.11.08-17.11.56:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2019.11.08-17.11.56:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2019.11.08-17.11.56:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2019.11.08-17.11.56:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2019.11.08-17.11.57:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2019.11.08-17.11.57:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2019.11.08-17.11.57:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2019.11.08-17.11.57:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2019.11.08-17.11.57:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2019.11.08-17.11.58:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2019.11.08-17.11.58:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2019.11.08-17.11.59:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2019.11.08-17.11.59:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2019.11.08-17.12.00:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2019.11.08-17.12.00:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2019.11.08-17.12.00:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2019.11.08-17.12.01:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2019.11.08-17.12.01:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2019.11.08-17.12.01:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2019.11.08-17.12.01:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2019.11.08-17.12.01:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2019.11.08-17.12.01:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2019.11.08-17.12.01:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2019.11.08-17.12.01:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2019.11.08-17.12.01:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2019.11.08-17.12.01:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2019.11.08-17.12.02:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2019.11.08-17.12.02:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2019.11.08-17.12.03:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2019.11.08-17.12.03:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2019.11.08-17.12.03:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2019.11.08-17.12.03:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2019.11.08-17.12.03:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2019.11.08-17.12.04:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2019.11.08-17.12.04:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2019.11.08-17.12.04:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2019.11.08-17.12.04:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2019.11.08-17.12.04:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2019.11.08-17.12.04:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2019.11.08-17.12.05:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2019.11.08-17.12.05:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2019.11.08-17.12.05:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2019.11.08-17.12.05:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2019.11.08-17.12.05:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2019.11.08-17.12.05:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Door_M.uasset"
+[2019.11.08-17.12.05:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Door_N.uasset"
+[2019.11.08-17.12.05:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2019.11.08-17.12.05:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2019.11.08-17.12.06:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2019.11.08-17.12.06:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2019.11.08-17.12.06:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2019.11.08-17.12.06:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2019.11.08-17.12.06:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2019.11.08-17.12.06:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2019.11.08-17.12.06:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2019.11.08-17.12.07:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2019.11.08-17.12.07:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2019.11.08-17.12.07:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2019.11.08-17.12.07:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2019.11.08-17.12.07:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2019.11.08-17.12.07:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2019.11.08-17.12.08:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2019.11.08-17.12.08:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2019.11.08-17.12.08:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2019.11.08-17.12.09:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2019.11.08-17.12.09:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2019.11.08-17.12.09:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2019.11.08-17.12.09:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2019.11.08-17.12.09:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2019.11.08-17.12.09:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2019.11.08-17.12.10:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2019.11.08-17.12.10:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2019.11.08-17.12.10:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2019.11.08-17.12.10:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2019.11.08-17.12.11:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2019.11.08-17.12.11:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2019.11.08-17.12.11:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2019.11.08-17.12.11:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2019.11.08-17.12.11:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2019.11.08-17.12.12:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2019.11.08-17.12.12:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2019.11.08-17.12.12:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2019.11.08-17.12.12:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2019.11.08-17.12.12:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2019.11.08-17.12.12:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2019.11.08-17.12.12:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2019.11.08-17.12.12:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2019.11.08-17.12.13:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2019.11.08-17.12.13:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2019.11.08-17.12.13:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2019.11.08-17.12.13:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2019.11.08-17.12.13:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2019.11.08-17.12.13:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2019.11.08-17.12.13:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2019.11.08-17.12.13:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2019.11.08-17.12.13:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2019.11.08-17.12.13:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2019.11.08-17.12.13:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Water_M.uasset"
+[2019.11.08-17.12.13:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Water_N.uasset"
+[2019.11.08-17.12.14:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2019.11.08-17.12.14:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2019.11.08-17.12.14:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2019.11.08-17.12.14:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2019.11.08-17.12.14:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2019.11.08-17.12.15:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2019.11.08-17.12.15:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2019.11.08-17.12.15:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2019.11.08-17.12.15:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2019.11.08-17.12.16:969][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2019.11.08-17.12.17:559][  0]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Floor_400x400DA4FA98E4673DE591395CCB905996FEF.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2019.11.08-17.12.17:567][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2019.11.08-17.12.17:569][  0]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-17.12.17:570][  0]LightingResults: New page: Lighting Build
+[2019.11.08-17.12.17:576][  0]MapCheck: New page: Map Check
+[2019.11.08-17.12.17:576][  0]LightingResults: New page: Lighting Build
+[2019.11.08-17.12.17:612][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.11.08-17.12.19:040][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.11.08-17.12.19:075][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-17.12.19:135][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.08-17.12.19:136][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-17.12.19:136][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.584ms to complete.
+[2019.11.08-17.12.19:136][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.568
+[2019.11.08-17.12.19:276][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-17.12.19:286][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-17.12.19:297][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-17.12.19:308][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-17.12.19:317][  0]LogCollectionManager: Loaded 0 collections in 0.001780 seconds
+[2019.11.08-17.12.19:393][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Collections/' took 0.01s
+[2019.11.08-17.12.19:393][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Developers/riZ/Collections/' took 0.01s
+[2019.11.08-17.12.19:393][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Collections/' took 0.01s
+[2019.11.08-17.12.19:393][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.08-17.12.19:407][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2733 classes and 661 folders.
+[2019.11.08-17.12.19:517][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.11.08-17.12.19:534][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:549][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:551][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:557][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:562][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:594][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:596][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:598][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:617][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:619][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:622][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:624][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:626][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:629][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:631][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.19:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.08-17.12.20:527][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.11.08-17.12.20:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.11.08-17.12.20:658][  0]LogSlate: Took 0.000405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.08-17.12.20:661][  0]LogSlate: Took 0.000452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.08-17.12.20:688][  0]LogSlate: Took 0.014972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.08-17.12.20:770][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2019.11.08-17.12.20:860][  0]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.08-17.12.21:036][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.11.08-17.12.21:036][  0]LogLoad: (Engine Initialization) Total time: 52.05 seconds
+[2019.11.08-17.12.21:036][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.08-17.12.21:118][  0]LogAssetRegistry: Asset discovery search completed in 42.7620 seconds
+[2019.11.08-17.12.21:121][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.08-17.12.21:121][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000121 seconds (updated 0 objects)
+[2019.11.08-17.12.21:766][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.08-17.12.35:109][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-17.13.05:548][543]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-17.13.45:619][906]LogSlate: Took 0.000550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.08-17.13.47:411][906]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2019.11.08-17.13.47:545][906]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting
+[2019.11.08-17.13.47:637][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.11.08-17.13.47:651][906]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-17.13.47:652][906]LightingResults: New page: Lighting Build
+[2019.11.08-17.13.47:653][906]LoadErrors: New page: Loading map: Advanced_Lighting.umap
+[2019.11.08-17.13.47:654][906]MapCheck: New page: Map Check
+[2019.11.08-17.13.47:654][906]LightingResults: New page: Lighting Build
+[2019.11.08-17.13.47:696][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2019.11.08-17.13.47:846][906]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-17.13.47:883][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2019.11.08-17.13.47:894][906]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-17.13.47:895][906]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.514ms to complete.
+[2019.11.08-17.13.47:895][906]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.258
+[2019.11.08-17.13.48:051][909]LogRenderer: Warning: Gaussian DOF algorithm is deprecated and will be removed from deferred shading renderer. Consider using the Circle DOF method in post process settings.
+[2019.11.08-17.13.57:716][245]LogAIModule: Creating AISystem for world StarterMap
+[2019.11.08-17.13.57:787][245]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/StarterMap.StarterMap
+[2019.11.08-17.13.57:835][245]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2019.11.08-17.13.57:837][245]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-17.13.57:837][245]LightingResults: New page: Lighting Build
+[2019.11.08-17.13.57:839][245]LoadErrors: New page: Loading map: StarterMap.umap
+[2019.11.08-17.13.57:840][245]MapCheck: New page: Map Check
+[2019.11.08-17.13.57:840][245]LightingResults: New page: Lighting Build
+[2019.11.08-17.13.57:887][245]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2019.11.08-17.13.58:315][245]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-17.13.58:367][245]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.11.08-17.13.58:380][245]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-17.13.58:381][245]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.624ms to complete.
+[2019.11.08-17.13.58:381][245]LogFileHelpers: Loading map 'StarterMap' took 0.545
+[2019.11.08-17.14.12:166][938]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-17.14.13:345][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2019.11.08-17.14.13:345][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-17.14.13:345][  8]PIE: New page: SIE session: StarterMap (Nov 8, 2019, 5:14:13 PM)
+[2019.11.08-17.14.13:359][  8]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2019.11.08-17.14.13:415][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054499s)
+[2019.11.08-17.14.13:416][  8]LogAIModule: Creating AISystem for world StarterMap
+[2019.11.08-17.14.13:456][  8]LogPlayLevel: PIE: World Init took: (0.040642s)
+[2019.11.08-17.14.13:456][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/StarterMap.StarterMap to /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap (0.096634s)
+[2019.11.08-17.14.13:498][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.11.08-17.14.13:531][  8]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-17.14.13:681][  8]LogInit: FAudioDevice initialized.
+[2019.11.08-17.14.13:681][  8]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-17.14.13:725][  8]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/TimeRush.TimeRushGameMode'
+[2019.11.08-17.14.13:726][  8]LogLoad: Game class is 'GameModeBase'
+[2019.11.08-17.14.13:741][  8]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 60) at 2019.11.08-17.14.13
+[2019.11.08-17.14.13:767][  8]LogWorld: Bringing up level for play took: 0.039070
+[2019.11.08-17.14.13:825][  8]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 20 classes and 0 folders.
+[2019.11.08-17.14.13:874][  8]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_StarterMap 1.21
+[2019.11.08-17.14.13:905][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2019.11.08-17.14.38:845][429]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_32)
+[2019.11.08-17.14.39:482][429]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-17.15.17:942][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2019.11.08-17.15.17:944][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-17.15.17:988][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-17.15.17:988][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2019.11.08-17.15.18:039][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-17.15.18:047][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.08-17.15.18:071][668]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.11.08-17.15.23:087][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-17.15.23:300][962]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2019.11.08-17.15.23:310][962]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting
+[2019.11.08-17.15.23:364][962]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2019.11.08-17.15.23:366][962]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-17.15.23:367][962]LightingResults: New page: Lighting Build
+[2019.11.08-17.15.23:368][962]LoadErrors: New page: Loading map: Advanced_Lighting.umap
+[2019.11.08-17.15.23:373][962]MapCheck: New page: Map Check
+[2019.11.08-17.15.23:373][962]LightingResults: New page: Lighting Build
+[2019.11.08-17.15.23:431][962]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2019.11.08-17.15.23:669][962]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-17.15.23:716][962]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.11.08-17.15.23:729][962]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-17.15.23:729][962]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.654ms to complete.
+[2019.11.08-17.15.23:730][962]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.364
+[2019.11.08-17.15.29:657][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-17.15.29:757][306]LogTemp: Repeating last play command: Simulate
+[2019.11.08-17.15.29:768][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting' with GeneratedClass '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting'
+[2019.11.08-17.15.29:769][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-17.15.29:769][306]PIE: New page: SIE session: Advanced_Lighting (Nov 8, 2019, 5:15:29 PM)
+[2019.11.08-17.15.29:769][306]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting
+[2019.11.08-17.15.29:781][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010262s)
+[2019.11.08-17.15.29:782][306]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2019.11.08-17.15.29:783][306]LogPlayLevel: PIE: World Init took: (0.001543s)
+[2019.11.08-17.15.29:783][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting to /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting (0.013631s)
+[2019.11.08-17.15.29:841][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.11.08-17.15.29:885][306]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-17.15.30:057][306]LogInit: FAudioDevice initialized.
+[2019.11.08-17.15.30:089][306]LogLoad: Game class is 'GameModeBase'
+[2019.11.08-17.15.30:091][306]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting up for play (max tick rate 60) at 2019.11.08-17.15.30
+[2019.11.08-17.15.30:092][306]LogWorld: Bringing up level for play took: 0.001367
+[2019.11.08-17.15.30:107][306]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting -0.558
+[2019.11.08-17.15.30:110][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting' with GeneratedClass '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting'
+[2019.11.08-17.15.34:142][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PLACEHOLDER MESH)
+[2019.11.08-17.15.36:439][615]LogEditorViewport: Clicking on Actor (LMB): BP_LightStudio_C (BP_LightStage)
+[2019.11.08-17.16.10:661][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting' with GeneratedClass '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting'
+[2019.11.08-17.16.10:663][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-17.16.10:703][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-17.16.10:703][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting' with GeneratedClass '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.Advanced_Lighting'
+[2019.11.08-17.16.10:760][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-17.16.10:767][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.11.08-17.16.10:789][624]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.11.08-17.16.12:671][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-17.16.46:573][516]LogAssetEditorManager: Opening Asset editor for Class /Script/TimeRush.TimeRushGameModeBase
+[2019.11.08-17.16.47:800][516]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Source/TimeRush/TimeRushGameModeBase.h'
+[2019.11.08-17.16.59:334][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-17.17.38:068][851]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Prototype.Prototype
+[2019.11.08-17.17.38:121][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.11.08-17.17.40:039][851]LogSlate: Window 'Save Content' being destroyed
+[2019.11.08-17.17.40:056][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-17.17.40:109][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.11.08-17.17.40:132][851]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype03C9B2044FAE09BFDCD674BBC4E5753B.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-17.17.40:139][851]LogFileHelpers: Saving map 'Prototype' took 0.085
+[2019.11.08-17.17.40:143][851]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-17.17.40:143][851]LightingResults: New page: Lighting Build
+[2019.11.08-17.17.40:144][851]LoadErrors: New page: Loading map: Prototype.umap
+[2019.11.08-17.17.40:145][851]MapCheck: New page: Map Check
+[2019.11.08-17.17.40:145][851]LightingResults: New page: Lighting Build
+[2019.11.08-17.17.40:193][851]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.11.08-17.17.40:473][851]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-17.17.40:473][851]LogAIModule: Creating AISystem for world Prototype
+[2019.11.08-17.17.40:515][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.11.08-17.17.40:530][851]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-17.17.40:531][851]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.566ms to complete.
+[2019.11.08-17.17.40:533][851]LogFileHelpers: Loading map 'Prototype' took 0.392
+[2019.11.08-17.18.07:465][338]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Prototype.Prototype
+[2019.11.08-17.18.07:512][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.11.08-17.18.07:514][338]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-17.18.07:514][338]LightingResults: New page: Lighting Build
+[2019.11.08-17.18.07:515][338]LoadErrors: New page: Loading map: Prototype.umap
+[2019.11.08-17.18.07:515][338]MapCheck: New page: Map Check
+[2019.11.08-17.18.07:515][338]LightingResults: New page: Lighting Build
+[2019.11.08-17.18.07:563][338]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.11.08-17.18.07:569][338]LogAIModule: Creating AISystem for world Prototype
+[2019.11.08-17.18.07:850][338]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-17.18.07:896][338]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.11.08-17.18.07:906][338]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-17.18.07:907][338]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.497ms to complete.
+[2019.11.08-17.18.07:908][338]LogFileHelpers: Loading map 'Prototype' took 0.396
+[2019.11.08-17.19.44:928][174]LogSlate: Window 'Unable to delete level' being destroyed
+[2019.11.08-17.19.58:681][819]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2019.11.08-17.19.58:703][819]LogMetaData: Removing '/Game/Maps/Prototype1.Prototype1_C' ref from Metadata '/Game/Maps/Prototype.PackageMetaData'
+[2019.11.08-17.19.58:703][819]LogMetaData: Removing '/Game/Maps/Prototype1.Prototype1:PersistentLevel.Prototype1.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Maps/Prototype.PackageMetaData'
+[2019.11.08-17.19.58:703][819]LogMetaData: Removing '/Game/Maps/Prototype1.Prototype1:PersistentLevel.Prototype1.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Maps/Prototype.PackageMetaData'
+[2019.11.08-17.19.58:703][819]LogMetaData: Removing '/Game/Maps/Prototype1.SKEL_Prototype1_C' ref from Metadata '/Game/Maps/Prototype.PackageMetaData'
+[2019.11.08-17.19.58:900][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype1" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-17.19.58:943][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.08-17.19.59:121][819]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype1079C4B664C35200859387F97AA69BEF6.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype1.umap'
+[2019.11.08-17.19.59:171][819]LogFileHelpers: Saving map 'Prototype1' took 0.273
+[2019.11.08-17.19.59:455][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.11.08-17.19.59:497][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.11.08-17.19.59:534][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.11.08-17.20.08:122][ 79]LogSlate: Window 'New Level' being destroyed
+[2019.11.08-17.20.08:132][ 79]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-17.20.08:163][ 79]LightingResults: New page: Lighting Build
+[2019.11.08-17.20.08:164][ 79]LoadErrors: New page: Loading map: Template_Default.umap
+[2019.11.08-17.20.08:167][ 79]MapCheck: New page: Map Check
+[2019.11.08-17.20.08:167][ 79]LightingResults: New page: Lighting Build
+[2019.11.08-17.20.08:206][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.08-17.20.08:255][ 79]LogAIModule: Creating AISystem for world Untitled_1
+[2019.11.08-17.20.08:626][ 79]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-17.20.08:675][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.11.08-17.20.08:683][ 79]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-17.20.08:684][ 79]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.916ms to complete.
+[2019.11.08-17.20.08:684][ 79]LogFileHelpers: Loading map 'Template_Default' took 0.555
+[2019.11.08-17.20.30:478][826]LogSlate: Window 'Save Level As' being destroyed
+[2019.11.08-17.20.30:610][826]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.11.08-17.20.30:614][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-17.20.30:656][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.11.08-17.20.30:910][826]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/PrototypeFEBE30C24EF93369C697A88211C61AA0.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-17.20.30:933][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.08-17.20.30:979][826]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData9C39B1F04C90851D0E39069261093E2E.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.08-17.20.30:994][826]LogFileHelpers: Saving map 'Prototype' took 0.473
+[2019.11.08-17.20.34:139][998]LogAIModule: Creating AISystem for world Prototype1
+[2019.11.08-17.20.36:082][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.08-17.20.37:753][104]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.08-17.20.37:903][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.11.08-17.20.37:952][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2019.11.08-17.20.37:994][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.11.08-17.20.39:074][161]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Prototype.Prototype
+[2019.11.08-17.20.39:120][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.11.08-17.20.39:122][161]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.08-17.20.39:122][161]LightingResults: New page: Lighting Build
+[2019.11.08-17.20.39:123][161]LoadErrors: New page: Loading map: Prototype.umap
+[2019.11.08-17.20.39:125][161]MapCheck: New page: Map Check
+[2019.11.08-17.20.39:125][161]LightingResults: New page: Lighting Build
+[2019.11.08-17.20.39:181][161]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.11.08-17.20.39:219][161]LogAIModule: Creating AISystem for world Prototype
+[2019.11.08-17.20.39:540][161]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.08-17.20.39:577][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.11.08-17.20.39:586][161]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.08-17.20.39:586][161]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.391ms to complete.
+[2019.11.08-17.20.39:589][161]LogFileHelpers: Loading map 'Prototype' took 0.469
+[2019.11.08-17.20.45:581][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.08-17.20.51:536][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-17.21.11:251][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-17.21.11:302][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.11.08-17.21.11:601][924]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype9771C900476C787E4AC1B8BC15029ED7.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-17.21.11:621][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.08-17.21.11:644][924]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltDataC2A07D6644BB9D35B79361847754A618.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.08-17.21.25:528][636]MapCheck: New page: Map Check
+[2019.11.08-17.21.25:626][636]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.08-17.21.25:627][636]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.08-17.21.26:206][636]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.11.08-17.21.26:250][636]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-17.21.26:385][636]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-17.21.28:210][636]TextureStreamingBuild: Display: Compiling optional shaders took 1.983 seconds.
+[2019.11.08-17.21.28:263][636]LogLevel: Display: Export Material TexCoord Scales took 0.053 seconds.
+[2019.11.08-17.21.28:346][636]TextureStreamingBuild: Display: Build Texture Streaming took 0.026 seconds.
+[2019.11.08-17.21.28:389][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.11.08-17.21.28:431][636]LightingResults: New page: Lighting Build - Nov 8, 2019, 5:21:28 PM
+[2019.11.08-17.21.28:697][636]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.08-17.21.29:030][636]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.08-17.21.29:059][636]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.08-17.21.30:081][636]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.08-17.21.30:082][636]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11296
+[2019.11.08-17.21.33:040][636]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.11.08-17.21.33:043][636]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.08-17.21.33:043][636]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.08-17.21.33:043][636]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.08-17.21.33:043][636]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.08-17.21.33:043][636]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.08-17.21.33:463][636]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.08-17.21.33:463][636]MapCheck: New page: Prototype - Nov 8, 2019, 5:21:33 PM
+[2019.11.08-17.21.33:476][636]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.11.08-17.21.33:551][636]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 87.977ms to complete.
+[2019.11.08-17.21.33:575][636]LogEditorBuildUtils: Build time 0:07
+[2019.11.08-17.21.34:119][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.11.08-17.21.38:701][795]Job is a success!
+[2019.11.08-17.21.38:911][796]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.074s
+[2019.11.08-17.21.38:911][796]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.11.08-17.21.38:911][796]LogVolumetricLightmapImport:      BrickData 270x5x5 = 0.2Mb
+[2019.11.08-17.21.38:911][796]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.08-17.21.38:912][796]LogVolumetricLightmapImport:          0: 1.9% covering 100.0% of volume
+[2019.11.08-17.21.38:912][796]LogVolumetricLightmapImport:          1: 7.4% covering 6.3% of volume
+[2019.11.08-17.21.38:912][796]LogVolumetricLightmapImport:          2: 90.7% covering 1.2% of volume
+[2019.11.08-17.21.39:185][796]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2019.11.08-17.21.39:186][796]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2019.11.08-17.21.39:186][796]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.11.08-17.21.39:186][796]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.11.08-17.21.39:186][796]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.11.08-17.21.39:186][796]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2019.11.08-17.21.39:253][796]Lightmass on DESKTOP-P7E93EO: 2.57 sec total, 346 ms importing, 27 ms setup, 446 ms photons, 1.70 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 10.4 sec total, 907 ms processing.
+[2019.11.08-17.21.39:270][796]LogStaticLightingSystem: Prototype_BuiltData storing lightmap data for 2 meshes in 2 LightmapResourceClusters (1.0 Meshes per cluster).
+[2019.11.08-17.21.39:319][796]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.08-17.21.39:334][796]LogStaticLightingSystem: Illumination: 10.8 sec (102 ms encoding lightmaps, 10 ms encoding shadowmaps)
+[2019.11.08-17.21.39:335][796]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.11.08-17.21.39:335][796]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.11.08-17.21.45:058][796]DumpUnbuiltLightIteractions
+[2019.11.08-17.21.45:058][796]Lights with unbuilt interactions: 0
+[2019.11.08-17.21.45:058][796]
+[2019.11.08-17.21.45:058][796]Primitives with unbuilt interactions: 0
+[2019.11.08-17.21.45:342][797]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.08-17.21.45:342][797]MapCheck: New page: Prototype - Nov 8, 2019, 5:21:45 PM
+[2019.11.08-17.21.45:343][797]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.104ms to complete.
+[2019.11.08-17.22.02:811][839]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-17.22.02:817][839]LogSlate: Window 'Message Log' being destroyed
+[2019.11.08-17.22.07:803][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-17.22.07:879][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.11.08-17.22.08:105][134]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/PrototypeA5B59E0542F2A913AD47C5804A3A1C90.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-17.22.08:132][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.08-17.22.08:153][134]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltDataADBA88C64B0F579F08D215A93DDA94C7.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.08-17.22.36:052][794]Candidate modules for hot reload:
+[2019.11.08-17.22.36:052][794]  TimeRush
+[2019.11.08-17.22.36:053][794]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,8268 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.08-17.22.36:235][794]Warning: Starting HotReload took  0.2s.
+[2019.11.08-17.23.11:323][286]CompilerResultsLog: New page: Compilation - Nov 8, 2019, 5:23:11 PM
+[2019.11.08-17.23.11:540][286]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.08-17.23.11:540][286]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.08-17.23.11:540][286]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.08-17.23.11:540][286]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.08-17.23.11:540][286]CompilerResultsLog: Reflection code generated for TimeRushEditor in 17.4640022 seconds
+[2019.11.08-17.23.11:540][286]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.08-17.23.11:540][286]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.11.08-17.23.11:540][286]CompilerResultsLog:   [1/3] UE4Editor-TimeRush-8268.lib
+[2019.11.08-17.23.11:540][286]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8268.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8268.exp
+[2019.11.08-17.23.11:540][286]CompilerResultsLog:   [2/3] UE4Editor-TimeRush-8268.dll
+[2019.11.08-17.23.11:540][286]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8268.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8268.suppressed.exp
+[2019.11.08-17.23.11:540][286]CompilerResultsLog:   [3/3] TimeRushEditor.target
+[2019.11.08-17.23.11:540][286]CompilerResultsLog: Total time in Parallel executor: 6.96 seconds
+[2019.11.08-17.23.11:540][286]CompilerResultsLog: Total execution time: 34.79 seconds
+[2019.11.08-17.23.11:540][286]LogMainFrame: MainFrame: Module compiling took 35.491 seconds
+[2019.11.08-17.23.11:707][286]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2019.11.08-17.23.11:849][286]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.11.08-17.23.11:852][286]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.08-17.23.12:027][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.11.08-17.23.12:369][286]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2734 classes and 663 folders.
+[2019.11.08-17.23.12:577][286]Display: HotReload took 36.5s.
+[2019.11.08-17.50.46:957][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-17.50.47:001][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.11.08-17.50.47:292][810]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype002C5F3148DBE043C678A984E47DE3C9.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-17.50.47:316][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.08-17.50.47:409][810]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData3E36E07844FD2AA08FAC79BE7E300649.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
