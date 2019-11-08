@@ -1134,3 +1134,765 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.08-17.50.47:292][810]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype002C5F3148DBE043C678A984E47DE3C9.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
 [2019.11.08-17.50.47:316][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
 [2019.11.08-17.50.47:409][810]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData3E36E07844FD2AA08FAC79BE7E300649.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.08-18.00.10:043][817]LogSlate: Took 0.040567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.08-18.00.35:941][296]Candidate modules for hot reload:
+[2019.11.08-18.00.35:941][296]  TimeRush
+[2019.11.08-18.00.35:942][296]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,2842 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.08-18.07.40:106][296]CompilerResultsLog: New page: Compilation - Nov 8, 2019, 6:07:40 PM
+[2019.11.08-18.07.40:106][296]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.08-18.07.40:107][296]CompilerResultsLog: Creating makefile for TimeRushEditor (.uproject file is newer)
+[2019.11.08-18.07.40:107][296]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.08-18.07.40:107][296]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.08-18.07.40:107][296]CompilerResultsLog: Reflection code generated for TimeRushEditor in 32.2156221 seconds
+[2019.11.08-18.07.40:107][296]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.08-18.07.40:107][296]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.11.08-18.07.40:107][296]CompilerResultsLog:   [1/9] TimeRush.cpp
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:   [2/9] TimeRush.init.gen.cpp
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:   [3/9] TimeRushGameModeBase.cpp
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:   [4/9] TimeRushGameModeBase.gen.cpp
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:   [5/9] MyCharacter.cpp
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:   [6/9] MyCharacter.gen.cpp
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:   [7/9] UE4Editor-TimeRush-2842.lib
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-2842.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-2842.exp
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:   [8/9] UE4Editor-TimeRush-2842.dll
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-2842.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-2842.suppressed.exp
+[2019.11.08-18.07.40:108][296]CompilerResultsLog:   [9/9] TimeRushEditor.target
+[2019.11.08-18.07.40:108][296]CompilerResultsLog: Total time in Parallel executor: 382.89 seconds
+[2019.11.08-18.07.40:108][296]CompilerResultsLog: Total execution time: 423.14 seconds
+[2019.11.08-18.07.40:108][296]LogMainFrame: MainFrame: Module compiling took 424.170 seconds
+[2019.11.08-18.07.40:156][296]LogUObjectHash: Compacting FUObjectHashTables data took   6.37ms
+[2019.11.08-18.07.41:566][296]LogClass: Could not find existing class MyCharacter in package /Script/TimeRush for HotReload, assuming new class
+[2019.11.08-18.07.41:591][296]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0011 seconds. Added 2 classes and 2 folders.
+[2019.11.08-18.07.41:594][296]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.08-18.07.41:689][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.11.08-18.07.41:720][296]LogContentBrowser: Native class hierarchy populated in 0.0305 seconds. Added 2735 classes and 663 folders.
+[2019.11.08-18.07.41:736][296]Display: HotReload took 425.9s.
+[2019.11.08-18.07.41:738][296]Warning: HotReload operation took 425.9s.
+[2019.11.08-18.07.42:388][296]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.11.08-18.07.42:507][296]LogHotReload: New module detected: UE4Editor-TimeRush-2842.dll
+[2019.11.08-18.07.42:624][297]LogHotReload: Starting Hot-Reload from IDE
+[2019.11.08-18.07.42:682][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.11.08-18.07.42:690][297]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0012 seconds. Added 2 classes and 2 folders.
+[2019.11.08-18.07.42:695][297]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.08-18.07.42:729][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.11.08-18.07.42:744][297]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2735 classes and 663 folders.
+[2019.11.08-18.07.42:754][297]Display: HotReload took  0.1s.
+[2019.11.08-18.07.42:762][297]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.07.42:762][297]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.07.42:762][297]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.07.42:762][297]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.07.42:762][297]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.07.42:762][297]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.08.21:276][412]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (38.514 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.12.10:013][229]Candidate modules for hot reload:
+[2019.11.08-18.12.10:013][229]  TimeRush
+[2019.11.08-18.12.10:014][229]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,3770 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.08-18.12.10:046][229]Warning: Starting HotReload took  0.1s.
+[2019.11.08-18.13.16:998][ 85]CompilerResultsLog: New page: Compilation - Nov 8, 2019, 6:13:16 PM
+[2019.11.08-18.13.16:999][ 85]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.08-18.13.16:999][ 85]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.08-18.13.16:999][ 85]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.08-18.13.16:999][ 85]CompilerResultsLog: Reflection code generated for TimeRushEditor in 17.4005061 seconds
+[2019.11.08-18.13.16:999][ 85]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.08-18.13.16:999][ 85]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.11.08-18.13.16:999][ 85]CompilerResultsLog:   [1/6] TimeRush.init.gen.cpp
+[2019.11.08-18.13.16:999][ 85]CompilerResultsLog:   [2/6] MyCharacter.gen.cpp
+[2019.11.08-18.13.17:000][ 85]CompilerResultsLog:   [3/6] MyCharacter.cpp
+[2019.11.08-18.13.17:000][ 85]CompilerResultsLog:   [4/6] UE4Editor-TimeRush-3770.lib
+[2019.11.08-18.13.17:000][ 85]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-3770.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-3770.exp
+[2019.11.08-18.13.17:000][ 85]CompilerResultsLog:   [5/6] UE4Editor-TimeRush-3770.dll
+[2019.11.08-18.13.17:000][ 85]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-3770.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-3770.suppressed.exp
+[2019.11.08-18.13.17:000][ 85]CompilerResultsLog:   [6/6] TimeRushEditor.target
+[2019.11.08-18.13.17:000][ 85]CompilerResultsLog: Total time in Parallel executor: 46.12 seconds
+[2019.11.08-18.13.17:000][ 85]CompilerResultsLog: Total execution time: 66.53 seconds
+[2019.11.08-18.13.17:000][ 85]LogMainFrame: MainFrame: Module compiling took 66.991 seconds
+[2019.11.08-18.13.17:037][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.11.08-18.13.17:096][ 85]LogClass: Could not find existing class MyCharacter in package /Script/TimeRush for HotReload, assuming new class
+[2019.11.08-18.13.17:108][ 85]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2019.11.08-18.13.17:408][ 85]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0010 seconds. Added 2 classes and 2 folders.
+[2019.11.08-18.13.17:412][ 85]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.08-18.13.17:502][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.11.08-18.13.17:516][ 85]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2735 classes and 663 folders.
+[2019.11.08-18.13.17:523][ 85]Display: HotReload took 67.5s.
+[2019.11.08-18.14.36:869][221]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyCharacter.BP_MyCharacter
+[2019.11.08-18.14.37:615][221]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
+[2019.11.08-18.14.39:248][221]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.08-18.14.39:557][221]LogRenderer: Reallocating scene render targets to support 1208x720 Format 10 NumSamples 1 (Frame:1).
+[2019.11.08-18.14.51:679][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.08-18.14.51:732][851]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter8073F75744A8A5A40F9E37B689662A8B.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.08-18.14.54:788][996]LogSlate: Window 'BP_MyCharacter' being destroyed
+[2019.11.08-18.15.47:882][107]LogDirectoryWatcher: A directory notification failed for 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2019.11.08-18.15.47:883][107]LogDirectoryWatcher: A directory notification failed for 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Developers/riZ/Collections/' because it could not be accessed. Aborting watch request...
+[2019.11.08-18.15.47:883][107]LogDirectoryWatcher: A directory notification failed for 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2019.11.08-18.16.14:213][190]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.08-18.16.48:520][233]LogSlate: Took 0.038750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.08-18.17.39:609][971]LogUObjectHash: Compacting FUObjectHashTables data took   7.67ms
+[2019.11.08-18.17.39:609][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.069
+[2019.11.08-18.17.39:663][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MyCharacter] ([1] browsable assets)...
+[2019.11.08-18.17.39:696][971]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyCharacter.BP_MyCharacter]
+[2019.11.08-18.17.39:696][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCharacter]
+[2019.11.08-18.17.39:751][971]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter_Auto1A9A47FBA490E504AF4EEEDB831BE3121.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Autosaves/Game/Blueprints/BP_MyCharacter_Auto1.uasset'
+[2019.11.08-18.17.39:757][971]LogFileHelpers: Auto-saving content packages took 0.146
+[2019.11.08-18.17.48:284][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.08-18.17.48:327][423]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter3E28145947E442BEEA9E63B9CB2FD5A6.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.08-18.17.49:012][462]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.08-18.17.49:321][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.08-18.17.54:083][717]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.08-18.17.59:455][ 26]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.08-18.17.59:683][ 26]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2019.11.08-18.17.59:683][ 26]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2019.11.08-18.17.59:683][ 26]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2019.11.08-18.17.59:684][ 26]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2019.11.08-18.17.59:684][ 26]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2019.11.08-18.17.59:685][ 26]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2019.11.08-18.17.59:713][ 26]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [3990.73] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 122 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2019.11.08-18.18.03:248][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.08-18.18.03:285][211]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacterA2DE73824D6A607CFE91BD889E4BBE59.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.08-18.18.03:897][246]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.08-18.18.04:215][246]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2019.11.08-18.18.47:351][626]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-18.23.50:827][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.24.14:184][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.24.14:349][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.08-18.24.14:401][573]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter191E39E9428E0DDE455074873811F128.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.08-18.24.14:906][599]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.08-18.24.15:263][599]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2019.11.08-18.24.27:512][303]Cmd: TRANSACTION UNDO
+[2019.11.08-18.24.27:513][303]LogEditorTransaction: Undo Create Actors
+[2019.11.08-18.24.29:714][417]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-18.24.31:448][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-18.24.31:448][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-18.24.31:448][516]PIE: New page: PIE session: Prototype (Nov 8, 2019, 6:24:31 PM)
+[2019.11.08-18.24.31:449][516]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.08-18.24.31:456][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006483s)
+[2019.11.08-18.24.31:457][516]LogAIModule: Creating AISystem for world Prototype
+[2019.11.08-18.24.31:458][516]LogPlayLevel: PIE: World Init took: (0.001839s)
+[2019.11.08-18.24.31:458][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.009674s)
+[2019.11.08-18.24.31:524][516]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.11.08-18.24.31:560][516]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-18.24.31:707][516]LogInit: FAudioDevice initialized.
+[2019.11.08-18.24.31:707][516]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-18.24.31:751][516]LogLoad: Game class is 'GameModeBase'
+[2019.11.08-18.24.31:753][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 60) at 2019.11.08-18.24.31
+[2019.11.08-18.24.31:753][516]LogWorld: Bringing up level for play took: 0.001043
+[2019.11.08-18.24.31:779][516]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 1.115
+[2019.11.08-18.24.31:780][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-18.24.37:068][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-18.24.37:069][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-18.24.37:100][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-18.24.37:100][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-18.24.37:156][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-18.24.37:162][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.11.08-18.24.37:191][829]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.08-18.24.44:093][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.24.50:376][615]LogAssetEditorManager: Opening Asset editor for Class /Script/TimeRush.TimeRushGameModeBase
+[2019.11.08-18.24.50:570][615]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Source/TimeRush/TimeRushGameModeBase.h'
+[2019.11.08-18.24.50:742][615]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Source/TimeRush/TimeRushGameModeBase.cpp'
+[2019.11.08-18.24.55:336][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.25.11:592][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-18.25.11:643][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.11.08-18.25.12:026][851]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype7C76F05C41F508EC94AA5FA99D0202AA.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-18.25.12:055][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.08-18.25.12:243][851]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltDataFA36920541576C6F6563C7B90C7C1A19.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.08-18.25.21:988][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.25.25:164][595]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.08-18.25.51:920][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.25.52:002][171]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.08-18.25.52:021][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-18.25.52:021][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-18.25.52:021][171]PIE: New page: PIE session: Prototype (Nov 8, 2019, 6:25:52 PM)
+[2019.11.08-18.25.52:021][171]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.08-18.25.52:028][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006551s)
+[2019.11.08-18.25.52:029][171]LogAIModule: Creating AISystem for world Prototype
+[2019.11.08-18.25.52:030][171]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2019.11.08-18.25.52:030][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.008376s)
+[2019.11.08-18.25.52:099][171]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2019.11.08-18.25.52:137][171]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-18.25.52:292][171]LogInit: FAudioDevice initialized.
+[2019.11.08-18.25.52:328][171]LogLoad: Game class is 'GameModeBase'
+[2019.11.08-18.25.52:332][171]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 60) at 2019.11.08-18.25.52
+[2019.11.08-18.25.52:485][171]LogWorld: Bringing up level for play took: 0.156759
+[2019.11.08-18.25.52:499][171]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.165
+[2019.11.08-18.25.52:499][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-18.25.56:796][425]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-18.25.56:796][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-18.25.56:835][425]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-18.25.56:836][425]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-18.25.56:896][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-18.25.56:903][425]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.08-18.25.56:937][426]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.08-18.26.04:467][872]Cmd: TRANSACTION UNDO
+[2019.11.08-18.26.04:467][872]LogEditorTransaction: Undo Create Actors
+[2019.11.08-18.26.07:626][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.35.16:687][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.11.08-18.35.17:157][828]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_Auto27F709B034272C926E315FD9DBF11D74B.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Autosaves/Game/Maps/Prototype_Auto2.umap'
+[2019.11.08-18.35.17:168][828]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.538
+[2019.11.08-18.35.17:168][828]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.538
+[2019.11.08-18.40.00:791][793]Candidate modules for hot reload:
+[2019.11.08-18.40.00:791][793]  TimeRush
+[2019.11.08-18.40.00:792][793]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,5869 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.08-18.46.10:861][793]CompilerResultsLog: New page: Compilation - Nov 8, 2019, 6:46:10 PM
+[2019.11.08-18.46.10:861][793]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.08-18.46.10:861][793]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.08-18.46.10:861][793]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.08-18.46.10:861][793]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.08-18.46.10:861][793]CompilerResultsLog: Reflection code generated for TimeRushEditor in 32.8920389 seconds
+[2019.11.08-18.46.10:861][793]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.08-18.46.10:861][793]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.11.08-18.46.10:861][793]CompilerResultsLog:   [1/6] TimeRush.init.gen.cpp
+[2019.11.08-18.46.10:861][793]CompilerResultsLog:   [2/6] MyGameStateBase.cpp
+[2019.11.08-18.46.10:862][793]CompilerResultsLog:   [3/6] MyGameStateBase.gen.cpp
+[2019.11.08-18.46.10:862][793]CompilerResultsLog:   [4/6] UE4Editor-TimeRush-5869.lib
+[2019.11.08-18.46.10:862][793]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-5869.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-5869.exp
+[2019.11.08-18.46.10:862][793]CompilerResultsLog:   [5/6] UE4Editor-TimeRush-5869.dll
+[2019.11.08-18.46.10:862][793]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-5869.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-5869.suppressed.exp
+[2019.11.08-18.46.10:862][793]CompilerResultsLog:   [6/6] TimeRushEditor.target
+[2019.11.08-18.46.10:862][793]CompilerResultsLog: Total time in Parallel executor: 327.88 seconds
+[2019.11.08-18.46.10:862][793]CompilerResultsLog: Total execution time: 369.53 seconds
+[2019.11.08-18.46.10:862][793]LogMainFrame: MainFrame: Module compiling took 370.079 seconds
+[2019.11.08-18.46.10:933][793]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2019.11.08-18.46.10:933][793]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.08-18.46.11:225][793]LogClass: Could not find existing class MyGameStateBase in package /Script/TimeRush for HotReload, assuming new class
+[2019.11.08-18.46.11:240][793]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.08-18.46.11:241][793]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2019.11.08-18.46.11:246][793]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.08-18.46.11:360][793]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.11.08-18.46.11:361][793]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.08-18.46.11:377][793]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2736 classes and 663 folders.
+[2019.11.08-18.46.11:400][793]Display: HotReload took 370.6s.
+[2019.11.08-18.46.11:402][793]Warning: HotReload operation took 370.6s.
+[2019.11.08-18.46.11:795][793]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Source/TimeRush/MyGameStateBase.cpp'
+[2019.11.08-18.46.11:811][793]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.11.08-18.46.12:599][793]LogHotReload: New module detected: UE4Editor-TimeRush-5869.dll
+[2019.11.08-18.46.12:693][794]LogHotReload: Starting Hot-Reload from IDE
+[2019.11.08-18.46.12:948][794]LogUObjectHash: Compacting FUObjectHashTables data took  10.13ms
+[2019.11.08-18.46.12:948][794]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.08-18.46.12:958][794]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.08-18.46.12:959][794]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0012 seconds. Added 3 classes and 2 folders.
+[2019.11.08-18.46.12:969][794]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.08-18.46.13:035][794]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2019.11.08-18.46.13:035][794]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.08-18.46.13:062][794]LogContentBrowser: Native class hierarchy populated in 0.0267 seconds. Added 2736 classes and 663 folders.
+[2019.11.08-18.46.13:088][794]Display: HotReload took  0.4s.
+[2019.11.08-18.46.13:095][794]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.13:095][794]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.13:095][794]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.13:095][794]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.13:095][794]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.46.21:192][815]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (8.097 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.08-18.47.14:122][243]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.08-18.47.34:338][139]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.08-18.49.25:419][596]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyGameMode.BP_MyGameMode
+[2019.11.08-18.49.26:248][596]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.08-18.50.47:289][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyGameMode" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyGameMode.uasset" SILENT=true
+[2019.11.08-18.50.47:349][438]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyGameMode1BE52FDA4BE078A57464618A304BA6BE.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyGameMode.uasset'
+[2019.11.08-18.51.22:645][271]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.08-18.52.31:581][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyGameMode" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyGameMode.uasset" SILENT=true
+[2019.11.08-18.52.31:653][301]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyGameModeAE51BB49468C8CB15CDAF0BC9A895A6C.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyGameMode.uasset'
+[2019.11.08-18.52.32:225][333]BlueprintLog: New page: Compile BP_MyGameMode
+[2019.11.08-18.52.32:672][333]LogUObjectHash: Compacting FUObjectHashTables data took  12.10ms
+[2019.11.08-18.52.41:340][507]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.08-18.52.48:823][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyGameMode" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyGameMode.uasset" SILENT=true
+[2019.11.08-18.52.48:846][948]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyGameMode8EF9BADE4A4447F1DA412C9290234FD4.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyGameMode.uasset'
+[2019.11.08-18.52.57:740][134]BlueprintLog: New page: Compile BP_MyGameMode
+[2019.11.08-18.52.58:200][134]LogUObjectHash: Compacting FUObjectHashTables data took   8.30ms
+[2019.11.08-18.53.37:774][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-18.53.37:855][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   7.92ms
+[2019.11.08-18.53.38:292][ 41]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype81200F974926B604A0151FAC34D25A8A.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-18.53.38:327][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.08-18.53.38:439][ 41]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData7AB51CC54DCDFF3684892E89A50E5571.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.08-18.54.43:016][166]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.08-18.54.49:916][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-18.54.49:988][568]LogUObjectHash: Compacting FUObjectHashTables data took   7.61ms
+[2019.11.08-18.54.50:409][568]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype2423AFAC4CF8008D6880509788FDC6E8.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-18.54.50:430][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.08-18.54.50:452][568]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData85DF75C247670F59A8D601AF121CD0EA.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.08-18.55.14:050][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-18.55.14:173][966]Candidate modules for hot reload:
+[2019.11.08-18.55.14:173][966]  TimeRush
+[2019.11.08-18.55.14:174][966]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,4388 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.08-18.55.14:233][966]Warning: Starting HotReload took  0.1s.
+[2019.11.08-18.55.50:189][906]CompilerResultsLog: New page: Compilation - Nov 8, 2019, 6:55:50 PM
+[2019.11.08-18.55.50:189][906]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.08-18.55.50:189][906]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.08-18.55.50:189][906]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.08-18.55.50:189][906]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.08-18.55.50:189][906]CompilerResultsLog: Reflection code generated for TimeRushEditor in 22.0560042 seconds
+[2019.11.08-18.55.50:189][906]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.08-18.55.50:189][906]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.11.08-18.55.50:189][906]CompilerResultsLog:   [1/3] UE4Editor-TimeRush-4388.lib
+[2019.11.08-18.55.50:190][906]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-4388.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-4388.exp
+[2019.11.08-18.55.50:190][906]CompilerResultsLog:   [2/3] UE4Editor-TimeRush-4388.dll
+[2019.11.08-18.55.50:190][906]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-4388.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-4388.suppressed.exp
+[2019.11.08-18.55.50:190][906]CompilerResultsLog:   [3/3] TimeRushEditor.target
+[2019.11.08-18.55.50:190][906]CompilerResultsLog: Total time in Parallel executor: 4.15 seconds
+[2019.11.08-18.55.50:190][906]CompilerResultsLog: Total execution time: 35.41 seconds
+[2019.11.08-18.55.50:191][906]LogMainFrame: MainFrame: Module compiling took 36.023 seconds
+[2019.11.08-18.55.50:264][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2019.11.08-18.55.50:264][906]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.08-18.55.50:340][906]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.08-18.55.50:341][906]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2019.11.08-18.55.50:347][906]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.08-18.55.50:504][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.11.08-18.55.50:504][906]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.08-18.55.50:526][906]LogContentBrowser: Native class hierarchy populated in 0.0220 seconds. Added 2736 classes and 663 folders.
+[2019.11.08-18.55.50:538][906]Display: HotReload took 36.4s.
+[2019.11.08-18.56.55:973][727]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint
+[2019.11.08-18.56.56:584][727]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.11.08-18.56.56:585][727]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.11.08-18.56.57:517][727]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.08-18.56.57:592][727]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.11.08-18.56.57:593][727]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0011 seconds. Added 1 classes and 0 folders.
+[2019.11.08-18.56.58:569][727]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.08-18.57.51:689][651]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.11.08-18.57.52:456][651]LogUObjectHash: Compacting FUObjectHashTables data took  12.00ms
+[2019.11.08-18.57.57:575][922]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.11.08-18.57.58:367][922]LogUObjectHash: Compacting FUObjectHashTables data took  14.00ms
+[2019.11.08-18.58.00:498][  7]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/UE4ASP_HeroTPP_AnimBlueprint7A6724B24F8E5E2323A7AAB37C2B9AA2.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.11.08-18.58.39:262][271]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.11.08-18.58.39:880][271]LogUObjectHash: Compacting FUObjectHashTables data took   7.60ms
+[2019.11.08-18.59.55:591][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.08-18.59.55:943][531]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter7A967E864489B7A9955692AF6FA9DF3B.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.08-18.59.56:476][561]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.08-18.59.57:091][561]LogUObjectHash: Compacting FUObjectHashTables data took   8.80ms
+[2019.11.08-19.00.46:870][509]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/UE4ASP_HeroTPP_AnimBlueprint5883EFF54E5E075812A0E0A9D2433AA1.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.11.08-19.06.14:887][232]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.08-19.06.15:736][232]LogUObjectHash: Compacting FUObjectHashTables data took  12.86ms
+[2019.11.08-19.06.23:654][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.08-19.06.23:792][691]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter3643B7644CB5AF3BCAC4DBAD6D01C91C.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.08-19.06.26:853][871]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.08-19.06.26:884][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.06.26:920][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-19.06.26:921][871]PIE: New page: PIE session: Prototype (Nov 8, 2019, 7:06:26 PM)
+[2019.11.08-19.06.26:921][871]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.08-19.06.26:954][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032574s)
+[2019.11.08-19.06.26:988][871]LogAIModule: Creating AISystem for world Prototype
+[2019.11.08-19.06.27:065][871]LogPlayLevel: PIE: World Init took: (0.110261s)
+[2019.11.08-19.06.27:065][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.143306s)
+[2019.11.08-19.06.27:149][871]LogUObjectHash: Compacting FUObjectHashTables data took   9.79ms
+[2019.11.08-19.06.27:222][871]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-19.06.27:356][871]LogInit: FAudioDevice initialized.
+[2019.11.08-19.06.27:426][871]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.08-19.06.27:442][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 60) at 2019.11.08-19.06.27
+[2019.11.08-19.06.27:462][871]LogWorld: Bringing up level for play took: 0.033903
+[2019.11.08-19.06.27:563][871]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.899
+[2019.11.08-19.06.27:563][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.06.41:996][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.06.41:997][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-19.06.42:045][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-19.06.42:045][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.06.42:127][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-19.06.42:138][722]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2019.11.08-19.06.42:181][723]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.08-19.06.51:292][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-19.06.51:358][263]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.08-19.06.51:392][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.06.51:392][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-19.06.51:392][263]PIE: New page: PIE session: Prototype (Nov 8, 2019, 7:06:51 PM)
+[2019.11.08-19.06.51:392][263]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.08-19.06.51:403][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010261s)
+[2019.11.08-19.06.51:404][263]LogAIModule: Creating AISystem for world Prototype
+[2019.11.08-19.06.51:404][263]LogPlayLevel: PIE: World Init took: (0.001472s)
+[2019.11.08-19.06.51:404][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.012118s)
+[2019.11.08-19.06.51:494][263]LogUObjectHash: Compacting FUObjectHashTables data took   7.01ms
+[2019.11.08-19.06.51:528][263]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-19.06.51:684][263]LogInit: FAudioDevice initialized.
+[2019.11.08-19.06.51:715][263]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.08-19.06.51:717][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 60) at 2019.11.08-19.06.51
+[2019.11.08-19.06.51:717][263]LogWorld: Bringing up level for play took: 0.000985
+[2019.11.08-19.06.51:733][263]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 1.069
+[2019.11.08-19.06.51:734][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.06.58:320][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.06.58:321][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-19.06.58:354][654]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-19.06.58:355][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.06.58:456][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-19.06.58:468][654]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2019.11.08-19.06.58:508][655]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.11.08-19.07.03:203][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-19.09.26:703][688]LogAssetEditorManager: Opening Asset editor for Class /Script/TimeRush.MyCharacter
+[2019.11.08-19.09.27:009][688]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Source/TimeRush/MyCharacter.cpp'
+[2019.11.08-19.10.22:936][459]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.11.08-19.10.24:744][459]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.08-19.14.52:235][315]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.08-19.15.00:322][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.08-19.15.00:516][798]LogUObjectHash: Compacting FUObjectHashTables data took  14.27ms
+[2019.11.08-19.15.01:031][798]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/PrototypeF6FD638740C06F1A4FA0E19D4B7C547C.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.08-19.15.01:058][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.08-19.15.01:133][798]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData7ACA4B074925B5E772B745B9B6473C2B.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.08-19.15.29:804][730]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.08-19.15.29:860][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.15.29:861][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-19.15.29:861][730]PIE: New page: PIE session: Prototype (Nov 8, 2019, 7:15:29 PM)
+[2019.11.08-19.15.29:861][730]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.08-19.15.29:888][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027043s)
+[2019.11.08-19.15.29:890][730]LogAIModule: Creating AISystem for world Prototype
+[2019.11.08-19.15.29:891][730]LogPlayLevel: PIE: World Init took: (0.002106s)
+[2019.11.08-19.15.29:891][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.029574s)
+[2019.11.08-19.15.30:048][730]LogUObjectHash: Compacting FUObjectHashTables data took  15.60ms
+[2019.11.08-19.15.30:097][730]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.08-19.15.30:319][730]LogInit: FAudioDevice initialized.
+[2019.11.08-19.15.30:353][730]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.08-19.15.30:356][730]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 60) at 2019.11.08-19.15.30
+[2019.11.08-19.15.30:357][730]LogWorld: Bringing up level for play took: 0.002386
+[2019.11.08-19.15.30:375][730]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.289
+[2019.11.08-19.15.30:376][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.15.50:925][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.15.50:926][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-19.15.50:956][928]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-19.15.50:956][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.08-19.15.51:030][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-19.15.51:043][928]LogUObjectHash: Compacting FUObjectHashTables data took   8.44ms
+[2019.11.08-19.15.51:121][929]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.11.08-19.15.54:425][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-19.16.02:055][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.11.08-19.16.02:387][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.08-19.16.03:114][571]LogSlate: Window 'TimeRush - Unreal Editor' being destroyed
+[2019.11.08-19.16.03:207][571]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.08-19.16.04:596][572]Cmd: QUIT_EDITOR
+[2019.11.08-19.16.06:251][572]LogExit: Preparing to exit.
+[2019.11.08-19.16.08:048][572]LogExit: Editor shut down
+[2019.11.08-19.16.08:052][572]LogExit: Transaction tracking system shut down
+[2019.11.08-19.16.08:864][572]LogExit: Object subsystem successfully closed.
+[2019.11.08-19.16.08:917][572]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.08-19.16.08:960][572]LogD3D11RHI: Shutdown
+[2019.11.08-19.16.08:960][572]LogD3D11RHI: CleanupD3DDevice
+[2019.11.08-19.16.09:011][572]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.08-19.16.09:011][572]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.08-19.16.09:011][572]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.08-19.16.09:011][572]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.08-19.16.09:011][572]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.08-19.16.09:011][572]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.08-19.16.09:808][572]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.08-19.16.09:964][572]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (667)
+[2019.11.08-19.16.09:964][572]LogModuleManager: Shutting down and abandoning module PinnedCommandList (665)
+[2019.11.08-19.16.09:964][572]LogModuleManager: Shutting down and abandoning module SkeletonEditor (663)
+[2019.11.08-19.16.10:011][572]LogModuleManager: Shutting down and abandoning module TimeRush (661)
+[2019.11.08-19.16.10:011][572]LogModuleManager: Shutting down and abandoning module BlueprintGraph (658)
+[2019.11.08-19.16.10:011][572]LogModuleManager: Shutting down and abandoning module NewLevelDialog (652)
+[2019.11.08-19.16.10:055][572]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (650)
+[2019.11.08-19.16.10:055][572]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
+[2019.11.08-19.16.10:055][572]LogModuleManager: Shutting down and abandoning module Voice (646)
+[2019.11.08-19.16.10:055][572]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.11.08-19.16.10:056][572]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2019.11.08-19.16.10:056][572]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2019.11.08-19.16.10:072][572]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2019.11.08-19.16.10:072][572]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2019.11.08-19.16.10:072][572]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2019.11.08-19.16.10:073][572]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.11.08-19.16.10:073][572]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.11.08-19.16.10:073][572]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.11.08-19.16.10:074][572]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.11.08-19.16.10:075][572]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.11.08-19.16.10:075][572]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.11.08-19.16.10:075][572]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.11.08-19.16.10:075][572]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.11.08-19.16.10:075][572]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.11.08-19.16.10:075][572]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.11.08-19.16.10:075][572]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.11.08-19.16.10:076][572]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.11.08-19.16.10:077][572]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.11.08-19.16.10:077][572]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.11.08-19.16.10:077][572]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.11.08-19.16.10:077][572]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.11.08-19.16.10:077][572]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.11.08-19.16.10:077][572]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.11.08-19.16.10:077][572]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.11.08-19.16.10:077][572]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.11.08-19.16.10:078][572]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.11.08-19.16.10:078][572]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.11.08-19.16.10:078][572]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.11.08-19.16.10:078][572]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.11.08-19.16.10:078][572]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.11.08-19.16.10:078][572]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.11.08-19.16.10:078][572]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.11.08-19.16.10:078][572]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.11.08-19.16.10:973][572]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.11.08-19.16.10:973][572]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.11.08-19.16.10:974][572]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.11.08-19.16.10:974][572]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.11.08-19.16.10:974][572]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.11.08-19.16.10:992][572]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.11.08-19.16.10:992][572]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.11.08-19.16.10:992][572]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.11.08-19.16.10:992][572]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.11.08-19.16.10:992][572]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.11.08-19.16.10:992][572]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.11.08-19.16.10:993][572]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.11.08-19.16.10:993][572]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.11.08-19.16.10:993][572]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.11.08-19.16.10:993][572]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.11.08-19.16.10:993][572]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.11.08-19.16.10:995][572]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.11.08-19.16.10:995][572]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.11.08-19.16.10:995][572]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.11.08-19.16.10:996][572]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.11.08-19.16.10:996][572]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.11.08-19.16.10:997][572]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.11.08-19.16.10:997][572]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.11.08-19.16.11:042][572]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.11.08-19.16.11:042][572]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.11.08-19.16.11:042][572]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.11.08-19.16.11:043][572]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.11.08-19.16.11:043][572]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.11.08-19.16.11:043][572]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.11.08-19.16.11:043][572]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.11.08-19.16.11:043][572]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.11.08-19.16.11:043][572]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.11.08-19.16.11:043][572]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.11.08-19.16.11:043][572]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.11.08-19.16.11:064][572]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.11.08-19.16.11:064][572]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.11.08-19.16.11:067][572]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.11.08-19.16.11:067][572]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2019.11.08-19.16.11:067][572]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.11.08-19.16.11:067][572]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.11.08-19.16.11:068][572]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.11.08-19.16.11:068][572]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.11.08-19.16.11:068][572]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.11.08-19.16.11:069][572]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.11.08-19.16.11:070][572]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2019.11.08-19.16.11:077][572]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2019.11.08-19.16.11:191][572]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2019.11.08-19.16.11:192][572]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2019.11.08-19.16.11:192][572]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2019.11.08-19.16.11:192][572]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2019.11.08-19.16.11:192][572]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2019.11.08-19.16.11:192][572]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.11.08-19.16.11:192][572]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.11.08-19.16.11:193][572]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.11.08-19.16.11:194][572]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.11.08-19.16.11:194][572]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.11.08-19.16.11:194][572]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.11.08-19.16.11:195][572]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2019.11.08-19.16.11:195][572]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.11.08-19.16.11:195][572]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.11.08-19.16.11:195][572]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.11.08-19.16.11:195][572]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.11.08-19.16.11:195][572]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.11.08-19.16.11:195][572]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.11.08-19.16.11:195][572]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.11.08-19.16.11:196][572]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.11.08-19.16.11:197][572]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.11.08-19.16.11:197][572]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.11.08-19.16.11:197][572]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.11.08-19.16.11:197][572]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.11.08-19.16.11:197][572]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.11.08-19.16.11:197][572]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.11.08-19.16.11:197][572]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.11.08-19.16.11:297][572]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.11.08-19.16.11:398][572]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.11.08-19.16.11:398][572]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.11.08-19.16.11:398][572]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.11.08-19.16.11:398][572]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.11.08-19.16.11:398][572]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.11.08-19.16.11:398][572]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.08-19.16.11:398][572]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.11.08-19.16.11:399][572]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.11.08-19.16.11:399][572]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.11.08-19.16.11:399][572]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.11.08-19.16.11:399][572]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.11.08-19.16.11:399][572]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.11.08-19.16.11:399][572]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.11.08-19.16.11:399][572]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.11.08-19.16.11:402][572]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.11.08-19.16.11:402][572]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.11.08-19.16.11:403][572]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.11.08-19.16.11:403][572]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.11.08-19.16.11:459][572]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.11.08-19.16.11:461][572]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.11.08-19.16.11:461][572]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.11.08-19.16.11:461][572]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.11.08-19.16.11:461][572]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.11.08-19.16.11:461][572]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.11.08-19.16.11:461][572]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.11.08-19.16.11:462][572]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.11.08-19.16.11:462][572]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.11.08-19.16.11:463][572]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.11.08-19.16.11:463][572]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.11.08-19.16.11:464][572]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.11.08-19.16.11:465][572]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.11.08-19.16.11:465][572]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.11.08-19.16.11:465][572]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.11.08-19.16.11:466][572]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.11.08-19.16.11:466][572]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.11.08-19.16.11:470][572]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.11.08-19.16.11:470][572]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.11.08-19.16.11:470][572]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.11.08-19.16.11:470][572]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.11.08-19.16.11:470][572]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.11.08-19.16.11:470][572]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.11.08-19.16.11:470][572]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.11.08-19.16.11:470][572]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.11.08-19.16.11:471][572]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.11.08-19.16.11:471][572]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.11.08-19.16.11:471][572]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.11.08-19.16.11:471][572]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.11.08-19.16.11:471][572]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.11.08-19.16.11:471][572]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.11.08-19.16.11:472][572]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.11.08-19.16.11:472][572]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.11.08-19.16.11:589][572]LogDerivedDataCache: Shutdown
+[2019.11.08-19.16.11:589][572]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.11.08-19.16.11:589][572]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.11.08-19.16.11:590][572]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.11.08-19.16.11:591][572]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.11.08-19.16.11:591][572]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.11.08-19.16.11:591][572]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.11.08-19.16.11:591][572]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.11.08-19.16.11:591][572]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.11.08-19.16.11:592][572]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.11.08-19.16.11:592][572]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.11.08-19.16.11:592][572]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.11.08-19.16.11:592][572]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.11.08-19.16.11:593][572]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.11.08-19.16.11:593][572]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.11.08-19.16.11:593][572]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.11.08-19.16.11:593][572]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.11.08-19.16.11:594][572]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.11.08-19.16.11:594][572]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.11.08-19.16.11:637][572]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.11.08-19.16.11:637][572]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.11.08-19.16.11:637][572]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.11.08-19.16.11:638][572]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.11.08-19.16.11:638][572]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.11.08-19.16.11:653][572]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.11.08-19.16.11:653][572]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.11.08-19.16.11:662][572]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.11.08-19.16.11:662][572]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.11.08-19.16.11:748][572]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.11.08-19.16.11:748][572]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.11.08-19.16.11:749][572]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.11.08-19.16.11:750][572]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.11.08-19.16.11:750][572]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.11.08-19.16.11:750][572]LogHMD: Freeing OpenVRDLLHandle.
+[2019.11.08-19.16.11:750][572]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.11.08-19.16.11:750][572]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.11.08-19.16.11:750][572]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.11.08-19.16.11:750][572]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.11.08-19.16.11:750][572]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.11.08-19.16.11:752][572]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.11.08-19.16.11:753][572]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.11.08-19.16.11:783][572]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.11.08-19.16.11:783][572]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.11.08-19.16.11:783][572]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45EBA75E-4EF0-4683-3E7D-BCB4F0DBB624%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=524ac55447546ede1d9458803efa3999%7C0ec919422b334695a8bb8c80de01ba99%7C89d91ea8-df39-4ffd-950b-d2313e809f2b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.08-19.16.11:810][572]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.11.08-19.16.11:814][572]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.11.08-19.16.11:817][572]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.11.08-19.16.11:824][572]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.11.08-19.16.11:824][572]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.11.08-19.16.11:825][572]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.11.08-19.16.11:825][572]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.11.08-19.16.11:825][572]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.11.08-19.16.11:826][572]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.11.08-19.16.11:826][572]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.11.08-19.16.11:826][572]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.11.08-19.16.11:826][572]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.11.08-19.16.11:830][572]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.11.08-19.16.11:856][572]LogExit: Exiting.
+[2019.11.08-19.16.11:883][572]Log file closed, 11/08/19 19:16:11

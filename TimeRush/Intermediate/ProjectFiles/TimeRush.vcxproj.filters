@@ -42,4 +42,20 @@
       <Filter>Source\TimeRush</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TimeRush\MyCharacter.h">
+      <Filter>Source\TimeRush</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TimeRush\MyGameStateBase.h">
+      <Filter>Source\TimeRush</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TimeRush\MyCharacter.cpp">
+      <Filter>Source\TimeRush</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TimeRush\MyGameStateBase.cpp">
+      <Filter>Source\TimeRush</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
