@@ -58,8 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 
 
 #define TimeRush_Source_TimeRush_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AMyCharacter, CameraComponent); } \
-	FORCEINLINE static uint32 __PPO__SpringArmComponent() { return STRUCT_OFFSET(AMyCharacter, SpringArmComponent); }
+	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AMyCharacter, CameraComponent); }
 
 
 #define TimeRush_Source_TimeRush_MyCharacter_h_9_PROLOG

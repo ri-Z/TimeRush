@@ -21,13 +21,17 @@ protected:
 
 	void MoveForward(float value);
 	void MoveRight(float value);
+	void BeginSprint();
+	void EndSprint();
 	void BeginCrouch();
 	void EndCrouch();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
 		class UCameraComponent *CameraComponent;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-		class USpringArmComponent *SpringArmComponent;
+	/*UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+		class USpringArmComponent *SpringArmComponent;*/
+
+	bool bIsSprinting = false;
 
 public:	
 	// Called every frame

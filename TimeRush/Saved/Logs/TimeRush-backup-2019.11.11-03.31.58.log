@@ -1,0 +1,1624 @@
+﻿Log file open, 11/10/19 19:51:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TimeRush
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.320055
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.10-19.51.59:163][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.10-19.51.59:163][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.51.59:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.10-19.51.59:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.51.59:164][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.51.59:255][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.10-19.51.59:255][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.10-19.51.59:256][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:257][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.10-19.51.59:257][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.10-19.51.59:260][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.10-19.51.59:260][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.10-19.51.59:365][  0]LogHAL: Display: Platform has ~ 16 GB [17073463296 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.10-19.51.59:366][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.10-19.51.59:366][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.10-19.51.59:367][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.10-19.51.59:367][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.10-19.51.59:368][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.10-19.51.59:387][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.10-19.51.59:387][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.10-19.51.59:387][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.51.59:417][  0]LogInit: Computer: DESKTOP-P7E93EO
+[2019.11.10-19.51.59:417][  0]LogInit: User: riZ
+[2019.11.10-19.51.59:417][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.10-19.51.59:417][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.10-19.51.59:473][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.10-19.51.59:473][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.10-19.51.59:473][  0]LogMemory: Process Physical Memory: 96.71 MB used, 96.71 MB peak
+[2019.11.10-19.51.59:473][  0]LogMemory: Process Virtual Memory: 89.21 MB used, 89.21 MB peak
+[2019.11.10-19.51.59:473][  0]LogMemory: Physical Memory: 5497.27 MB used,  10785.25 MB free, 16282.52 MB total
+[2019.11.10-19.51.59:473][  0]LogMemory: Virtual Memory: 4642.12 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.11.10-19.52.00:342][  0]LogInit: Using OS detected language (en-US).
+[2019.11.10-19.52.00:342][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.10-19.52.00:346][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.10-19.52.01:167][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.10-19.52.01:826][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.10-19.52.01:826][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.10-19.52.02:974][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.10-19.52.02:974][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.10-19.52.03:162][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.11.10-19.52.03:162][  0]LogD3D11RHI:       2010/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.10-19.52.03:182][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.11.10-19.52.03:182][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.10-19.52.03:185][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.10-19.52.03:185][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.10-19.52.03:185][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.10-19.52.03:239][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.10-19.52.03:239][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.11.10-19.52.03:239][  0]LogWindows: EnumDisplayDevices:
+[2019.11.10-19.52.03:239][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.11.10-19.52.03:240][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.11.10-19.52.03:240][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.11.10-19.52.03:241][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.10-19.52.03:241][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.11.10-19.52.03:241][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.10-19.52.03:241][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.10-19.52.03:241][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.11.10-19.52.03:300][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.10-19.52.03:578][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-19.52.03:589][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-19.52.03:589][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-19.52.03:678][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.10-19.52.04:797][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.10-19.52.04:850][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.10-19.52.04:871][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.10-19.52.04:894][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.10-19.52.04:984][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.10-19.52.05:024][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.10-19.52.05:063][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.10-19.52.05:090][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.10-19.52.05:106][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.10-19.52.05:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.10-19.52.05:285][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.10-19.52.05:529][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.10-19.52.05:529][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.10-19.52.05:576][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.10-19.52.05:576][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.10-19.52.05:598][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.10-19.52.05:633][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.10-19.52.05:654][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.10-19.52.05:678][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.10-19.52.05:802][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.10-19.52.05:802][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.10-19.52.05:802][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.10-19.52.05:932][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.10-19.52.06:453][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Intermediate/Shaders/WorkingDirectory/11312/).
+[2019.11.10-19.52.06:453][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/2011j/AppData/Local/Temp/UnrealShaderWorkingDir/A218DB9F41374B27BD2E0BA223C2FE02/'.
+[2019.11.10-19.52.06:482][  0]LogXGEController: Cleaning working directory: C:/Users/2011j/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.10-19.52.06:483][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.10-19.52.06:483][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.10-19.52.06:483][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.10-19.52.08:598][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.10-19.52.09:133][  0]LogDerivedDataCache: Loaded boot cache 0.53s 75MB C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.10-19.52.09:133][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.10-19.52.09:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.10-19.52.09:134][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.10-19.52.09:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.10-19.52.09:134][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.10-19.52.09:219][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.10-19.52.09:219][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.10-19.52.09:219][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.10-19.52.09:235][  0]LogDerivedDataCache: Using Local data cache path C:/Users/2011j/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.10-19.52.09:235][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.10-19.52.09:235][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.10-19.52.09:326][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.10-19.52.09:387][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.10-19.52.09:540][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.10-19.52.10:305][  0]LogAssetRegistry: FAssetRegistry took 0.0425 seconds to start up
+[2019.11.10-19.52.15:447][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.10-19.52.16:855][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.10-19.52.16:855][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.10-19.52.16:855][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.10-19.52.16:855][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.10-19.52.16:855][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.10-19.52.17:305][  0]LogNetVersion: TimeRush 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1373495878)
+[2019.11.10-19.52.21:583][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.074557 seconds
+[2019.11.10-19.52.21:607][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.10-19.52.21:607][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.10-19.52.21:607][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.10-19.52.34:420][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.10-19.52.34:507][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.10-19.52.35:227][  0]SourceControl: Source control is disabled
+[2019.11.10-19.52.35:234][  0]SourceControl: Source control is disabled
+[2019.11.10-19.52.35:307][  0]SourceControl: Source control is disabled
+[2019.11.10-19.52.35:325][  0]SourceControl: Source control is disabled
+[2019.11.10-19.52.36:347][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.10-19.52.36:827][  0]LogOcInput: OculusInput pre-init called
+[2019.11.10-19.52.39:081][  0]LogEngine: Initializing Engine...
+[2019.11.10-19.52.39:114][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.10-19.52.39:132][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.11.10-19.52.39:749][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.10-19.52.40:176][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.10-19.52.40:423][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-19.52.41:598][  0]LogInit: FAudioDevice initialized.
+[2019.11.10-19.52.41:598][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.10-19.52.41:809][  0]LogDerivedDataCache: Saved boot cache 0.21s 75MB C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.10-19.52.41:819][  0]LogInit: Texture streaming: Enabled
+[2019.11.10-19.52.42:046][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.10-19.52.42:329][  0]LogInit: Transaction tracking system initialized
+[2019.11.10-19.52.42:838][  0]BlueprintLog: New page: Editor Load
+[2019.11.10-19.52.44:090][  0]LocalizationService: Localization service is disabled
+[2019.11.10-19.52.45:967][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/' took 0.02s
+[2019.11.10-19.52.45:967][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.10-19.52.45:967][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.10-19.52.48:689][  0]SourceControl: Source control is disabled
+[2019.11.10-19.52.48:714][  0]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.10-19.52.48:795][  0]LightingResults: New page: Lighting Build
+[2019.11.10-19.52.48:939][  0]MapCheck: New page: Map Check
+[2019.11.10-19.52.48:939][  0]LightingResults: New page: Lighting Build
+[2019.11.10-19.52.49:278][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.11.10-19.52.50:930][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2019.11.10-19.52.50:983][  0]LogStaticMesh: Built static mesh [0.07s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2019.11.10-19.52.51:446][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.11.10-19.52.51:974][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.10-19.52.52:057][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.11.10-19.52.52:058][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.10-19.52.52:078][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 6.61ms to complete.
+[2019.11.10-19.52.52:078][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.376
+[2019.11.10-19.52.53:522][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-19.52.53:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-19.52.53:552][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-19.52.53:561][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-19.52.53:666][  0]LogCollectionManager: Loaded 0 collections in 0.001843 seconds
+[2019.11.10-19.52.53:806][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Collections/' took 0.01s
+[2019.11.10-19.52.53:806][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Developers/riZ/Collections/' took 0.01s
+[2019.11.10-19.52.53:806][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Collections/' took 0.01s
+[2019.11.10-19.52.53:806][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.10-19.52.53:917][  0]LogContentBrowser: Native class hierarchy populated in 0.1092 seconds. Added 2735 classes and 661 folders.
+[2019.11.10-19.52.54:046][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.11.10-19.52.54:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:220][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:222][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:225][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:227][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:229][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:232][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:234][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:236][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:263][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:265][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:268][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:271][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:273][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:275][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:278][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:296][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:298][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:313][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:316][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.52.54:739][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.11.10-19.52.54:903][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.11.10-19.52.58:285][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.10-19.52.58:382][  0]LogSlate: Took 0.019857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.10-19.52.58:405][  0]LogSlate: Took 0.021005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.10-19.52.58:492][  0]LogSlate: Took 0.047691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.10-19.52.58:940][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2019.11.10-19.52.59:193][  0]LogSlate: Took 0.049840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.10-19.52.59:460][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.11.10-19.52.59:460][  0]LogLoad: (Engine Initialization) Total time: 70.46 seconds
+[2019.11.10-19.52.59:460][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.10-19.52.59:871][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.10-19.53.00:141][  1]LogAssetRegistry: Asset discovery search completed in 49.8578 seconds
+[2019.11.10-19.53.00:144][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.10-19.53.00:144][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000118 seconds (updated 0 objects)
+[2019.11.10-19.53.00:502][ 15]LogSlate: Took 0.000466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.10-20.01.03:072][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-20.01.04:432][352]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyCharacter.BP_MyCharacter
+[2019.11.10-20.01.05:318][352]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
+[2019.11.10-20.01.06:973][352]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyGameMode.BP_MyGameMode
+[2019.11.10-20.01.07:406][352]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint
+[2019.11.10-20.01.07:546][352]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.11.10-20.01.07:547][352]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.11.10-20.01.08:268][352]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.10-20.01.08:365][352]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.11.10-20.01.08:365][352]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2019.11.10-20.01.09:009][352]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.10-20.01.10:238][352]LogSlate: Took 0.015847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.10-20.01.10:664][353]LogSlate: Took 0.007405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.10-20.28.57:967][118]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyCharacter.BP_MyCharacter
+[2019.11.10-20.29.19:455][484]LogRenderer: Reallocating scene render targets to support 1208x720 Format 10 NumSamples 1 (Frame:1).
+[2019.11.10-20.33.06:184][959]LogEditorTransaction: Undo Reset Location
+[2019.11.10-20.33.06:332][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.10-20.34.16:209][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-20.34.20:717][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.10-20.34.20:824][257]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacterCE5686BA49CE9DD25BEF3F802E23CFCF.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.10-20.34.21:232][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-20.34.21:300][275]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.10-20.34.21:742][275]LogUObjectHash: Compacting FUObjectHashTables data took   8.08ms
+[2019.11.10-20.35.27:265][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-20.35.29:803][572]LogAIModule: Creating AISystem for world Prototype
+[2019.11.10-20.35.29:826][572]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Prototype.Prototype
+[2019.11.10-20.35.29:917][572]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.11.10-20.35.29:920][572]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.10-20.35.29:920][572]LightingResults: New page: Lighting Build
+[2019.11.10-20.35.29:921][572]LoadErrors: New page: Loading map: Prototype.umap
+[2019.11.10-20.35.29:936][572]MapCheck: New page: Map Check
+[2019.11.10-20.35.29:936][572]LightingResults: New page: Lighting Build
+[2019.11.10-20.35.30:019][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.11.10-20.35.30:177][572]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.10-20.35.30:241][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2019.11.10-20.35.30:267][572]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.10-20.35.30:268][572]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.405ms to complete.
+[2019.11.10-20.35.30:268][572]LogFileHelpers: Loading map 'Prototype' took 0.350
+[2019.11.10-20.35.51:593][ 14]LogAssetEditorManager: Opening Asset editor for Class /Script/TimeRush.MyCharacter
+[2019.11.10-20.36.59:624][458]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (48.874 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-20.42.58:054][754]Candidate modules for hot reload:
+[2019.11.10-20.42.58:054][754]  TimeRush
+[2019.11.10-20.42.58:055][754]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,8709 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.10-20.42.58:075][754]Warning: Starting HotReload took  0.1s.
+[2019.11.10-20.46.12:074][826]CompilerResultsLog: New page: Compilation - Nov 10, 2019, 8:46:12 PM
+[2019.11.10-20.46.12:075][826]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.10-20.46.12:075][826]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.10-20.46.12:075][826]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.10-20.46.12:075][826]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.10-20.46.12:075][826]CompilerResultsLog: Reflection code generated for TimeRushEditor in 15.3136584 seconds
+[2019.11.10-20.46.12:075][826]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.10-20.46.12:075][826]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.10-20.46.12:075][826]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.10-20.46.12:075][826]CompilerResultsLog:   [2/4] UE4Editor-TimeRush-8709.lib
+[2019.11.10-20.46.12:075][826]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8709.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8709.exp
+[2019.11.10-20.46.12:075][826]CompilerResultsLog:   [3/4] UE4Editor-TimeRush-8709.dll
+[2019.11.10-20.46.12:075][826]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8709.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8709.suppressed.exp
+[2019.11.10-20.46.12:075][826]CompilerResultsLog:   [4/4] TimeRushEditor.target
+[2019.11.10-20.46.12:076][826]CompilerResultsLog: Total time in Parallel executor: 172.49 seconds
+[2019.11.10-20.46.12:076][826]CompilerResultsLog: Total execution time: 193.79 seconds
+[2019.11.10-20.46.12:076][826]LogMainFrame: MainFrame: Module compiling took 194.064 seconds
+[2019.11.10-20.46.12:144][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.11.10-20.46.12:144][826]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.10-20.46.12:219][826]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2019.11.10-20.46.12:775][826]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.10-20.46.12:777][826]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0012 seconds. Added 3 classes and 2 folders.
+[2019.11.10-20.46.12:784][826]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.10-20.46.13:005][826]LogUObjectHash: Compacting FUObjectHashTables data took   7.01ms
+[2019.11.10-20.46.13:005][826]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-20.46.13:035][826]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 2737 classes and 665 folders.
+[2019.11.10-20.46.13:035][826]Display: HotReload took 195.0s.
+[2019.11.10-20.46.55:854][542]Candidate modules for hot reload:
+[2019.11.10-20.46.55:854][542]  TimeRush
+[2019.11.10-20.46.55:854][542]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,9460 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.10-20.46.55:879][542]Warning: Starting HotReload took  0.0s.
+[2019.11.10-20.47.22:059][363]CompilerResultsLog: New page: Compilation - Nov 10, 2019, 8:47:22 PM
+[2019.11.10-20.47.22:059][363]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.10-20.47.22:059][363]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.10-20.47.22:060][363]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.10-20.47.22:060][363]CompilerResultsLog: Reflection code generated for TimeRushEditor in 18.8002181 seconds
+[2019.11.10-20.47.22:060][363]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.10-20.47.22:060][363]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.11.10-20.47.22:060][363]CompilerResultsLog:   [1/3] UE4Editor-TimeRush-9460.lib
+[2019.11.10-20.47.22:060][363]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-9460.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-9460.exp
+[2019.11.10-20.47.22:060][363]CompilerResultsLog:   [2/3] UE4Editor-TimeRush-9460.dll
+[2019.11.10-20.47.22:060][363]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-9460.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-9460.suppressed.exp
+[2019.11.10-20.47.22:060][363]CompilerResultsLog:   [3/3] TimeRushEditor.target
+[2019.11.10-20.47.22:060][363]CompilerResultsLog: Total time in Parallel executor: 3.55 seconds
+[2019.11.10-20.47.22:060][363]CompilerResultsLog: Total execution time: 25.97 seconds
+[2019.11.10-20.47.22:060][363]LogMainFrame: MainFrame: Module compiling took 26.209 seconds
+[2019.11.10-20.47.22:168][363]LogUObjectHash: Compacting FUObjectHashTables data took   7.57ms
+[2019.11.10-20.47.22:168][363]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.10-20.47.22:236][363]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.10-20.47.22:237][363]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2019.11.10-20.47.22:243][363]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.10-20.47.22:389][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2019.11.10-20.47.22:389][363]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-20.47.22:408][363]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2737 classes and 665 folders.
+[2019.11.10-20.47.22:408][363]Display: HotReload took 26.6s.
+[2019.11.10-20.49.45:151][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-20.49.55:757][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-20.50.02:410][ 14]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.11.10-20.50.02:522][ 14]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.10-20.50.02:609][ 14]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.10-20.50.03:072][ 15]LogRenderer: Reallocating scene render targets to support 1208x896 Format 10 NumSamples 1 (Frame:1).
+[2019.11.10-20.50.10:147][416]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2019.11.10-20.50.10:199][416]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.10-20.50.10:248][416]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.10-20.51.01:979][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-20.51.06:636][ 11]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-20.51.06:668][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-20.51.06:706][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-20.51.06:706][ 11]PIE: New page: PIE session: Prototype (Nov 10, 2019, 8:51:06 PM)
+[2019.11.10-20.51.06:747][ 11]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.10-20.51.06:750][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003255s)
+[2019.11.10-20.51.06:751][ 11]LogAIModule: Creating AISystem for world Prototype
+[2019.11.10-20.51.06:752][ 11]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2019.11.10-20.51.06:752][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.005127s)
+[2019.11.10-20.51.06:870][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   7.68ms
+[2019.11.10-20.51.06:915][ 11]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-20.51.07:004][ 11]LogInit: FAudioDevice initialized.
+[2019.11.10-20.51.07:047][ 11]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.10-20.51.07:048][ 11]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.10-20.51.07
+[2019.11.10-20.51.07:048][ 11]LogWorld: Bringing up level for play took: 0.000796
+[2019.11.10-20.51.07:156][ 11]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.10-20.51.07:192][ 11]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.10-20.51.07:193][ 11]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2019.11.10-20.51.07:299][ 11]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.69
+[2019.11.10-20.51.07:299][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-20.51.15:643][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-20.51.15:644][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-20.51.15:676][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-20.51.15:676][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-20.51.15:804][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-20.51.15:908][845]LogUObjectHash: Compacting FUObjectHashTables data took  10.36ms
+[2019.11.10-20.51.15:979][846]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.11.10-20.51.30:572][199]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-20.51.35:689][743]Candidate modules for hot reload:
+[2019.11.10-20.51.35:689][743]  TimeRush
+[2019.11.10-20.51.35:689][743]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,4201 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.10-20.51.35:719][743]Warning: Starting HotReload took  0.0s.
+[2019.11.10-20.52.10:699][323]CompilerResultsLog: New page: Compilation - Nov 10, 2019, 8:52:10 PM
+[2019.11.10-20.52.10:700][323]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.10-20.52.10:700][323]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.10-20.52.10:700][323]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.10-20.52.10:700][323]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.10-20.52.10:700][323]CompilerResultsLog: Reflection code generated for TimeRushEditor in 18.1567454 seconds
+[2019.11.10-20.52.10:700][323]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.10-20.52.10:700][323]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.10-20.52.10:700][323]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.10-20.52.10:700][323]CompilerResultsLog:   D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRush\MyCharacter.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.11.10-20.52.10:700][323]CompilerResultsLog:   D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.11.10-20.52.10:700][323]CompilerResultsLog:   [2/4] UE4Editor-TimeRush-4201.lib
+[2019.11.10-20.52.10:700][323]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-4201.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-4201.exp
+[2019.11.10-20.52.10:700][323]CompilerResultsLog:   [3/4] UE4Editor-TimeRush-4201.dll
+[2019.11.10-20.52.10:700][323]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-4201.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-4201.suppressed.exp
+[2019.11.10-20.52.10:701][323]CompilerResultsLog:   [4/4] TimeRushEditor.target
+[2019.11.10-20.52.10:701][323]CompilerResultsLog: Total time in Parallel executor: 9.59 seconds
+[2019.11.10-20.52.10:701][323]CompilerResultsLog: Total execution time: 34.76 seconds
+[2019.11.10-20.52.10:701][323]LogMainFrame: MainFrame: Module compiling took 35.015 seconds
+[2019.11.10-20.52.10:809][323]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2019.11.10-20.52.10:810][323]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.10-20.52.10:859][323]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.10-20.52.10:860][323]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2019.11.10-20.52.10:865][323]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.10-20.52.11:004][323]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.11.10-20.52.11:004][323]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-20.52.11:026][323]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2737 classes and 665 folders.
+[2019.11.10-20.52.11:026][323]Display: HotReload took 35.4s.
+[2019.11.10-21.05.33:441][323]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.10-21.05.34:057][323]LogUObjectHash: Compacting FUObjectHashTables data took  10.03ms
+[2019.11.10-21.05.59:647][445]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.05.59:687][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-21.05.59:687][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.05.59:687][445]PIE: New page: PIE session: Prototype (Nov 10, 2019, 9:05:59 PM)
+[2019.11.10-21.05.59:687][445]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.10-21.05.59:693][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005357s)
+[2019.11.10-21.05.59:694][445]LogAIModule: Creating AISystem for world Prototype
+[2019.11.10-21.05.59:694][445]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2019.11.10-21.05.59:694][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.006985s)
+[2019.11.10-21.05.59:790][445]LogUObjectHash: Compacting FUObjectHashTables data took   9.17ms
+[2019.11.10-21.05.59:820][445]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.05.59:943][445]LogInit: FAudioDevice initialized.
+[2019.11.10-21.05.59:972][445]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.10-21.05.59:974][445]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.10-21.05.59
+[2019.11.10-21.05.59:974][445]LogWorld: Bringing up level for play took: 0.000780
+[2019.11.10-21.05.59:988][445]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.621
+[2019.11.10-21.05.59:988][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-21.06.28:304][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-21.06.28:304][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.06.28:337][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.06.28:337][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-21.06.28:420][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.06.28:430][573]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2019.11.10-21.06.28:510][574]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.11.10-21.06.32:428][995]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.06.48:480][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.06.48:555][938]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.10-21.06.49:050][938]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.11.10-21.07.25:319][970]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.07.25:426][970]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2019.11.10-21.07.25:426][970]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.070
+[2019.11.10-21.07.25:428][970]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MyCharacter] ([1] browsable assets)...
+[2019.11.10-21.07.25:454][970]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyCharacter.BP_MyCharacter]
+[2019.11.10-21.07.25:454][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCharacter]
+[2019.11.10-21.07.25:492][970]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter_Auto180F2F5F24356A1C7CECFEE8E40BBDE8C.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Autosaves/Game/Blueprints/BP_MyCharacter_Auto1.uasset'
+[2019.11.10-21.07.25:497][970]LogFileHelpers: Auto-saving content packages took 0.069
+[2019.11.10-21.10.10:403][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.10.59:809][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.10.59:879][ 15]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.10-21.11.00:386][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2019.11.10-21.11.20:292][ 94]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/UE4_Mannequin_Skeleton775D9CD54F7FA85DD5C188B193ECA963.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.11.10-21.11.27:878][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.10-21.11.27:922][547]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacterFD7EFA1449FC91829FF249B1B0032DCD.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.10-21.11.54:452][580]Candidate modules for hot reload:
+[2019.11.10-21.11.54:452][580]  TimeRush
+[2019.11.10-21.11.54:453][580]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,440 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.10-21.11.54:482][580]Warning: Starting HotReload took  0.0s.
+[2019.11.10-21.12.27:849][899]CompilerResultsLog: New page: Compilation - Nov 10, 2019, 9:12:27 PM
+[2019.11.10-21.12.27:849][899]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.10-21.12.27:849][899]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.10-21.12.27:849][899]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.10-21.12.27:849][899]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.10-21.12.27:849][899]CompilerResultsLog: Reflection code generated for TimeRushEditor in 19.3526471 seconds
+[2019.11.10-21.12.27:849][899]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.10-21.12.27:849][899]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.10-21.12.27:849][899]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.10-21.12.27:849][899]CompilerResultsLog:   D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRush\MyCharacter.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.11.10-21.12.27:849][899]CompilerResultsLog:   D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.11.10-21.12.27:849][899]CompilerResultsLog:   [2/4] UE4Editor-TimeRush-0440.lib
+[2019.11.10-21.12.27:850][899]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0440.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0440.exp
+[2019.11.10-21.12.27:850][899]CompilerResultsLog:   [3/4] UE4Editor-TimeRush-0440.dll
+[2019.11.10-21.12.27:850][899]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0440.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0440.suppressed.exp
+[2019.11.10-21.12.27:850][899]CompilerResultsLog:   [4/4] TimeRushEditor.target
+[2019.11.10-21.12.27:850][899]CompilerResultsLog: Total time in Parallel executor: 6.70 seconds
+[2019.11.10-21.12.27:850][899]CompilerResultsLog: Total execution time: 33.09 seconds
+[2019.11.10-21.12.27:850][899]LogMainFrame: MainFrame: Module compiling took 33.402 seconds
+[2019.11.10-21.12.27:931][899]LogUObjectHash: Compacting FUObjectHashTables data took   8.93ms
+[2019.11.10-21.12.27:931][899]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-21.12.27:955][899]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2737 classes and 665 folders.
+[2019.11.10-21.12.27:955][899]Display: HotReload took 33.5s.
+[2019.11.10-21.12.53:763][705]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.12.53:810][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-21.12.53:810][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.12.53:810][705]PIE: New page: PIE session: Prototype (Nov 10, 2019, 9:12:53 PM)
+[2019.11.10-21.12.53:810][705]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.10-21.12.53:817][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006101s)
+[2019.11.10-21.12.53:818][705]LogAIModule: Creating AISystem for world Prototype
+[2019.11.10-21.12.53:819][705]LogPlayLevel: PIE: World Init took: (0.001714s)
+[2019.11.10-21.12.53:819][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.008186s)
+[2019.11.10-21.12.53:973][705]LogUObjectHash: Compacting FUObjectHashTables data took  11.41ms
+[2019.11.10-21.12.53:998][705]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.12.54:120][705]LogInit: FAudioDevice initialized.
+[2019.11.10-21.12.54:153][705]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.10-21.12.54:154][705]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.10-21.12.54
+[2019.11.10-21.12.54:155][705]LogWorld: Bringing up level for play took: 0.000926
+[2019.11.10-21.12.54:170][705]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.439
+[2019.11.10-21.12.54:170][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-21.13.06:824][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-21.13.06:825][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.13.06:858][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.13.06:858][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.10-21.13.06:943][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.13.06:984][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   9.32ms
+[2019.11.10-21.13.07:068][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.11.10-21.13.22:448][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.17.21:677][292]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.10-21.17.22:154][292]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2019.11.10-21.18.16:380][ 52]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.10-21.18.16:712][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   8.65ms
+[2019.11.10-21.19.42:924][446]LogUObjectHash: Compacting FUObjectHashTables data took   7.21ms
+[2019.11.10-21.19.42:924][446]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.063
+[2019.11.10-21.19.42:926][446]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MyCharacter] ([1] browsable assets)...
+[2019.11.10-21.19.42:981][446]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyCharacter.BP_MyCharacter]
+[2019.11.10-21.19.42:981][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCharacter]
+[2019.11.10-21.19.43:015][446]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter_Auto270FD20F644584003EE36978FC296282C.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Autosaves/Game/Blueprints/BP_MyCharacter_Auto2.uasset'
+[2019.11.10-21.19.43:019][446]LogFileHelpers: Auto-saving content packages took 0.094
+[2019.11.10-21.20.03:126][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.20.39:332][323]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.10-21.20.39:756][323]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2019.11.10-21.20.40:350][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.10-21.20.40:393][358]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter486CD7FC45CC0911332BA29A4E23FF1C.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.10-21.21.59:945][883]Candidate modules for hot reload:
+[2019.11.10-21.21.59:945][883]  TimeRush
+[2019.11.10-21.21.59:945][883]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,56 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.10-21.21.59:973][883]Warning: Starting HotReload took  0.0s.
+[2019.11.10-21.22.33:478][424]CompilerResultsLog: New page: Compilation - Nov 10, 2019, 9:22:33 PM
+[2019.11.10-21.22.33:478][424]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.10-21.22.33:478][424]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.10-21.22.33:478][424]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.10-21.22.33:478][424]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.10-21.22.33:478][424]CompilerResultsLog: Reflection code generated for TimeRushEditor in 17.6877203 seconds
+[2019.11.10-21.22.33:478][424]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.10-21.22.33:478][424]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.10-21.22.33:478][424]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.10-21.22.33:478][424]CompilerResultsLog:   [2/4] UE4Editor-TimeRush-0056.lib
+[2019.11.10-21.22.33:479][424]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0056.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0056.exp
+[2019.11.10-21.22.33:479][424]CompilerResultsLog:   [3/4] UE4Editor-TimeRush-0056.dll
+[2019.11.10-21.22.33:479][424]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0056.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0056.suppressed.exp
+[2019.11.10-21.22.33:479][424]CompilerResultsLog:   [4/4] TimeRushEditor.target
+[2019.11.10-21.22.33:479][424]CompilerResultsLog: Total time in Parallel executor: 9.22 seconds
+[2019.11.10-21.22.33:479][424]CompilerResultsLog: Total execution time: 33.26 seconds
+[2019.11.10-21.22.33:479][424]LogMainFrame: MainFrame: Module compiling took 33.537 seconds
+[2019.11.10-21.22.33:555][424]LogUObjectHash: Compacting FUObjectHashTables data took   7.89ms
+[2019.11.10-21.22.33:558][424]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-21.22.33:592][424]LogContentBrowser: Native class hierarchy populated in 0.0195 seconds. Added 2737 classes and 665 folders.
+[2019.11.10-21.22.33:592][424]Display: HotReload took 33.7s.
+[2019.11.10-22.58.33:674][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:675][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:675][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:678][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:678][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:678][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:678][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:678][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:678][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:678][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:679][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:680][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:680][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:680][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:680][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.33:680][807]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245ec72bf70 [can pipeline])
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: libcurl info message cache 1 (Re-using existing connection! (#54) with host datarouter.ol.epicgames.com)
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.3.123) port 443 (#54))
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.11.10-22.58.39:090][824]LogHttp: Warning: 000002467B39C900: libcurl info message cache 7 (Closing connection 54)
+[2019.11.10-22.58.39:091][824]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B74BEFEE7-4076-17CB-5A43-7084CB72B3D1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=524ac55447546ede1d9458803efa3999%7C0ec919422b334695a8bb8c80de01ba99%7C89d91ea8-df39-4ffd-950b-d2313e809f2b&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.11.10-22.58.59:605][883]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (25.931 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:594][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:594][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:594][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:594][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:594][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:595][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:596][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:597][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:598][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:599][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:599][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:599][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:600][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:600][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:600][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:600][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:600][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.57:600][583]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.16.59:524][588]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (1.930 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.11-00.17.00:448][590]LogHttp: Warning: 000002467BB80CC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.11.11-00.17.00:448][590]LogHttp: Warning: 000002467BB80CC0: libcurl info message cache 0 (Connection 56 seems to be dead!)
+[2019.11.11-00.17.00:448][590]LogHttp: Warning: 000002467BB80CC0: libcurl info message cache 1 (Closing connection 56)
+[2019.11.11-00.17.00:448][590]LogHttp: Warning: 000002467BB80CC0: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.11.11-00.17.00:448][590]LogHttp: Warning: 000002467BB80CC0: libcurl info message cache 3 (Closing connection 57)
+[2019.11.11-00.17.00:449][590]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B74BEFEE7-4076-17CB-5A43-7084CB72B3D1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=524ac55447546ede1d9458803efa3999%7C0ec919422b334695a8bb8c80de01ba99%7C89d91ea8-df39-4ffd-950b-d2313e809f2b&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.11.11-01.13.58:320][549]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2019.11.11-02.48.45:331][468]Candidate modules for hot reload:
+[2019.11.11-02.48.45:331][468]  TimeRush
+[2019.11.11-02.48.45:333][468]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,4357 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.11-02.48.45:362][468]Warning: Starting HotReload took  0.1s.
+[2019.11.11-02.49.03:375][526]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.11-02.52.02:265][230]CompilerResultsLog: New page: Compilation - Nov 11, 2019, 2:52:02 AM
+[2019.11.11-02.52.02:266][230]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.11-02.52.02:266][230]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.11-02.52.02:266][230]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.11-02.52.02:266][230]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.11-02.52.02:266][230]CompilerResultsLog: Reflection code generated for TimeRushEditor in 18.1403138 seconds
+[2019.11.11-02.52.02:266][230]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.11-02.52.02:266][230]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.11-02.52.02:266][230]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.11-02.52.02:267][230]CompilerResultsLog:    D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRush\MyCharacter.cpp(14) : error C2027: use of undefined type 'UPawnMovementComponent'
+[2019.11.11-02.52.02:267][230]CompilerResultsLog:   D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(25): note: see declaration of 'UPawnMovementComponent'
+[2019.11.11-02.52.02:267][230]LogMainFrame: MainFrame: Module compiling took 196.945 seconds
+[2019.11.11-02.52.02:267][230]Warning: HotReload failed, recompile failed
+[2019.11.11-02.52.32:246][538]LogSlate: Window 'Message Log' being destroyed
+[2019.11.11-02.52.32:256][538]LogSlate: Window 'Message Log' being destroyed
+[2019.11.11-02.52.33:897][698]Candidate modules for hot reload:
+[2019.11.11-02.52.33:898][698]  TimeRush
+[2019.11.11-02.52.33:898][698]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,8583 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.11-02.52.33:925][698]Warning: Starting HotReload took  0.0s.
+[2019.11.11-02.53.04:125][994]CompilerResultsLog: New page: Compilation - Nov 11, 2019, 2:53:04 AM
+[2019.11.11-02.53.04:125][994]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.11-02.53.04:125][994]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.11-02.53.04:125][994]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.11-02.53.04:125][994]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.11-02.53.04:125][994]CompilerResultsLog: Reflection code generated for TimeRushEditor in 20.8600951 seconds
+[2019.11.11-02.53.04:125][994]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.11-02.53.04:125][994]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.11-02.53.04:125][994]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.11-02.53.04:126][994]CompilerResultsLog:    D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRush\MyCharacter.cpp(14) : error C2227: left of '->GetNavAgentPropertiesRef' must point to class/struct/union/generic type
+[2019.11.11-02.53.04:126][994]LogMainFrame: MainFrame: Module compiling took 30.232 seconds
+[2019.11.11-02.53.04:126][994]Warning: HotReload failed, recompile failed
+[2019.11.11-02.53.25:518][517]LogSlate: Window 'Message Log' being destroyed
+[2019.11.11-02.53.25:526][517]LogSlate: Window 'Message Log' being destroyed
+[2019.11.11-02.53.40:635][ 24]Candidate modules for hot reload:
+[2019.11.11-02.53.40:635][ 24]  TimeRush
+[2019.11.11-02.53.40:636][ 24]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,9685 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.11-02.53.40:666][ 24]Warning: Starting HotReload took  0.0s.
+[2019.11.11-02.54.08:901][460]CompilerResultsLog: New page: Compilation - Nov 11, 2019, 2:54:08 AM
+[2019.11.11-02.54.08:901][460]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.11-02.54.08:901][460]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.11-02.54.08:902][460]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.11-02.54.08:902][460]CompilerResultsLog: Reflection code generated for TimeRushEditor in 20.4409612 seconds
+[2019.11.11-02.54.08:902][460]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.11-02.54.08:902][460]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.11-02.54.08:902][460]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.11-02.54.08:902][460]CompilerResultsLog:    D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRush\MyCharacter.cpp(14) : error C2027: use of undefined type 'UPawnMovementComponent'
+[2019.11.11-02.54.08:902][460]CompilerResultsLog:   D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(25): note: see declaration of 'UPawnMovementComponent'
+[2019.11.11-02.54.08:902][460]LogMainFrame: MainFrame: Module compiling took 28.270 seconds
+[2019.11.11-02.54.08:902][460]Warning: HotReload failed, recompile failed
+[2019.11.11-02.54.29:723][421]LogSlate: Window 'Message Log' being destroyed
+[2019.11.11-02.54.29:732][421]LogSlate: Window 'Message Log' being destroyed
+[2019.11.11-02.55.01:595][465]Candidate modules for hot reload:
+[2019.11.11-02.55.01:595][465]  TimeRush
+[2019.11.11-02.55.01:596][465]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,8237 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.11-02.55.01:628][465]Warning: Starting HotReload took  0.1s.
+[2019.11.11-02.55.26:832][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.11-02.55.32:087][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-02.56.20:387][936]CompilerResultsLog: New page: Compilation - Nov 11, 2019, 2:56:20 AM
+[2019.11.11-02.56.20:387][936]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.11-02.56.20:387][936]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.11-02.56.20:387][936]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.11-02.56.20:387][936]CompilerResultsLog: Reflection code generated for TimeRushEditor in 11.2677194 seconds
+[2019.11.11-02.56.20:387][936]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.11-02.56.20:387][936]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.11-02.56.20:387][936]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.11-02.56.20:388][936]CompilerResultsLog:   [2/4] UE4Editor-TimeRush-8237.lib
+[2019.11.11-02.56.20:388][936]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8237.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8237.exp
+[2019.11.11-02.56.20:388][936]CompilerResultsLog:   [3/4] UE4Editor-TimeRush-8237.dll
+[2019.11.11-02.56.20:388][936]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8237.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8237.suppressed.exp
+[2019.11.11-02.56.20:388][936]CompilerResultsLog:   [4/4] TimeRushEditor.target
+[2019.11.11-02.56.20:388][936]CompilerResultsLog: Total time in Parallel executor: 64.27 seconds
+[2019.11.11-02.56.20:388][936]CompilerResultsLog: Total execution time: 78.51 seconds
+[2019.11.11-02.56.20:388][936]LogMainFrame: MainFrame: Module compiling took 78.797 seconds
+[2019.11.11-02.56.21:022][936]LogUObjectHash: Compacting FUObjectHashTables data took  20.47ms
+[2019.11.11-02.56.21:028][936]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.11-02.56.21:189][936]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2019.11.11-02.56.21:992][936]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.11-02.56.21:993][936]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2019.11.11-02.56.22:001][936]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.11-02.56.22:249][936]LogUObjectHash: Compacting FUObjectHashTables data took   9.13ms
+[2019.11.11-02.56.22:251][936]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.11-02.56.22:446][936]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2737 classes and 665 folders.
+[2019.11.11-02.56.22:446][936]Display: HotReload took 80.9s.
+[2019.11.11-02.56.57:583][705]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.11.11-02.56.58:144][705]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
+[2019.11.11-02.57.06:620][410]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-02.57.06:716][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-02.57.06:765][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-02.57.06:765][410]PIE: New page: PIE session: Prototype (Nov 11, 2019, 2:57:06 AM)
+[2019.11.11-02.57.06:766][410]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.11-02.57.06:785][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006556s)
+[2019.11.11-02.57.06:816][410]LogAIModule: Creating AISystem for world Prototype
+[2019.11.11-02.57.06:816][410]LogPlayLevel: PIE: World Init took: (0.030629s)
+[2019.11.11-02.57.06:816][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.051252s)
+[2019.11.11-02.57.06:937][410]LogUObjectHash: Compacting FUObjectHashTables data took  10.63ms
+[2019.11.11-02.57.07:046][410]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-02.57.07:163][410]LogInit: FAudioDevice initialized.
+[2019.11.11-02.57.07:201][410]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.11-02.57.07:203][410]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.11-02.57.07
+[2019.11.11-02.57.07:203][410]LogWorld: Bringing up level for play took: 0.001337
+[2019.11.11-02.57.07:360][410]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.772
+[2019.11.11-02.57.07:361][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-02.57.24:537][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-02.57.24:537][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-02.57.24:575][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-02.57.24:575][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-02.57.24:653][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-02.57.24:667][211]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2019.11.11-02.57.24:746][212]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.11.11-02.57.29:480][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-02.58.03:947][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-02.58.08:551][522]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.11-02.58.09:031][522]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2019.11.11-02.58.13:075][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.11-02.58.13:266][975]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter8274FA404DD511613F03BA91FF0183A8.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.11-02.58.18:633][541]Candidate modules for hot reload:
+[2019.11.11-02.58.18:633][541]  TimeRush
+[2019.11.11-02.58.18:634][541]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,8010 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.11-02.58.18:674][541]Warning: Starting HotReload took  0.1s.
+[2019.11.11-02.58.22:209][814]CompilerResultsLog: New page: Compilation - Nov 11, 2019, 2:58:22 AM
+[2019.11.11-02.58.22:209][814]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.11-02.58.22:210][814]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.11-02.58.22:210][814]LogMainFrame: MainFrame: Module compiling took 3.581 seconds
+[2019.11.11-02.58.22:210][814]Warning: HotReload failed, recompile failed
+[2019.11.11-02.58.24:029][996]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-02.58.24:061][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-02.58.24:061][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-02.58.24:061][996]PIE: New page: PIE session: Prototype (Nov 11, 2019, 2:58:24 AM)
+[2019.11.11-02.58.24:061][996]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.11-02.58.24:066][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005165s)
+[2019.11.11-02.58.24:067][996]LogAIModule: Creating AISystem for world Prototype
+[2019.11.11-02.58.24:068][996]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2019.11.11-02.58.24:068][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.006733s)
+[2019.11.11-02.58.24:154][996]LogUObjectHash: Compacting FUObjectHashTables data took   8.11ms
+[2019.11.11-02.58.24:184][996]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-02.58.24:374][996]LogInit: FAudioDevice initialized.
+[2019.11.11-02.58.24:405][996]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.11-02.58.24:406][996]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.11-02.58.24
+[2019.11.11-02.58.24:407][996]LogWorld: Bringing up level for play took: 0.000843
+[2019.11.11-02.58.24:421][996]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.167
+[2019.11.11-02.58.24:421][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-02.58.40:729][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-02.58.40:730][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-02.58.40:765][632]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-02.58.40:765][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-02.58.40:835][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-02.58.40:844][632]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2019.11.11-02.58.40:914][633]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.11-02.58.44:671][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-02.58.59:392][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-02.59.05:677][834]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.11-02.59.06:112][834]LogUObjectHash: Compacting FUObjectHashTables data took   6.35ms
+[2019.11.11-02.59.08:676][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.11-02.59.08:726][105]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter0365AD4543657CF6172466A6E2DBD2C8.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.11-02.59.22:748][494]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/UE4ASP_HeroTPP_AnimBlueprint6BA694C24880BC1A64051B83865FD4C4.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.11.11-03.06.41:123][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-03.19.51:559][173]Candidate modules for hot reload:
+[2019.11.11-03.19.51:559][173]  TimeRush
+[2019.11.11-03.19.51:560][173]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,7763 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.11-03.19.51:597][173]Warning: Starting HotReload took  0.1s.
+[2019.11.11-03.21.23:356][ 34]CompilerResultsLog: New page: Compilation - Nov 11, 2019, 3:21:23 AM
+[2019.11.11-03.21.23:356][ 34]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.11-03.21.23:356][ 34]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog: Reflection code generated for TimeRushEditor in 16.7831265 seconds
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog:   [1/5] MyCharacter.cpp
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog:   [2/5] MyCharacter.gen.cpp
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog:   [3/5] UE4Editor-TimeRush-7763.lib
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-7763.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-7763.exp
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog:   [4/5] UE4Editor-TimeRush-7763.dll
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-7763.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-7763.suppressed.exp
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog:   [5/5] TimeRushEditor.target
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog: Total time in Parallel executor: 68.97 seconds
+[2019.11.11-03.21.23:357][ 34]CompilerResultsLog: Total execution time: 91.27 seconds
+[2019.11.11-03.21.23:357][ 34]LogMainFrame: MainFrame: Module compiling took 91.802 seconds
+[2019.11.11-03.21.23:420][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2019.11.11-03.21.23:422][ 34]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.11-03.21.23:488][ 34]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.11-03.21.23:489][ 34]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2019.11.11-03.21.23:496][ 34]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.11-03.21.23:634][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.11.11-03.21.23:635][ 34]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.11-03.21.23:656][ 34]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2737 classes and 665 folders.
+[2019.11.11-03.21.23:656][ 34]Display: HotReload took 92.1s.
+[2019.11.11-03.25.04:833][855]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-03.25.04:871][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-03.25.04:871][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-03.25.04:871][855]PIE: New page: PIE session: Prototype (Nov 11, 2019, 3:25:04 AM)
+[2019.11.11-03.25.04:871][855]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.11-03.25.04:877][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005638s)
+[2019.11.11-03.25.04:878][855]LogAIModule: Creating AISystem for world Prototype
+[2019.11.11-03.25.04:879][855]LogPlayLevel: PIE: World Init took: (0.001829s)
+[2019.11.11-03.25.04:879][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.007792s)
+[2019.11.11-03.25.05:006][855]LogUObjectHash: Compacting FUObjectHashTables data took   7.17ms
+[2019.11.11-03.25.05:032][855]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-03.25.05:142][855]LogInit: FAudioDevice initialized.
+[2019.11.11-03.25.05:171][855]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.11-03.25.05:172][855]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.11-03.25.05
+[2019.11.11-03.25.05:173][855]LogWorld: Bringing up level for play took: 0.000662
+[2019.11.11-03.25.05:187][855]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.598
+[2019.11.11-03.25.05:187][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-03.25.24:339][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-03.25.24:340][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-03.25.24:374][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-03.25.24:374][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-03.25.24:455][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-03.25.24:481][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.11.11-03.25.24:558][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.11.11-03.25.29:830][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-03.25.29:933][574]Candidate modules for hot reload:
+[2019.11.11-03.25.29:933][574]  TimeRush
+[2019.11.11-03.25.29:934][574]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,2962 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.11-03.25.29:972][574]Warning: Starting HotReload took  0.1s.
+[2019.11.11-03.25.31:881][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.11-03.25.31:979][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.11.11-03.25.32:746][708]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/PrototypeB799478F4FFB828661F4618D80DEF013.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.11-03.25.32:818][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.11-03.25.32:927][708]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData0AE8CE7B4119C161B32B9F92F782773F.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.11-03.26.05:252][675]CompilerResultsLog: New page: Compilation - Nov 11, 2019, 3:26:05 AM
+[2019.11.11-03.26.05:252][675]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.11-03.26.05:252][675]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.11-03.26.05:252][675]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.11-03.26.05:252][675]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.11-03.26.05:253][675]CompilerResultsLog: Reflection code generated for TimeRushEditor in 21.4607437 seconds
+[2019.11.11-03.26.05:253][675]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.11-03.26.05:253][675]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.11.11-03.26.05:253][675]CompilerResultsLog:   [1/3] UE4Editor-TimeRush-2962.lib
+[2019.11.11-03.26.05:253][675]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-2962.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-2962.exp
+[2019.11.11-03.26.05:253][675]CompilerResultsLog:   [2/3] UE4Editor-TimeRush-2962.dll
+[2019.11.11-03.26.05:253][675]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-2962.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-2962.suppressed.exp
+[2019.11.11-03.26.05:253][675]CompilerResultsLog:   [3/3] TimeRushEditor.target
+[2019.11.11-03.26.05:253][675]CompilerResultsLog: Total time in Parallel executor: 5.72 seconds
+[2019.11.11-03.26.05:253][675]CompilerResultsLog: Total execution time: 34.77 seconds
+[2019.11.11-03.26.05:253][675]LogMainFrame: MainFrame: Module compiling took 35.326 seconds
+[2019.11.11-03.26.05:340][675]LogUObjectHash: Compacting FUObjectHashTables data took   7.02ms
+[2019.11.11-03.26.05:343][675]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.11-03.26.05:437][675]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.11-03.26.05:438][675]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0011 seconds. Added 3 classes and 2 folders.
+[2019.11.11-03.26.05:446][675]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.11-03.26.05:621][675]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.11.11-03.26.05:625][675]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.11-03.26.05:656][675]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 2737 classes and 665 folders.
+[2019.11.11-03.26.05:656][675]Display: HotReload took 35.7s.
+[2019.11.11-03.26.11:779][193]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-03.26.11:816][193]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-03.26.11:816][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-03.26.11:817][193]PIE: New page: PIE session: Prototype (Nov 11, 2019, 3:26:11 AM)
+[2019.11.11-03.26.11:817][193]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.11-03.26.11:822][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005418s)
+[2019.11.11-03.26.11:824][193]LogAIModule: Creating AISystem for world Prototype
+[2019.11.11-03.26.11:824][193]LogPlayLevel: PIE: World Init took: (0.001671s)
+[2019.11.11-03.26.11:824][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.007635s)
+[2019.11.11-03.26.11:966][193]LogUObjectHash: Compacting FUObjectHashTables data took   9.64ms
+[2019.11.11-03.26.11:994][193]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-03.26.12:117][193]LogInit: FAudioDevice initialized.
+[2019.11.11-03.26.12:149][193]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.11-03.26.12:150][193]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.11-03.26.12
+[2019.11.11-03.26.12:151][193]LogWorld: Bringing up level for play took: 0.000805
+[2019.11.11-03.26.12:165][193]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.424
+[2019.11.11-03.26.12:165][193]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-03.26.29:699][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-03.26.29:699][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-03.26.29:736][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-03.26.29:736][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.11-03.26.29:835][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-03.26.29:849][804]LogUObjectHash: Compacting FUObjectHashTables data took   9.56ms
+[2019.11.11-03.26.29:930][805]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.11.11-03.30.08:220][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-03.30.08:329][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.11-03.30.08:410][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2019.11.11-03.30.08:885][983]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/PrototypeAEFBAEE249201A517C54D58FA77B2EF9.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.11-03.30.08:927][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.11-03.30.08:955][983]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData76253FBC43217C906D2903A1A38491F0.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.11-03.31.38:132][518]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2019.11.11-03.31.38:785][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.11-03.31.40:547][518]LogSlate: Window 'TimeRush - Unreal Editor' being destroyed
+[2019.11.11-03.31.40:554][518]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.11-03.31.41:247][519]Cmd: QUIT_EDITOR
+[2019.11.11-03.31.41:873][519]LogExit: Preparing to exit.
+[2019.11.11-03.31.43:183][519]LogExit: Editor shut down
+[2019.11.11-03.31.43:184][519]LogExit: Transaction tracking system shut down
+[2019.11.11-03.31.46:007][519]LogExit: Object subsystem successfully closed.
+[2019.11.11-03.31.46:985][519]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.11-03.31.47:075][519]LogD3D11RHI: Shutdown
+[2019.11.11-03.31.47:075][519]LogD3D11RHI: CleanupD3DDevice
+[2019.11.11-03.31.47:237][519]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.11-03.31.47:237][519]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.11-03.31.47:285][519]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.11-03.31.47:285][519]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.11-03.31.47:285][519]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.11-03.31.47:285][519]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.11-03.31.48:190][519]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.11-03.31.52:467][519]LogModuleManager: Shutting down and abandoning module TimeRush (664)
+[2019.11.11-03.31.52:468][519]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (660)
+[2019.11.11-03.31.52:468][519]LogModuleManager: Shutting down and abandoning module Voice (658)
+[2019.11.11-03.31.52:473][519]LogModuleManager: Shutting down and abandoning module PinnedCommandList (654)
+[2019.11.11-03.31.52:473][519]LogModuleManager: Shutting down and abandoning module SkeletonEditor (652)
+[2019.11.11-03.31.52:473][519]LogModuleManager: Shutting down and abandoning module BlueprintGraph (650)
+[2019.11.11-03.31.52:483][519]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (648)
+[2019.11.11-03.31.52:483][519]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (646)
+[2019.11.11-03.31.52:483][519]LogModuleManager: Shutting down and abandoning module SceneOutliner (644)
+[2019.11.11-03.31.52:483][519]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2019.11.11-03.31.53:852][519]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2019.11.11-03.31.53:852][519]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2019.11.11-03.31.53:852][519]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2019.11.11-03.31.53:860][519]LogModuleManager: Shutting down and abandoning module MeshBuilder (634)
+[2019.11.11-03.31.53:860][519]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.11.11-03.31.53:871][519]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.11.11-03.31.53:883][519]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.11.11-03.31.53:915][519]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.11.11-03.31.53:915][519]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.11.11-03.31.53:915][519]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.11.11-03.31.53:915][519]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.11.11-03.31.53:915][519]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.11.11-03.31.53:915][519]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.11.11-03.31.53:915][519]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.11.11-03.31.53:924][519]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.11.11-03.31.53:929][519]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.11.11-03.31.53:938][519]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.11.11-03.31.53:938][519]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.11.11-03.31.53:991][519]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.11.11-03.31.53:997][519]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.11.11-03.31.54:029][519]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.11.11-03.31.54:029][519]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.11.11-03.31.54:068][519]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.11.11-03.31.54:076][519]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.11.11-03.31.54:076][519]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.11.11-03.31.54:076][519]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.11.11-03.31.54:076][519]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.11.11-03.31.54:076][519]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.11.11-03.31.54:086][519]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.11.11-03.31.54:093][519]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.11.11-03.31.54:103][519]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.11.11-03.31.54:109][519]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.11.11-03.31.54:109][519]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.11.11-03.31.54:109][519]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.11.11-03.31.54:109][519]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.11.11-03.31.54:109][519]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.11.11-03.31.54:109][519]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.11.11-03.31.54:110][519]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.11.11-03.31.54:116][519]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.11.11-03.31.54:116][519]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.11.11-03.31.54:116][519]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.11.11-03.31.54:128][519]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.11.11-03.31.54:131][519]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.11.11-03.31.54:145][519]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.11.11-03.31.54:185][519]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.11.11-03.31.54:245][519]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.11.11-03.31.54:245][519]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.11.11-03.31.54:245][519]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.11.11-03.31.54:245][519]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.11.11-03.31.54:245][519]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.11.11-03.31.56:115][519]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.11.11-03.31.56:115][519]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.11.11-03.31.56:115][519]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.11.11-03.31.56:115][519]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.11.11-03.31.56:115][519]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.11.11-03.31.56:115][519]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.11.11-03.31.56:128][519]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.11.11-03.31.56:137][519]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.11.11-03.31.56:147][519]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.11.11-03.31.56:159][519]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.11.11-03.31.56:159][519]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.11.11-03.31.56:166][519]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.11.11-03.31.56:182][519]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.11.11-03.31.56:196][519]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.11.11-03.31.56:222][519]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.11.11-03.31.56:222][519]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.11.11-03.31.56:223][519]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.11.11-03.31.56:223][519]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.11.11-03.31.56:224][519]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.11.11-03.31.56:283][519]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.11.11-03.31.56:294][519]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.11.11-03.31.56:311][519]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.11.11-03.31.56:323][519]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.11.11-03.31.56:374][519]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.11.11-03.31.56:382][519]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.11.11-03.31.56:400][519]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.11.11-03.31.56:423][519]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.11.11-03.31.56:423][519]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.11.11-03.31.56:442][519]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.11.11-03.31.56:442][519]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.11.11-03.31.56:456][519]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.11.11-03.31.56:456][519]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.11.11-03.31.56:456][519]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.11.11-03.31.56:456][519]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.11.11-03.31.56:474][519]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.11.11-03.31.56:474][519]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.11.11-03.31.56:474][519]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.11.11-03.31.56:474][519]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2019.11.11-03.31.56:481][519]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.11.11-03.31.56:535][519]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.11.11-03.31.56:546][519]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.11.11-03.31.56:546][519]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.11.11-03.31.56:555][519]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.11.11-03.31.56:556][519]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.11.11-03.31.56:571][519]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.11.11-03.31.56:571][519]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.11.11-03.31.56:571][519]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.11.11-03.31.56:589][519]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.11.11-03.31.56:608][519]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.11.11-03.31.56:608][519]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.11.11-03.31.56:608][519]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.11.11-03.31.56:608][519]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.11.11-03.31.56:608][519]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.11.11-03.31.56:608][519]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.11.11-03.31.56:608][519]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.11.11-03.31.56:608][519]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.11.11-03.31.56:614][519]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.11.11-03.31.56:614][519]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2019.11.11-03.31.56:619][519]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2019.11.11-03.31.56:786][519]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2019.11.11-03.31.56:802][519]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2019.11.11-03.31.56:802][519]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2019.11.11-03.31.56:807][519]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2019.11.11-03.31.56:807][519]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2019.11.11-03.31.56:827][519]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.11.11-03.31.56:827][519]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.11.11-03.31.56:827][519]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.11.11-03.31.56:833][519]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.11.11-03.31.56:833][519]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.11.11-03.31.56:843][519]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.11.11-03.31.56:843][519]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.11.11-03.31.56:843][519]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.11.11-03.31.56:843][519]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.11.11-03.31.56:858][519]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.11.11-03.31.56:868][519]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.11.11-03.31.56:868][519]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.11.11-03.31.56:868][519]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.11.11-03.31.56:868][519]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2019.11.11-03.31.56:868][519]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2019.11.11-03.31.56:884][519]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2019.11.11-03.31.56:894][519]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.11.11-03.31.56:894][519]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.11.11-03.31.56:894][519]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.11.11-03.31.56:894][519]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.11.11-03.31.56:905][519]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.11.11-03.31.56:910][519]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.11.11-03.31.56:910][519]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.11.11-03.31.56:920][519]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.11.11-03.31.56:931][519]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2019.11.11-03.31.56:940][519]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.11.11-03.31.56:940][519]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.11.11-03.31.56:940][519]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.11.11-03.31.56:940][519]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.11.11-03.31.56:940][519]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.11.11-03.31.56:940][519]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.11.11-03.31.56:950][519]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.11.11-03.31.56:958][519]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.11.11-03.31.57:010][519]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.11.11-03.31.57:028][519]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.11.11-03.31.57:035][519]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.11.11-03.31.57:035][519]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.11.11-03.31.57:035][519]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.11.11-03.31.57:035][519]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.11.11-03.31.57:035][519]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.11.11-03.31.57:035][519]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.11.11-03.31.57:035][519]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.11.11-03.31.57:072][519]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.11.11-03.31.57:072][519]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.11.11-03.31.57:072][519]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.11.11-03.31.57:072][519]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.11.11-03.31.57:072][519]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.11.11-03.31.57:072][519]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.11.11-03.31.57:072][519]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.11.11-03.31.57:173][519]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.11.11-03.31.57:287][519]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.11.11-03.31.57:287][519]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.11.11-03.31.57:287][519]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.11.11-03.31.57:303][519]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.11.11-03.31.57:303][519]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.11.11-03.31.57:322][519]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.11-03.31.57:322][519]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.11.11-03.31.57:322][519]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.11.11-03.31.57:322][519]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.11.11-03.31.57:322][519]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.11.11-03.31.57:322][519]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.11.11-03.31.57:322][519]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.11.11-03.31.57:322][519]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.11.11-03.31.57:345][519]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.11.11-03.31.57:361][519]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.11.11-03.31.57:387][519]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.11.11-03.31.57:406][519]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.11.11-03.31.57:406][519]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.11.11-03.31.57:432][519]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.11.11-03.31.57:435][519]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.11.11-03.31.57:457][519]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.11.11-03.31.57:458][519]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.11.11-03.31.57:458][519]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.11.11-03.31.57:458][519]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.11.11-03.31.57:474][519]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.11.11-03.31.57:581][519]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.11.11-03.31.57:585][519]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.11.11-03.31.57:585][519]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.11.11-03.31.57:585][519]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.11.11-03.31.57:605][519]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.11.11-03.31.57:605][519]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.11.11-03.31.57:605][519]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.11.11-03.31.57:605][519]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.11.11-03.31.57:622][519]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.11.11-03.31.57:631][519]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.11.11-03.31.57:631][519]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.11.11-03.31.57:657][519]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.11.11-03.31.57:672][519]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.11.11-03.31.57:693][519]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.11.11-03.31.57:699][519]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.11.11-03.31.57:716][519]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.11.11-03.31.57:746][519]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.11.11-03.31.57:816][519]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.11.11-03.31.57:816][519]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.11.11-03.31.57:857][519]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.11.11-03.31.57:857][519]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.11.11-03.31.57:874][519]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.11.11-03.31.57:874][519]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.11.11-03.31.57:875][519]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.11.11-03.31.57:875][519]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.11.11-03.31.57:875][519]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.11.11-03.31.57:875][519]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.11.11-03.31.57:875][519]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.11.11-03.31.57:875][519]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.11.11-03.31.57:875][519]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.11.11-03.31.57:875][519]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.11.11-03.31.57:910][519]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.11.11-03.31.57:911][519]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.11.11-03.31.57:918][519]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.11.11-03.31.57:937][519]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.11.11-03.31.57:949][519]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.11.11-03.31.57:961][519]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.11.11-03.31.57:997][519]LogDerivedDataCache: Shutdown
+[2019.11.11-03.31.57:997][519]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.11.11-03.31.57:997][519]LogXGEController: Cleaning working directory: C:/Users/2011j/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.11-03.31.58:008][519]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.11.11-03.31.58:011][519]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.11.11-03.31.58:063][519]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.11.11-03.31.58:074][519]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.11.11-03.31.58:081][519]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.11.11-03.31.58:092][519]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.11.11-03.31.58:105][519]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.11.11-03.31.58:105][519]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.11.11-03.31.58:123][519]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.11.11-03.31.58:131][519]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.11.11-03.31.58:158][519]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.11.11-03.31.58:158][519]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.11.11-03.31.58:158][519]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.11.11-03.31.58:158][519]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.11.11-03.31.58:176][519]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.11.11-03.31.58:176][519]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.11.11-03.31.58:181][519]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.11.11-03.31.58:203][519]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.11.11-03.31.58:203][519]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.11.11-03.31.58:211][519]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.11.11-03.31.58:211][519]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.11.11-03.31.58:211][519]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.11.11-03.31.58:218][519]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.11.11-03.31.58:218][519]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.11.11-03.31.58:225][519]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.11.11-03.31.58:225][519]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.11.11-03.31.58:276][519]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.11.11-03.31.58:277][519]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.11.11-03.31.58:277][519]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.11.11-03.31.58:277][519]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.11.11-03.31.58:298][519]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.11.11-03.31.58:299][519]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.11.11-03.31.58:299][519]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.11.11-03.31.58:299][519]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.11.11-03.31.58:299][519]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.11.11-03.31.58:299][519]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.11.11-03.31.58:299][519]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.11.11-03.31.58:299][519]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.11.11-03.31.58:307][519]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.11.11-03.31.58:307][519]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.11.11-03.31.58:307][519]LogHMD: Freeing OpenVRDLLHandle.
+[2019.11.11-03.31.58:307][519]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.11.11-03.31.58:318][519]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.11.11-03.31.58:318][519]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.11.11-03.31.58:318][519]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.11.11-03.31.58:318][519]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.11.11-03.31.58:320][519]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.11.11-03.31.58:337][519]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.11.11-03.31.58:393][519]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.11.11-03.31.58:393][519]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.11.11-03.31.58:393][519]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B74BEFEE7-4076-17CB-5A43-7084CB72B3D1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=524ac55447546ede1d9458803efa3999%7C0ec919422b334695a8bb8c80de01ba99%7C89d91ea8-df39-4ffd-950b-d2313e809f2b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.11-03.31.58:396][519]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.11.11-03.31.58:415][519]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.11.11-03.31.58:429][519]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.11.11-03.31.58:436][519]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.11.11-03.31.58:451][519]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.11.11-03.31.58:453][519]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.11.11-03.31.58:459][519]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.11.11-03.31.58:471][519]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.11.11-03.31.58:572][519]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.11.11-03.31.58:605][519]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.11.11-03.31.58:605][519]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.11.11-03.31.58:605][519]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.11.11-03.31.58:637][519]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.11.11-03.31.58:655][519]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.11.11-03.31.58:655][519]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.11.11-03.31.58:672][519]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.11.11-03.31.58:672][519]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.11.11-03.31.58:672][519]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.11.11-03.31.58:672][519]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.11.11-03.31.58:677][519]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.11.11-03.31.58:677][519]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.11.11-03.31.58:685][519]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.11.11-03.31.58:689][519]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.11.11-03.31.58:695][519]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.11.11-03.31.58:741][519]LogExit: Exiting.
+[2019.11.11-03.31.58:794][519]Log file closed, 11/11/19 03:31:58

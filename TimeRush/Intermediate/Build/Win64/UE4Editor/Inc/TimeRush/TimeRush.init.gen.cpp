@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTimeRush_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD019B1A4,
+				0xE07D2C9F,
 				0xD73611FB,
 				METADATA_PARAMS(nullptr, 0)
 			};
