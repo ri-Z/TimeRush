@@ -743,3 +743,185 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.13-17.19.29:439][956]LogUObjectHash: Compacting FUObjectHashTables data took   9.05ms
 [2019.11.13-17.19.31:012][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
 [2019.11.13-17.19.31:090][ 47]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacterA077839B4FC07ABDDA903A979F8B3CA7.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.13-17.39.41:032][477]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.13-17.39.41:104][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.39.41:204][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.13-17.39.41:204][477]PIE: New page: PIE session: Prototype (Nov 13, 2019, 5:39:41 PM)
+[2019.11.13-17.39.41:260][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.13-17.39.41:304][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043447s)
+[2019.11.13-17.39.41:305][477]LogAIModule: Creating AISystem for world Prototype
+[2019.11.13-17.39.41:316][477]LogPlayLevel: PIE: World Init took: (0.011292s)
+[2019.11.13-17.39.41:316][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.055873s)
+[2019.11.13-17.39.41:393][477]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2019.11.13-17.39.41:475][477]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.13-17.39.41:574][477]LogInit: FAudioDevice initialized.
+[2019.11.13-17.39.41:708][477]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.13-17.39.41:711][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 60) at 2019.11.13-17.39.41
+[2019.11.13-17.39.41:727][477]LogWorld: Bringing up level for play took: 0.017251
+[2019.11.13-17.39.41:991][477]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.13-17.39.42:035][477]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.13-17.39.42:036][477]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.11.13-17.39.42:192][477]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.664
+[2019.11.13-17.39.42:193][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.39.56:917][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.39.56:941][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-17.39.57:015][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.13-17.39.57:016][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.39.57:094][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-17.39.57:152][317]LogUObjectHash: Compacting FUObjectHashTables data took   7.12ms
+[2019.11.13-17.39.57:200][318]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.11.13-17.40.29:475][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-17.42.48:284][267]Candidate modules for hot reload:
+[2019.11.13-17.42.48:284][267]  TimeRush
+[2019.11.13-17.42.48:284][267]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,6196 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.13-17.42.48:308][267]Warning: Starting HotReload took  0.0s.
+[2019.11.13-17.43.21:887][269]CompilerResultsLog: New page: Compilation - Nov 13, 2019, 5:43:21 PM
+[2019.11.13-17.43.21:887][269]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.13-17.43.21:887][269]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.13-17.43.21:887][269]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.13-17.43.21:887][269]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.13-17.43.21:887][269]CompilerResultsLog: Reflection code generated for TimeRushEditor in 10.3650423 seconds
+[2019.11.13-17.43.21:887][269]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.13-17.43.21:888][269]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.13-17.43.21:888][269]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.13-17.43.21:888][269]CompilerResultsLog:   [2/4] UE4Editor-TimeRush-6196.lib
+[2019.11.13-17.43.21:888][269]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-6196.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-6196.exp
+[2019.11.13-17.43.21:888][269]CompilerResultsLog:   [3/4] UE4Editor-TimeRush-6196.dll
+[2019.11.13-17.43.21:888][269]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-6196.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-6196.suppressed.exp
+[2019.11.13-17.43.21:888][269]CompilerResultsLog:   [4/4] TimeRushEditor.target
+[2019.11.13-17.43.21:888][269]CompilerResultsLog: Total time in Parallel executor: 19.32 seconds
+[2019.11.13-17.43.21:888][269]CompilerResultsLog: Total execution time: 33.28 seconds
+[2019.11.13-17.43.21:888][269]LogMainFrame: MainFrame: Module compiling took 33.609 seconds
+[2019.11.13-17.43.21:987][269]LogUObjectHash: Compacting FUObjectHashTables data took   8.52ms
+[2019.11.13-17.43.21:987][269]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.13-17.43.22:044][269]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2019.11.13-17.43.22:738][269]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.13-17.43.22:740][269]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2019.11.13-17.43.22:746][269]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.13-17.43.22:864][269]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2019.11.13-17.43.22:864][269]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.13-17.43.22:882][269]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2737 classes and 665 folders.
+[2019.11.13-17.43.22:883][269]Display: HotReload took 34.6s.
+[2019.11.13-17.47.33:892][306]Candidate modules for hot reload:
+[2019.11.13-17.47.33:892][306]  TimeRush
+[2019.11.13-17.47.33:893][306]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,6554 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.13-17.47.33:917][306]Warning: Starting HotReload took  0.0s.
+[2019.11.13-17.47.51:197][312]CompilerResultsLog: New page: Compilation - Nov 13, 2019, 5:47:51 PM
+[2019.11.13-17.47.51:198][312]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.13-17.47.51:198][312]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.13-17.47.51:198][312]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.13-17.47.51:198][312]CompilerResultsLog: Reflection code generated for TimeRushEditor in 12.3083893 seconds
+[2019.11.13-17.47.51:198][312]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.13-17.47.51:198][312]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.11.13-17.47.51:198][312]CompilerResultsLog:   [1/3] UE4Editor-TimeRush-6554.lib
+[2019.11.13-17.47.51:198][312]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-6554.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-6554.exp
+[2019.11.13-17.47.51:198][312]CompilerResultsLog:   [2/3] UE4Editor-TimeRush-6554.dll
+[2019.11.13-17.47.51:198][312]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-6554.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-6554.suppressed.exp
+[2019.11.13-17.47.51:198][312]CompilerResultsLog:   [3/3] TimeRushEditor.target
+[2019.11.13-17.47.51:198][312]CompilerResultsLog: Total time in Parallel executor: 2.24 seconds
+[2019.11.13-17.47.51:198][312]CompilerResultsLog: Total execution time: 17.13 seconds
+[2019.11.13-17.47.51:198][312]LogMainFrame: MainFrame: Module compiling took 17.310 seconds
+[2019.11.13-17.47.51:323][312]LogUObjectHash: Compacting FUObjectHashTables data took   7.87ms
+[2019.11.13-17.47.51:323][312]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.13-17.47.51:377][312]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.13-17.47.51:378][312]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2019.11.13-17.47.51:387][312]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.13-17.47.51:573][312]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2019.11.13-17.47.51:573][312]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.13-17.47.51:594][312]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2737 classes and 665 folders.
+[2019.11.13-17.47.51:594][312]Display: HotReload took 17.7s.
+[2019.11.13-17.48.03:461][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-17.48.13:710][611]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.13-17.48.14:228][611]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.13-17.48.14:427][621]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.13-17.48.14:573][621]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.13-17.48.21:011][  0]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.13-17.48.21:126][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.13-17.48.32:653][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-17.48.48:782][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-17.48.54:590][933]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.13-17.48.55:283][933]LogUObjectHash: Compacting FUObjectHashTables data took  11.30ms
+[2019.11.13-17.48.56:031][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.13-17.48.56:097][972]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacterA60981894F9FCCA4E5CF53BD405223E3.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.13-17.49.04:608][474]Candidate modules for hot reload:
+[2019.11.13-17.49.04:608][474]  TimeRush
+[2019.11.13-17.49.04:608][474]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,1473 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.13-17.49.04:639][474]Warning: Starting HotReload took  0.0s.
+[2019.11.13-17.49.24:042][614]CompilerResultsLog: New page: Compilation - Nov 13, 2019, 5:49:24 PM
+[2019.11.13-17.49.24:043][614]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.13-17.49.24:043][614]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.13-17.49.24:043][614]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.13-17.49.24:043][614]CompilerResultsLog: Reflection code generated for TimeRushEditor in 12.5151869 seconds
+[2019.11.13-17.49.24:043][614]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.13-17.49.24:043][614]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.11.13-17.49.24:043][614]CompilerResultsLog:   [1/3] UE4Editor-TimeRush-1473.lib
+[2019.11.13-17.49.24:043][614]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-1473.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-1473.exp
+[2019.11.13-17.49.24:043][614]CompilerResultsLog:   [2/3] UE4Editor-TimeRush-1473.dll
+[2019.11.13-17.49.24:043][614]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-1473.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-1473.suppressed.exp
+[2019.11.13-17.49.24:043][614]CompilerResultsLog:   [3/3] TimeRushEditor.target
+[2019.11.13-17.49.24:043][614]CompilerResultsLog: Total time in Parallel executor: 2.70 seconds
+[2019.11.13-17.49.24:043][614]CompilerResultsLog: Total execution time: 19.21 seconds
+[2019.11.13-17.49.24:044][614]LogMainFrame: MainFrame: Module compiling took 19.438 seconds
+[2019.11.13-17.49.24:134][614]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
+[2019.11.13-17.49.24:134][614]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.13-17.49.24:199][614]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.13-17.49.24:200][614]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2019.11.13-17.49.24:207][614]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.13-17.49.24:364][614]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.11.13-17.49.24:364][614]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.13-17.49.24:387][614]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2737 classes and 665 folders.
+[2019.11.13-17.49.24:387][614]Display: HotReload took 19.8s.
+[2019.11.13-17.49.27:596][777]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.13-17.49.27:624][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.49.27:625][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.13-17.49.27:625][777]PIE: New page: PIE session: Prototype (Nov 13, 2019, 5:49:27 PM)
+[2019.11.13-17.49.27:625][777]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.13-17.49.27:630][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004924s)
+[2019.11.13-17.49.27:631][777]LogAIModule: Creating AISystem for world Prototype
+[2019.11.13-17.49.27:631][777]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2019.11.13-17.49.27:631][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.006356s)
+[2019.11.13-17.49.27:746][777]LogUObjectHash: Compacting FUObjectHashTables data took   8.70ms
+[2019.11.13-17.49.27:775][777]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.13-17.49.27:889][777]LogInit: FAudioDevice initialized.
+[2019.11.13-17.49.27:920][777]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.13-17.49.27:922][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 60) at 2019.11.13-17.49.27
+[2019.11.13-17.49.27:922][777]LogWorld: Bringing up level for play took: 0.000662
+[2019.11.13-17.49.27:937][777]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.409
+[2019.11.13-17.49.27:937][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.49.32:958][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.49.32:958][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-17.49.32:987][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.13-17.49.32:987][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.49.33:047][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-17.49.33:071][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2019.11.13-17.49.33:096][ 78]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.11.13-17.49.53:764][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-17.50.02:171][929]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.13-17.50.02:561][929]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2019.11.13-17.50.03:247][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.13-17.50.03:289][962]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter1550796F461307E45D585EBEA365ECA7.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.13-17.50.05:503][ 94]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.13-17.50.05:531][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.50.05:531][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.13-17.50.05:531][ 94]PIE: New page: PIE session: Prototype (Nov 13, 2019, 5:50:05 PM)
+[2019.11.13-17.50.05:532][ 94]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.13-17.50.05:536][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004314s)
+[2019.11.13-17.50.05:537][ 94]LogAIModule: Creating AISystem for world Prototype
+[2019.11.13-17.50.05:537][ 94]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2019.11.13-17.50.05:537][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.005698s)
+[2019.11.13-17.50.05:593][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2019.11.13-17.50.05:617][ 94]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.13-17.50.05:713][ 94]LogInit: FAudioDevice initialized.
+[2019.11.13-17.50.05:747][ 94]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.13-17.50.05:748][ 94]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 60) at 2019.11.13-17.50.05
+[2019.11.13-17.50.05:749][ 94]LogWorld: Bringing up level for play took: 0.000560
+[2019.11.13-17.50.05:763][ 94]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.235
+[2019.11.13-17.50.05:763][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.50.28:847][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.50.28:848][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-17.50.28:880][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.13-17.50.28:880][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.13-17.50.28:933][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-17.50.28:938][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.11.13-17.50.28:962][479]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.13-17.50.36:474][929]LogSlate: FSceneViewport::OnFocusLost() reason 0

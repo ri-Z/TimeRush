@@ -16,9 +16,9 @@ AMyCharacter::AMyCharacter()
 	//SpringArmComponent->bUsePawnControlRotation = true; // FAZ COM QUE CAMERA SE MOVA, I GUESS
 	//SpringArmComponent->SetupAttachment(RootComponent);
 
-	CameraComponent = CreateDefaultSubobject<UCameraComponent>("Camera Component");
-	//CameraComponent->SetupAttachment(GetMesh(), FName("head"));
-	CameraComponent->bUsePawnControlRotation = true;
+	/*CameraComponent = CreateDefaultSubobject<UCameraComponent>("Camera Component");
+	CameraComponent->SetupAttachment(GetMesh(), FName("head"));
+	CameraComponent->bUsePawnControlRotation = true;*/
 	//CameraComponent->AttachTo(SpringArmComponent, "headSocket");
 }
 
