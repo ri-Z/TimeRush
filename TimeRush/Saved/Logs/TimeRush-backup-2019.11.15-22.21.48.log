@@ -1,0 +1,923 @@
+﻿Log file open, 11/15/19 21:46:06
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TimeRush
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.307376
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=sneaKyPie -epicuserid=0ec919422b334695a8bb8c80de01ba99 -epiclocale=en-US
+LogInit: Base Directory: D:/Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.15-21.46.07:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.15-21.46.07:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.15-21.46.07:195][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.15-21.46.07:199][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.15-21.46.07:199][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.15-21.46.07:200][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.15-21.46.07:200][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.15-21.46.07:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.15-21.46.07:216][  0]LogHAL: Display: Platform has ~ 16 GB [17073463296 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.15-21.46.07:216][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.15-21.46.07:216][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.15-21.46.07:216][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.15-21.46.07:217][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.15-21.46.07:218][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.15-21.46.07:219][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.15-21.46.07:219][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.15-21.46.07:219][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Config/Windows/Engine.ini]
+[2019.11.15-21.46.07:219][  0]LogInit: Computer: DESKTOP-P7E93EO
+[2019.11.15-21.46.07:219][  0]LogInit: User: riZ
+[2019.11.15-21.46.07:219][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.15-21.46.07:219][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.15-21.46.07:219][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.15-21.46.07:220][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.15-21.46.07:220][  0]LogMemory: Process Physical Memory: 98.16 MB used, 98.17 MB peak
+[2019.11.15-21.46.07:220][  0]LogMemory: Process Virtual Memory: 93.24 MB used, 93.24 MB peak
+[2019.11.15-21.46.07:220][  0]LogMemory: Physical Memory: 8004.69 MB used,  8277.84 MB free, 16282.52 MB total
+[2019.11.15-21.46.07:220][  0]LogMemory: Virtual Memory: 4647.12 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.11.15-21.46.07:267][  0]LogInit: Using OS detected language (en-US).
+[2019.11.15-21.46.07:267][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.15-21.46.07:269][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.15-21.46.07:475][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.15-21.46.07:532][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.15-21.46.07:532][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.15-21.46.08:018][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.15-21.46.08:018][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.15-21.46.08:111][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.11.15-21.46.08:111][  0]LogD3D11RHI:       2010/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.15-21.46.08:128][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.11.15-21.46.08:128][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.15-21.46.08:132][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.15-21.46.08:132][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.15-21.46.08:132][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.15-21.46.08:181][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.15-21.46.08:181][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.11.15-21.46.08:181][  0]LogWindows: EnumDisplayDevices:
+[2019.11.15-21.46.08:181][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.11.15-21.46.08:182][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.11.15-21.46.08:182][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.11.15-21.46.08:183][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.15-21.46.08:183][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.11.15-21.46.08:183][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.15-21.46.08:183][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.15-21.46.08:183][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.11.15-21.46.08:251][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.15-21.46.08:255][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.15-21.46.08:256][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.15-21.46.08:256][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.15-21.46.08:264][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.15-21.46.08:689][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.15-21.46.08:707][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.15-21.46.08:727][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.15-21.46.08:746][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.15-21.46.08:766][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.15-21.46.08:784][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.15-21.46.08:802][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.15-21.46.08:823][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.15-21.46.08:833][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.15-21.46.08:955][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.15-21.46.08:959][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.15-21.46.09:021][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.15-21.46.09:021][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.15-21.46.09:064][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.15-21.46.09:064][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.15-21.46.09:084][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.15-21.46.09:101][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.15-21.46.09:117][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.15-21.46.09:137][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.15-21.46.09:231][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.15-21.46.09:231][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.15-21.46.09:231][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.15-21.46.09:252][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.15-21.46.09:347][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Intermediate/Shaders/WorkingDirectory/12920/).
+[2019.11.15-21.46.09:348][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/2011j/AppData/Local/Temp/UnrealShaderWorkingDir/FC932F9F486F2358EDD2118BBB5EB48F/'.
+[2019.11.15-21.46.09:350][  0]LogXGEController: Cleaning working directory: C:/Users/2011j/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.15-21.46.09:350][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.15-21.46.09:350][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.15-21.46.09:350][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.15-21.46.10:136][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.15-21.46.10:194][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.15-21.46.10:194][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.15-21.46.10:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.15-21.46.10:194][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.15-21.46.10:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.15-21.46.10:194][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.15-21.46.10:211][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.15-21.46.10:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.15-21.46.10:211][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.15-21.46.10:224][  0]LogDerivedDataCache: Using Local data cache path C:/Users/2011j/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.15-21.46.10:224][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.15-21.46.10:224][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.15-21.46.10:254][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.15-21.46.10:255][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.15-21.46.10:256][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.15-21.46.10:391][  0]LogAssetRegistry: FAssetRegistry took 0.0385 seconds to start up
+[2019.11.15-21.46.10:957][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.15-21.46.11:135][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.15-21.46.11:135][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.15-21.46.11:135][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.15-21.46.11:135][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.15-21.46.11:135][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.15-21.46.11:157][  0]LogNetVersion: TimeRush 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1373495878)
+[2019.11.15-21.46.11:740][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.047061 seconds
+[2019.11.15-21.46.11:747][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.15-21.46.11:747][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.15-21.46.11:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.15-21.46.13:264][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.15-21.46.13:279][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.15-21.46.13:431][  0]SourceControl: Source control is disabled
+[2019.11.15-21.46.13:431][  0]SourceControl: Source control is disabled
+[2019.11.15-21.46.13:434][  0]SourceControl: Source control is disabled
+[2019.11.15-21.46.13:436][  0]SourceControl: Source control is disabled
+[2019.11.15-21.46.13:596][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.15-21.46.13:740][  0]LogOcInput: OculusInput pre-init called
+[2019.11.15-21.46.14:933][  0]LogEngine: Initializing Engine...
+[2019.11.15-21.46.14:934][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.15-21.46.14:935][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.11.15-21.46.15:206][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.15-21.46.15:221][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.15-21.46.15:259][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-21.46.15:361][  0]LogInit: FAudioDevice initialized.
+[2019.11.15-21.46.15:362][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.15-21.46.15:691][  0]LogDerivedDataCache: Saved boot cache 0.33s 71MB C:/Users/2011j/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.15-21.46.15:691][  0]LogInit: Texture streaming: Enabled
+[2019.11.15-21.46.15:716][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.15-21.46.15:716][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A4276AC1-4355-E6F1-20EA-98AB5D82F3DF}
+[2019.11.15-21.46.15:742][  0]LogInit: Transaction tracking system initialized
+[2019.11.15-21.46.15:775][  0]BlueprintLog: New page: Editor Load
+[2019.11.15-21.46.15:877][  0]LocalizationService: Localization service is disabled
+[2019.11.15-21.46.16:355][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/' took 0.02s
+[2019.11.15-21.46.16:355][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.15-21.46.16:356][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.15-21.46.16:683][  0]SourceControl: Source control is disabled
+[2019.11.15-21.46.16:683][  0]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-21.46.16:684][  0]LightingResults: New page: Lighting Build
+[2019.11.15-21.46.16:688][  0]MapCheck: New page: Map Check
+[2019.11.15-21.46.16:688][  0]LightingResults: New page: Lighting Build
+[2019.11.15-21.46.16:728][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2019.11.15-21.46.17:046][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.11.15-21.46.17:060][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.15-21.46.17:095][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.11.15-21.46.17:095][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-21.46.17:096][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.382ms to complete.
+[2019.11.15-21.46.17:096][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.413
+[2019.11.15-21.46.17:223][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-21.46.17:231][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-21.46.17:240][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-21.46.17:251][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-21.46.17:258][  0]LogCollectionManager: Loaded 0 collections in 0.001583 seconds
+[2019.11.15-21.46.17:300][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Collections/' took 0.01s
+[2019.11.15-21.46.17:300][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Developers/riZ/Collections/' took 0.01s
+[2019.11.15-21.46.17:300][  0]LogFileCache: Scanning file cache for directory 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Collections/' took 0.01s
+[2019.11.15-21.46.17:300][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.15-21.46.17:310][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2737 classes and 661 folders.
+[2019.11.15-21.46.17:318][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.11.15-21.46.17:321][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:322][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:323][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:324][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:325][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:326][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:327][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:330][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:331][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:332][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:333][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:334][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:335][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:336][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:338][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:340][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:341][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:342][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:345][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:347][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:348][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.15-21.46.17:432][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.11.15-21.46.17:441][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.11.15-21.46.19:006][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.15-21.46.19:041][  0]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.15-21.46.19:045][  0]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.15-21.46.19:056][  0]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.15-21.46.19:212][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2019.11.15-21.46.19:276][  0]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.15-21.46.19:390][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.11.15-21.46.19:390][  0]LogLoad: (Engine Initialization) Total time: 15.34 seconds
+[2019.11.15-21.46.19:390][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.15-21.46.19:594][  0]LogAssetRegistry: Asset discovery search completed in 9.2259 seconds
+[2019.11.15-21.46.19:597][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.15-21.46.19:597][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2019.11.15-21.46.19:598][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.15-21.46.20:424][ 40]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.15-21.46.21:560][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.46.23:452][194]LogAIModule: Creating AISystem for world Prototype
+[2019.11.15-21.46.23:467][194]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Prototype.Prototype
+[2019.11.15-21.46.23:508][194]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2019.11.15-21.46.23:510][194]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-21.46.23:510][194]LightingResults: New page: Lighting Build
+[2019.11.15-21.46.23:511][194]LoadErrors: New page: Loading map: Prototype.umap
+[2019.11.15-21.46.23:512][194]MapCheck: New page: Map Check
+[2019.11.15-21.46.23:512][194]LightingResults: New page: Lighting Build
+[2019.11.15-21.46.23:547][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.11.15-21.46.23:642][194]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.15-21.46.23:679][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.11.15-21.46.23:709][194]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-21.46.23:709][194]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.307ms to complete.
+[2019.11.15-21.46.23:710][194]LogFileHelpers: Loading map 'Prototype' took 0.201
+[2019.11.15-21.46.24:381][229]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyCharacter.BP_MyCharacter
+[2019.11.15-21.46.24:783][229]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
+[2019.11.15-21.46.25:962][229]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_SniperProjectile.BP_SniperProjectile
+[2019.11.15-21.46.29:313][398]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_SniperProjectile.BP_SniperProjectile
+[2019.11.15-21.46.29:740][398]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.15-21.46.30:114][415]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.15-21.47.26:940][483]LogRenderer: Reallocating scene render targets to support 1208x716 Format 10 NumSamples 1 (Frame:1).
+[2019.11.15-21.48.03:135][591]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.15-21.48.03:442][591]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.11.15-21.48.05:581][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.15-21.48.05:645][706]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacterB5A318F74A85305E9B727C82F4AC78C8.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.15-21.48.07:510][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.15-21.48.07:564][807]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2019.11.15-21.48.07:810][807]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype0853724C4B97C4426CED85B9F21BEF37.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap'
+[2019.11.15-21.48.07:871][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype_BuiltData" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset" SILENT=true
+[2019.11.15-21.48.07:967][807]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Prototype_BuiltData8DEA27214BB088B1F992939F95CA2A3B.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype_BuiltData.uasset'
+[2019.11.15-22.01.20:875][647]LogDirectoryWatcher: A directory notification failed for 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2019.11.15-22.01.20:875][647]LogDirectoryWatcher: A directory notification failed for 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Developers/riZ/Collections/' because it could not be accessed. Aborting watch request...
+[2019.11.15-22.01.20:876][647]LogDirectoryWatcher: A directory notification failed for 'D:/Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2019.11.15-22.07.13:212][450]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 64X64)
+[2019.11.15-22.07.13:212][450]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2019.11.15-22.07.13:212][450]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 64X64)
+[2019.11.15-22.07.13:212][450]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.11.15-22.07.13:212][450]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 64X32)
+[2019.11.15-22.07.13:212][450]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.11.15-22.07.13:212][450]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 64X32)
+[2019.11.15-22.07.13:213][450]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 64X32)
+[2019.11.15-22.07.13:258][450]LogTexture: Display: Building textures: T_Prototype_SniperRifleScope_E (AutoDXT, 2048X2048)
+[2019.11.15-22.07.13:258][450]LogTexture: Display: Building textures: T_Prototype_SniperRifle_M (AutoDXT, 2048X2048)
+[2019.11.15-22.07.13:258][450]LogTexture: Display: Building textures: T_Prototype_Shotgun_M (AutoDXT, 2048X2048)
+[2019.11.15-22.07.13:321][450]LogStaticMesh: Building static mesh Prototype_AssaultRifle_Ammo...
+[2019.11.15-22.07.13:345][450]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
+[2019.11.15-22.07.13:552][450]LogTexture: Display: Building textures: T_Prototype_Shotgun_N (BC5, 2048X2048)
+[2019.11.15-22.07.13:552][450]LogTexture: Display: Building textures: T_Prototype_SniperRifle_N (BC5, 2048X2048)
+[2019.11.15-22.07.13:552][450]LogTexture: Display: Building textures: T_Prototype_SniperRifle_D (AutoDXT, 2048X2048)
+[2019.11.15-22.07.13:552][450]LogStaticMesh: Built static mesh [0.23s] /Game/PrototypeWeap/Prototype_AssaultRifle_Ammo.Prototype_AssaultRifle_Ammo
+[2019.11.15-22.07.13:626][450]LogStaticMesh: Building static mesh Prototype_AssaultRifle_Pickup...
+[2019.11.15-22.07.13:653][450]LogStaticMesh: Built static mesh [0.03s] /Game/PrototypeWeap/Prototype_AssaultRifle_Pickup.Prototype_AssaultRifle_Pickup
+[2019.11.15-22.07.13:658][450]LogStaticMesh: Building static mesh Prototype_GrenadeLauncher_Ammo...
+[2019.11.15-22.07.13:661][450]LogStaticMesh: Built static mesh [0.00s] /Game/PrototypeWeap/Prototype_GrenadeLauncher_Ammo.Prototype_GrenadeLauncher_Ammo
+[2019.11.15-22.07.13:669][450]LogStaticMesh: Building static mesh Prototype_GrenadeLauncher_Pickup...
+[2019.11.15-22.07.13:695][450]LogStaticMesh: Built static mesh [0.03s] /Game/PrototypeWeap/Prototype_GrenadeLauncher_Pickup.Prototype_GrenadeLauncher_Pickup
+[2019.11.15-22.07.13:699][450]LogStaticMesh: Building static mesh Prototype_Pistol_Ammo...
+[2019.11.15-22.07.13:702][450]LogStaticMesh: Built static mesh [0.00s] /Game/PrototypeWeap/Prototype_Pistol_Ammo.Prototype_Pistol_Ammo
+[2019.11.15-22.07.13:724][450]LogStaticMesh: Building static mesh Prototype_Pistol_Pickup...
+[2019.11.15-22.07.13:733][450]LogStaticMesh: Built static mesh [0.01s] /Game/PrototypeWeap/Prototype_Pistol_Pickup.Prototype_Pistol_Pickup
+[2019.11.15-22.07.13:754][450]LogStaticMesh: Building static mesh Prototype_RocketLauncher_Ammo...
+[2019.11.15-22.07.13:761][450]LogStaticMesh: Built static mesh [0.01s] /Game/PrototypeWeap/Prototype_RocketLauncher_Ammo.Prototype_RocketLauncher_Ammo
+[2019.11.15-22.07.13:789][450]LogStaticMesh: Building static mesh Prototype_RocketLauncher_Pickup...
+[2019.11.15-22.07.13:810][450]LogStaticMesh: Built static mesh [0.02s] /Game/PrototypeWeap/Prototype_RocketLauncher_Pickup.Prototype_RocketLauncher_Pickup
+[2019.11.15-22.07.13:942][450]LogStaticMesh: Building static mesh Prototype_Shotgun_Ammo...
+[2019.11.15-22.07.13:943][450]LogStaticMesh: Built static mesh [0.00s] /Game/PrototypeWeap/Prototype_Shotgun_Ammo.Prototype_Shotgun_Ammo
+[2019.11.15-22.07.13:945][450]LogStaticMesh: Building static mesh Prototype_Shotgun_Pickup...
+[2019.11.15-22.07.13:945][450]LogStaticMesh: Built static mesh [0.00s] /Game/PrototypeWeap/Prototype_Shotgun_Pickup.Prototype_Shotgun_Pickup
+[2019.11.15-22.07.13:947][450]LogStaticMesh: Building static mesh Prototype_SniperRifle_Ammo...
+[2019.11.15-22.07.13:948][450]LogStaticMesh: Built static mesh [0.00s] /Game/PrototypeWeap/Prototype_SniperRifle_Ammo.Prototype_SniperRifle_Ammo
+[2019.11.15-22.07.13:954][450]LogStaticMesh: Building static mesh Prototype_SniperRifle_Pickup...
+[2019.11.15-22.07.13:960][450]LogStaticMesh: Built static mesh [0.01s] /Game/PrototypeWeap/Prototype_SniperRifle_Pickup.Prototype_SniperRifle_Pickup
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_Shotgun_D (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_RocketLauncher_N (BC5, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_RocketLauncher_M (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_RocketLauncher_D (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_Pistol_N (BC5, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_Pistol_M (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_Pistol_D (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_Knife_N (BC5, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_Knife_M (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_Knife_D (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_GrenadeLauncherScope_E (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_AssaultRifle_N (BC5, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_AssaultRifle_M (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_AssaultRifle_D (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_GrenadeLauncher_N (BC5, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_GrenadeLauncher_M (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogTexture: Display: Building textures: T_Prototype_GrenadeLauncher_D (AutoDXT, 2048X2048)
+[2019.11.15-22.07.25:570][450]LogMaterial: Display: Missing cached shader map for material M_Master, compiling. 
+[2019.11.15-22.07.25:927][450]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.15-22.07.25:927][450]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.15-22.07.25:927][450]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.15-22.07.25:927][450]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.15-22.07.25:927][450]LogMaterial: Display: Missing cached shader map for material M_Master, compiling. 
+[2019.11.15-22.07.25:974][450]LogSkeletalMesh: Building Skeletal Mesh Prototype_SniperRifle...
+[2019.11.15-22.07.26:042][450]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/PrototypeWeap/Prototype_SniperRifle.Prototype_SniperRifle
+[2019.11.15-22.07.26:046][450]LogMaterial: Display: Missing cached shader map for material M_Master, compiling. 
+[2019.11.15-22.07.26:093][450]LogSkeletalMesh: Building Skeletal Mesh Prototype_Shotgun...
+[2019.11.15-22.07.26:097][450]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/PrototypeWeap/Prototype_Shotgun.Prototype_Shotgun
+[2019.11.15-22.07.26:098][450]LogSkeletalMesh: Building Skeletal Mesh Prototype_RocketLauncher...
+[2019.11.15-22.07.26:099][450]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/PrototypeWeap/Prototype_RocketLauncher.Prototype_RocketLauncher
+[2019.11.15-22.07.26:100][450]LogSkeletalMesh: Building Skeletal Mesh Prototype_Pistol...
+[2019.11.15-22.07.26:102][450]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/PrototypeWeap/Prototype_Pistol.Prototype_Pistol
+[2019.11.15-22.07.26:106][450]LogMaterial: Display: Missing cached shader map for material M_Knife, compiling. 
+[2019.11.15-22.07.26:153][450]LogSkeletalMesh: Building Skeletal Mesh Prototype_Knife...
+[2019.11.15-22.07.26:154][450]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/PrototypeWeap/Prototype_Knife.Prototype_Knife
+[2019.11.15-22.07.26:160][450]LogSkeletalMesh: Building Skeletal Mesh Prototype_GrenadeLauncher...
+[2019.11.15-22.07.26:168][450]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/PrototypeWeap/Prototype_GrenadeLauncher.Prototype_GrenadeLauncher
+[2019.11.15-22.07.26:175][450]LogSkeletalMesh: Building Skeletal Mesh Prototype_AssaultRifle...
+[2019.11.15-22.07.26:179][450]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/PrototypeWeap/Prototype_AssaultRifle.Prototype_AssaultRifle
+[2019.11.15-22.07.26:183][450]LogAIModule: Creating AISystem for world Showcase
+[2019.11.15-22.07.26:185][450]LogActorComponent: RegisterComponentWithWorld: (/Game/PrototypeWeap/Showcase.Showcase:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.15-22.07.26:406][450]LogAssetEditorManager: Opening Asset editor for World /Game/PrototypeWeap/Showcase.Showcase
+[2019.11.15-22.07.26:461][450]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.11.15-22.07.26:464][450]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/PrototypeWeap/Showcase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-22.07.26:464][450]LightingResults: New page: Lighting Build
+[2019.11.15-22.07.26:465][450]LoadErrors: New page: Loading map: Showcase.umap
+[2019.11.15-22.07.26:466][450]MapCheck: New page: Map Check
+[2019.11.15-22.07.26:466][450]LightingResults: New page: Lighting Build
+[2019.11.15-22.07.26:524][450]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2019.11.15-22.07.26:736][450]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.15-22.07.26:791][450]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.15-22.07.26:819][450]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-22.07.26:820][450]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.483ms to complete.
+[2019.11.15-22.07.26:820][450]LogFileHelpers: Loading map 'Showcase' took 0.359
+[2019.11.15-22.07.34:280][753]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.11.15-22.07.36:212][841]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.11.15-22.07.37:913][920]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.11.15-22.07.40:194][ 22]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.11.15-22.07.42:381][106]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.11.15-22.07.45:971][268]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.11.15-22.07.48:477][382]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.11.15-22.07.51:286][511]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.11.15-22.07.52:966][587]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.11.15-22.07.58:153][826]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.11.15-22.07.58:169][827]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.11.15-22.08.01:136][959]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.11.15-22.08.04:258][101]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.11.15-22.08.06:047][155]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.11.15-22.08.10:980][377]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.15-22.08.12:289][434]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.15-22.08.14:363][525]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.15-22.08.15:429][572]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.15-22.08.18:895][719]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.15-22.08.19:409][743]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (51.724 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.15-22.08.23:049][911]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.15-22.12.19:964][280]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Prototype_SniperRifle)
+[2019.11.15-22.12.51:438][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.13.14:322][985]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.15-22.13.49:506][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Reload_Cue.SR_Reload_Cue:SoundCueGraph_13.SoundCueGraphNode_30' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.49:506][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Reload_Cue.SR_Reload_Cue:SoundCueGraph_13.SoundCueGraphNode_31' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.49:506][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Reload_Cue.SR_Reload_Cue:SoundCueGraph_13.SoundCueGraphNode_32' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.49:506][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Reload_Cue.SR_Reload_Cue:SoundCueGraph_13.SoundCueGraphNode_33' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.49:506][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Reload_Cue.SR_Reload_Cue:SoundCueGraph_13.SoundCueGraphNode_Root_13' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.49:547][399]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/PrototypeWeap/Anims/Reload_SniperRifle_Hips_W.Reload_SniperRifle_Hips_W
+[2019.11.15-22.13.49:562][399]LogAnimationCompression: Recompressing (AnimSequence /Game/PrototypeWeap/Anims/Reload_SniperRifle_Hips_W.Reload_SniperRifle_Hips_W) using current/default (AnimCompress_RemoveLinearKeys_19) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.15-22.13.49:576][399]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Reload03...
+[2019.11.15-22.13.49:647][399]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 72426 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Reload03.SR_Reload03.
+[2019.11.15-22.13.49:647][399]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Reload02...
+[2019.11.15-22.13.49:662][399]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 67376 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Reload02.SR_Reload02.
+[2019.11.15-22.13.49:662][399]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Reload01...
+[2019.11.15-22.13.49:684][399]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 54136 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Reload01.SR_Reload01.
+[2019.11.15-22.13.49:684][399]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_ReloadMagInsert...
+[2019.11.15-22.13.49:700][399]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 24232 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert.SR_ReloadMagInsert.
+[2019.11.15-22.13.49:700][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert_Cue.SR_ReloadMagInsert_Cue:SoundCueGraph_15.SoundCueGraphNode_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.49:700][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert_Cue.SR_ReloadMagInsert_Cue:SoundCueGraph_15.SoundCueGraphNode_Root_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.49:700][399]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_ReloadMagEject...
+[2019.11.15-22.13.49:714][399]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 27514 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject.SR_ReloadMagEject.
+[2019.11.15-22.13.49:714][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject_Cue.SR_ReloadMagEject_Cue:SoundCueGraph_14.SoundCueGraphNode_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.49:714][399]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject_Cue.SR_ReloadMagEject_Cue:SoundCueGraph_14.SoundCueGraphNode_Root_14' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.13.54:676][705]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/PrototypeWeap/Anims/Prone_Reload_SniperRifle_W.Prone_Reload_SniperRifle_W
+[2019.11.15-22.13.54:676][705]LogAnimationCompression: Recompressing (AnimSequence /Game/PrototypeWeap/Anims/Prone_Reload_SniperRifle_W.Prone_Reload_SniperRifle_W) using current/default (AnimCompress_RemoveLinearKeys_18) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.15-22.14.00:262][ 59]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/PrototypeWeap/Anims/Reload_SniperRifle_Ironsights_W.Reload_SniperRifle_Ironsights_W
+[2019.11.15-22.14.00:262][ 59]LogAnimationCompression: Recompressing (AnimSequence /Game/PrototypeWeap/Anims/Reload_SniperRifle_Ironsights_W.Reload_SniperRifle_Ironsights_W) using current/default (AnimCompress_RemoveLinearKeys_20) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.15-22.14.06:055][422]LogTexture: Display: Building textures: T_LightStreak_01 (AutoDXT, 64X1024)
+[2019.11.15-22.14.06:055][422]LogTexture: Display: Building textures: T_SmokeSimple_01 (AutoDXT, 128X128)
+[2019.11.15-22.14.06:055][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire02...
+[2019.11.15-22.14.06:111][422]LogTexture: Display: Building textures: T_GlowSphere_01 (AutoDXT, 512X512)
+[2019.11.15-22.14.06:111][422]LogTexture: Display: Building textures: T_SparkImpacts_2x2_01 (AutoDXT, 512X512)
+[2019.11.15-22.14.06:111][422]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.11.15-22.14.06:111][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 78686 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire02.SR_Fire02.
+[2019.11.15-22.14.06:111][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire04...
+[2019.11.15-22.14.06:153][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 68894 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire04.SR_Fire04.
+[2019.11.15-22.14.06:153][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire03...
+[2019.11.15-22.14.06:184][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 64292 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire03.SR_Fire03.
+[2019.11.15-22.14.06:185][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire05...
+[2019.11.15-22.14.06:218][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 64528 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire05.SR_Fire05.
+[2019.11.15-22.14.06:317][422]LogMaterial: Display: Missing cached shader map for material M_SparksImpact_2x2_01, compiling. 
+[2019.11.15-22.14.06:365][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:365][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_10' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_13' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_14' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_16' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:366][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:367][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:367][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:367][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:367][422]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_Root_69' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.15-22.14.06:367][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire01...
+[2019.11.15-22.14.06:382][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 74510 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire01.SR_Fire01.
+[2019.11.15-22.14.06:382][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire_ST05...
+[2019.11.15-22.14.06:422][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 114048 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST05.SR_Fire_ST05.
+[2019.11.15-22.14.06:422][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire_ST04...
+[2019.11.15-22.14.06:454][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 111772 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST04.SR_Fire_ST04.
+[2019.11.15-22.14.06:454][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire_ST06...
+[2019.11.15-22.14.06:502][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 161264 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST06.SR_Fire_ST06.
+[2019.11.15-22.14.06:507][422]LogMaterial: Display: Missing cached shader map for material M_LightStreak_01, compiling. 
+[2019.11.15-22.14.06:691][422]LogMaterial: Display: Missing cached shader map for material M_Pop_01, compiling. 
+[2019.11.15-22.14.06:732][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire_ST02...
+[2019.11.15-22.14.06:769][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 156508 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST02.SR_Fire_ST02.
+[2019.11.15-22.14.06:770][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire06...
+[2019.11.15-22.14.06:795][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 81272 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire06.SR_Fire06.
+[2019.11.15-22.14.06:796][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire_ST03...
+[2019.11.15-22.14.06:827][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 98224 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST03.SR_Fire_ST03.
+[2019.11.15-22.14.06:827][422]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SR_Fire_ST01...
+[2019.11.15-22.14.06:867][422]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 148808 while cooking SoundWave /Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST01.SR_Fire_ST01.
+[2019.11.15-22.14.06:873][422]LogMaterial: Display: Missing cached shader map for material M_SmokeSimple_01, compiling. 
+[2019.11.15-22.14.06:902][422]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/PrototypeWeap/Anims/Fire_SniperRifle_W.Fire_SniperRifle_W
+[2019.11.15-22.14.06:902][422]LogAnimationCompression: Recompressing (AnimSequence /Game/PrototypeWeap/Anims/Fire_SniperRifle_W.Fire_SniperRifle_W) using current/default (AnimCompress_RemoveLinearKeys_17) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.15-22.14.44:599][641]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.15-22.14.45:404][641]LogUObjectHash: Compacting FUObjectHashTables data took  12.00ms
+[2019.11.15-22.16.28:815][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.17.12:754][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.17.28:391][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.17.28:471][531]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.15-22.17.28:932][531]LogUObjectHash: Compacting FUObjectHashTables data took   7.53ms
+[2019.11.15-22.18.02:067][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.18.02:181][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyCharacter" FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset" SILENT=true
+[2019.11.15-22.18.02:253][263]LogSavePackage: Moving '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Saved/BP_MyCharacter0E2E0C2D431BE115DD9AA7BA8AF7D4FE.tmp' to '../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Blueprints/BP_MyCharacter.uasset'
+[2019.11.15-22.18.02:923][313]BlueprintLog: New page: Compile BP_MyCharacter
+[2019.11.15-22.18.03:215][313]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2019.11.15-22.18.21:684][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.19.33:742][130]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/PrototypeWeap/Prototype_SniperRifle_Skeleton.Prototype_SniperRifle_Skeleton
+[2019.11.15-22.19.34:086][130]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.11.15-22.19.34:087][130]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2019.11.15-22.19.34:814][130]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.15-22.19.34:848][130]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.11.15-22.19.34:849][130]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2019.11.15-22.19.35:195][130]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.15-22.19.36:215][130]LogRenderer: Reallocating scene render targets to support 1208x896 Format 10 NumSamples 1 (Frame:1).
+[2019.11.15-22.19.52:122][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.20.05:512][594]LogSlate: Window 'Prototype_SniperRifle_Skeleton' being destroyed
+[2019.11.15-22.20.26:588][802]LogAIModule: Creating AISystem for world Prototype
+[2019.11.15-22.20.26:595][802]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Prototype.Prototype
+[2019.11.15-22.20.26:748][802]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2019.11.15-22.20.26:750][802]Cmd: MAP LOAD FILE="../../../../../Universidade Europeia/GitHub/TimeRush/TimeRush/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-22.20.26:750][802]LightingResults: New page: Lighting Build
+[2019.11.15-22.20.26:753][802]LoadErrors: New page: Loading map: Prototype.umap
+[2019.11.15-22.20.26:755][802]MapCheck: New page: Map Check
+[2019.11.15-22.20.26:755][802]LightingResults: New page: Lighting Build
+[2019.11.15-22.20.26:849][802]LogUObjectHash: Compacting FUObjectHashTables data took   6.92ms
+[2019.11.15-22.20.27:116][802]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.15-22.20.27:170][802]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.15-22.20.27:195][802]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-22.20.27:196][802]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.495ms to complete.
+[2019.11.15-22.20.27:196][802]LogFileHelpers: Loading map 'Prototype' took 0.447
+[2019.11.15-22.20.30:186][121]Candidate modules for hot reload:
+[2019.11.15-22.20.30:186][121]  TimeRush
+[2019.11.15-22.20.30:187][121]Launching UnrealBuildTool... [D:/Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TimeRush,5847 Win64 Development -TargetType=Editor -Project="D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject" "D:/Universidade Europeia/GitHub/TimeRush/TimeRush/TimeRush.uproject"  -IgnoreJunk]
+[2019.11.15-22.20.30:219][121]Warning: Starting HotReload took  0.1s.
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: New page: Compilation - Nov 15, 2019, 10:21:07 PM
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: Creating makefile for TimeRushEditor (ini files are newer than makefile)
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: Parsing headers for TimeRushEditor
+[2019.11.15-22.21.07:181][577]CompilerResultsLog:   Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: Reflection code generated for TimeRushEditor in 10.4321751 seconds
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.11.15-22.21.07:181][577]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2019.11.15-22.21.07:181][577]CompilerResultsLog:   [2/4] UE4Editor-TimeRush-5847.lib
+[2019.11.15-22.21.07:181][577]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-5847.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-5847.exp
+[2019.11.15-22.21.07:181][577]CompilerResultsLog:   [3/4] UE4Editor-TimeRush-5847.dll
+[2019.11.15-22.21.07:181][577]CompilerResultsLog:      Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-5847.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-5847.suppressed.exp
+[2019.11.15-22.21.07:181][577]CompilerResultsLog:   [4/4] TimeRushEditor.target
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: Total time in Parallel executor: 21.46 seconds
+[2019.11.15-22.21.07:181][577]CompilerResultsLog: Total execution time: 36.63 seconds
+[2019.11.15-22.21.07:181][577]LogMainFrame: MainFrame: Module compiling took 37.000 seconds
+[2019.11.15-22.21.07:227][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.11.15-22.21.07:228][577]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (unloaded)
+[2019.11.15-22.21.07:290][577]LogBlueprintActionDatabase: Requesting refresh due to module change: TimeRush (loaded)
+[2019.11.15-22.21.07:291][577]LogContentBrowser: Native class hierarchy updated for 'TimeRush' in 0.0007 seconds. Added 5 classes and 2 folders.
+[2019.11.15-22.21.07:296][577]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.11.15-22.21.07:472][577]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.11.15-22.21.07:472][577]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.15-22.21.07:495][577]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2739 classes and 665 folders.
+[2019.11.15-22.21.07:495][577]Display: HotReload took 37.3s.
+[2019.11.15-22.21.32:818][808]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-22.21.32:843][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.15-22.21.32:843][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-22.21.32:843][808]PIE: New page: PIE session: Prototype (Nov 15, 2019, 10:21:32 PM)
+[2019.11.15-22.21.32:856][808]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2019.11.15-22.21.32:861][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004005s)
+[2019.11.15-22.21.32:862][808]LogAIModule: Creating AISystem for world Prototype
+[2019.11.15-22.21.32:875][808]LogPlayLevel: PIE: World Init took: (0.014593s)
+[2019.11.15-22.21.32:875][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.019603s)
+[2019.11.15-22.21.32:968][808]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.11.15-22.21.32:994][808]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-22.21.33:089][808]LogInit: FAudioDevice initialized.
+[2019.11.15-22.21.33:133][808]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.11.15-22.21.33:134][808]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.15-22.21.33
+[2019.11.15-22.21.33:135][808]LogWorld: Bringing up level for play took: 0.000739
+[2019.11.15-22.21.33:206][808]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.15-22.21.33:209][808]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.15-22.21.33:210][808]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.11.15-22.21.33:213][808]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.752
+[2019.11.15-22.21.33:213][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.15-22.21.48:440][193]LogWindows: Error: === Critical error: ===
+[2019.11.15-22.21.48:440][193]LogWindows: Error: 
+[2019.11.15-22.21.48:440][193]LogWindows: Error: Fatal error!
+[2019.11.15-22.21.48:440][193]LogWindows: Error: 
+[2019.11.15-22.21.48:440][193]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2019.11.15-22.21.48:440][193]LogWindows: Error: 
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff844674792 UE4Editor-TimeRush-5847.dll!AMyCharacter::ToggleAiming() [d:\universidade europeia\github\timerush\timerush\source\timerush\mycharacter.cpp:120]
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff825a76ac7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff825aa0ef1 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff825610dc4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff825623c88 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff82560f1cb UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff825622697 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff824a0aeed UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff8259c72bc UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff83f7222d8 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff83f722563 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff83f732309 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff825a0f9e3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff825a1bd12 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff82523dc4f UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff825247e28 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff8235902f7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff823dad396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff62df96bb1 UE4Editor.exe!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff62dfa554c UE4Editor.exe!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff62dfa55ca UE4Editor.exe!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff62dfb316c UE4Editor.exe!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff62dfb5b8e UE4Editor.exe!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff8a4a67974 KERNEL32.DLL!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: [Callstack] 0x00007ff8a5caa271 ntdll.dll!UnknownFunction []
+[2019.11.15-22.21.48:440][193]LogWindows: Error: 
+[2019.11.15-22.21.48:484][193]LogExit: Executing StaticShutdownAfterError
+[2019.11.15-22.21.48:493][193]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.11.15-22.21.48:529][193]Log file closed, 11/15/19 22:21:48

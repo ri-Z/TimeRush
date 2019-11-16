@@ -1,0 +1,9 @@
+D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\Definitions.TimeRush.h
+D:\Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRush/SniperProjectile.h
+D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+d:\universidade europeia\github\timerush\timerush\intermediate\build\win64\ue4editor\inc\timerush\SniperProjectile.generated.h

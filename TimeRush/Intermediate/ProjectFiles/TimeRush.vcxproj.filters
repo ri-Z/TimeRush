@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TimeRush.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E4A7B55B-2B40-422D-BD0B-38F515862B1F}</UniqueIdentifier>
+      <UniqueIdentifier>{B984D4FD-0B9F-4B71-83BB-E9A9A2126278}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TimeRush.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B492D680-0438-4C64-8602-C82EDF9779D3}</UniqueIdentifier>
+      <UniqueIdentifier>{65E17D78-02DA-4364-AA2E-C1DF81125BA8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,30 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\TimeRush">
-      <UniqueIdentifier>{B73F4E70-712A-41C5-930B-9BD0DDA4CE8B}</UniqueIdentifier>
+      <UniqueIdentifier>{6CD60752-E902-400F-B273-A5F3BBFF01C0}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TimeRush\MyCharacter.cpp">
+      <Filter>Source\TimeRush</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimeRush\MyCharacter.h">
+      <Filter>Source\TimeRush</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimeRush\MyGameStateBase.cpp">
+      <Filter>Source\TimeRush</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimeRush\MyGameStateBase.h">
+      <Filter>Source\TimeRush</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimeRush\SniperProjectile.cpp">
+      <Filter>Source\TimeRush</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimeRush\SniperProjectile.h">
+      <Filter>Source\TimeRush</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TimeRush\TimeRush.Build.cs">
       <Filter>Source\TimeRush</Filter>
     </None>
@@ -43,18 +64,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\TimeRush\MyCharacter.h">
-      <Filter>Source\TimeRush</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TimeRush\MyGameStateBase.h">
+    <ClInclude Include="..\..\Source\TimeRush\Target.h">
       <Filter>Source\TimeRush</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\TimeRush\MyCharacter.cpp">
-      <Filter>Source\TimeRush</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TimeRush\MyGameStateBase.cpp">
+    <ClCompile Include="..\..\Source\TimeRush\Target.cpp">
       <Filter>Source\TimeRush</Filter>
     </ClCompile>
   </ItemGroup>

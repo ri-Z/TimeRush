@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TimeRush-8522.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\MyCharacter.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\MyGameStateBase.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\SniperProjectile.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\Target.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\TimeRush.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\TimeRushGameModeBase.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\MyCharacter.gen.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\MyGameStateBase.gen.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\SniperProjectile.gen.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\Target.gen.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\TimeRush.init.gen.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\TimeRushGameModeBase.gen.cpp.obj"
+"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\Default.rc2.res"
+/OUT:"D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-8522.lib"
+/INCLUDE:IMPLEMENT_MODULE_TimeRush

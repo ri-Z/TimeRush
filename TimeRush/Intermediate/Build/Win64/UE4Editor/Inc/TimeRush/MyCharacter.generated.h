@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TIMERUSH_MyCharacter_generated_h
 
-#define TimeRush_Source_TimeRush_MyCharacter_h_12_RPC_WRAPPERS
-#define TimeRush_Source_TimeRush_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define TimeRush_Source_TimeRush_MyCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execToggleAiming) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ToggleAiming(); \
+		P_NATIVE_END; \
+	}
+
+
+#define TimeRush_Source_TimeRush_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execToggleAiming) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ToggleAiming(); \
+		P_NATIVE_END; \
+	}
+
+
+#define TimeRush_Source_TimeRush_MyCharacter_h_12_EVENT_PARMS
+#define TimeRush_Source_TimeRush_MyCharacter_h_12_CALLBACK_WRAPPERS
 #define TimeRush_Source_TimeRush_MyCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
@@ -58,15 +80,22 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 
 
 #define TimeRush_Source_TimeRush_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AMyCharacter, CameraComponent); }
+	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AMyCharacter, CameraComponent); } \
+	FORCEINLINE static uint32 __PPO__bIsAiming() { return STRUCT_OFFSET(AMyCharacter, bIsAiming); } \
+	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(AMyCharacter, FP_Gun); } \
+	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(AMyCharacter, FP_MuzzleLocation); }
 
 
-#define TimeRush_Source_TimeRush_MyCharacter_h_9_PROLOG
+#define TimeRush_Source_TimeRush_MyCharacter_h_9_PROLOG \
+	TimeRush_Source_TimeRush_MyCharacter_h_12_EVENT_PARMS
+
+
 #define TimeRush_Source_TimeRush_MyCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	TimeRush_Source_TimeRush_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	TimeRush_Source_TimeRush_MyCharacter_h_12_RPC_WRAPPERS \
+	TimeRush_Source_TimeRush_MyCharacter_h_12_CALLBACK_WRAPPERS \
 	TimeRush_Source_TimeRush_MyCharacter_h_12_INCLASS \
 	TimeRush_Source_TimeRush_MyCharacter_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -78,6 +107,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	TimeRush_Source_TimeRush_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	TimeRush_Source_TimeRush_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	TimeRush_Source_TimeRush_MyCharacter_h_12_CALLBACK_WRAPPERS \
 	TimeRush_Source_TimeRush_MyCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	TimeRush_Source_TimeRush_MyCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
