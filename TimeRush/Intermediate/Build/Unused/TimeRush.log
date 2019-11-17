@@ -1,15 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Universidade Europeia\GitHub\TimeRush).
-  Creating makefile for TimeRushEditor (ini files are newer than makefile)
   Parsing headers for TimeRushEditor
     Running UnrealHeaderTool "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\TimeRush.uproject" "D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\TimeRushEditor\Development\TimeRushEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for TimeRushEditor in 9.2918014 seconds
+  Reflection code generated for TimeRushEditor in 31.4116865 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
     [1/4] SniperProjectile.cpp
-    [2/4] UE4Editor-TimeRush-0060.lib
-       Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0060.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0060.exp
-    [3/4] UE4Editor-TimeRush-0060.dll
-       Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0060.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush-0060.suppressed.exp
+    [2/4] UE4Editor-TimeRush.lib
+       Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush.exp
+    [3/4] UE4Editor-TimeRush.dll
+       Creating library D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush.suppressed.lib and object D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\UE4Editor-TimeRush.suppressed.exp
     [4/4] TimeRushEditor.target
-  Total time in Parallel executor: 17.01 seconds
-  Total execution time: 29.23 seconds
+  Total time in Parallel executor: 345.50 seconds
+  Total execution time: 398.04 seconds
