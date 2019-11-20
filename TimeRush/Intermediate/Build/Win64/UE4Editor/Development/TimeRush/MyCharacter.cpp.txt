@@ -13,5 +13,4 @@ D:\Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxCompone
 D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Inc\TimeRush\SniperProjectile.generated.h
 D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-D:\Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+D:\Games\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

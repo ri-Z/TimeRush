@@ -5,18 +5,16 @@
 #include "SniperProjectile.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SkeletalMeshComponent.h"
-#include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/Actor.h"
+#include "GameFramework/PlayerController.h" 
+#include "DrawDebugHelpers.h"
+#include "Engine/World.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-
-	//SpringArmComponent = CreateDefaultSubobject<USpringArmComponent>("SpringArm Component");
-	//SpringArmComponent->bUsePawnControlRotation = true; // FAZ COM QUE CAMERA SE MOVA, I GUESS
-	//SpringArmComponent->SetupAttachment(RootComponent);
 
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>("Camera Component");
 	CameraComponent->SetupAttachment(GetMesh(), FName("head"));
@@ -40,6 +38,11 @@ AMyCharacter::AMyCharacter()
 
 	// Default offset from the character location for projectiles to spawn
 	GunOffset = FVector(100.0f, 0.0f, 10.0f);
+
+	isFire = false;
+
+	SetReplicates(true);
+	SetReplicateMovement(true);
 }
 
 // Called when the game starts or when spawned
@@ -47,6 +50,7 @@ void AMyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	weaponType = 1;
 }
 
 void AMyCharacter::MoveForward(float value)
@@ -91,60 +95,163 @@ void AMyCharacter::EndCrouch()
 	UnCrouch();
 }
 
-void AMyCharacter::ToggleAiming()
+void AMyCharacter::ChangeWeapon(int pickUp)
 {
-	bIsAiming = !bIsAiming;
+	weaponType = pickUp;
+}
 
-	if (bIsAiming)
+void AMyCharacter::Shoot(float dt)
+{
+	//AMyCharacter* character = Cast<AMyCharacter>(Controller);
+	//Recoil = RSaver;
+	//RecoilRecovery = RRSaver;
+
+	if (isFire)
 	{
-		ShowSniperOverlay();
-		CameraComponent->SetFieldOfView(10.f);
-		//GetFirstPersonCameraComponent()->SetFieldOfView(10.f);
-		/*camera->SetFieldOfView(10.f);
-		if (camera)
+		if (weaponType == 1)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("CAMERA HELLO"));
-		}*/
-		FP_Gun->SetVisibility(false);
-	}
-	else
-	{
-		HideSniperOverlay();
-		CameraComponent->SetFieldOfView(90.f);
-		//GetFirstPersonCameraComponent()->SetFieldOfView(90.f);
-		/*camera->SetFieldOfView(90.f);
-		if (camera)
+			//fireRate = 1;
+
+			if (ProjectileClass != NULL)
+			{
+				UWorld* const World = GetWorld();
+				if (World != NULL)
+				{
+					if (World->GetTimeSeconds() > nextShot)
+					{
+
+						Recoil -= 1;
+						RecoilRecovery -= 0.3f;
+
+						const FRotator SpawnRotation = GetControlRotation();
+						FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+
+						FActorSpawnParameters ActorSpawnParams;
+						ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+						World->SpawnActor<ASniperProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+					}
+					nextShot = World->GetTimeSeconds() + fireRate;
+				}
+			}
+		}
+		else if (weaponType == 2)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("CAMERA BYE"));
-		}*/
-		FP_Gun->SetVisibility(true);
+			fireRate = 0.1f;
+
+			FHitResult* HitResult = new FHitResult();
+			FVector StartTrace = CameraComponent->GetComponentLocation();
+			FVector ForwardVector = CameraComponent->GetForwardVector();
+			FVector EndTrace = ((ForwardVector * 2000.f) + StartTrace);
+			FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
+			UWorld* const World = GetWorld();
+
+			if (World->GetTimeSeconds() > nextShot)
+			{
+
+				Recoil -= .3f;
+				RecoilRecovery -= 0.10f;
+				UE_LOG(LogTemp, Warning, TEXT("fireRate: %f"), fireRate);
+
+
+				if (GetWorld()->LineTraceSingleByChannel(*HitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
+				{
+					DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor::Black, false, 5.f);
+
+
+					//UE_LOG(LogTemp, Warning, TEXT("I should recoil now"));
+					UE_LOG(LogTemp, Warning, TEXT("ApplyPitch%f : "), ApplyPitch);
+					//UE_LOG(LogTemp, Warning, TEXT("DT%f : "), DeltaTime);
+				}
+
+				nextShot = World->GetTimeSeconds() + fireRate;
+			}
+		}
 	}
+}
+
+void AMyCharacter::OnFireRelease()
+{
+	isFire = false;
 }
 
 void AMyCharacter::OnFire()
 {
-	if (ProjectileClass != NULL)
+	isFire = true;
+}
+
+void AMyCharacter::ToggleAiming()
+{
+	if (weaponType == 1)
 	{
-		UWorld* const World = GetWorld();
-		if (World != NULL)
+		bIsAiming = !bIsAiming;
+
+		if (bIsAiming)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("shooting"));
-			const FRotator SpawnRotation = GetControlRotation();
-			FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
-
-			FActorSpawnParameters ActorSpawnParams;
-			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
-
-			World->SpawnActor<ASniperProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+			ShowSniperOverlay();
+			CameraComponent->SetFieldOfView(10.f);
+			//GetFirstPersonCameraComponent()->SetFieldOfView(10.f);
+			/*camera->SetFieldOfView(10.f);
+			if (camera)
+			{
+				UE_LOG(LogTemp, Warning, TEXT("CAMERA HELLO"));
+			}*/
+			FP_Gun->SetVisibility(false);
+		}
+		else
+		{
+			HideSniperOverlay();
+			CameraComponent->SetFieldOfView(90.f);
+			//GetFirstPersonCameraComponent()->SetFieldOfView(90.f);
+			/*camera->SetFieldOfView(90.f);
+			if (camera)
+			{
+				UE_LOG(LogTemp, Warning, TEXT("CAMERA BYE"));
+			}*/
+			FP_Gun->SetVisibility(true);
 		}
 	}
 }
+
+//void AMyCharacter::OnFire()
+//{
+//	if (ProjectileClass != NULL)
+//	{
+//		UWorld* const World = GetWorld();
+//		if (World != NULL)
+//		{
+//			UE_LOG(LogTemp, Warning, TEXT("shooting"));
+//			const FRotator SpawnRotation = GetControlRotation();
+//			FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+//
+//			FActorSpawnParameters ActorSpawnParams;
+//			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+//
+//			World->SpawnActor<ASniperProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+//		}
+//	}
+//}
 
 // Called every frame
 void AMyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	Recoil = FMath::FInterpTo(Recoil, 0, DeltaTime, 10.0f);
+	RecoilRecovery = FMath::FInterpTo(RecoilRecovery, -Recoil, DeltaTime, 20.0f);
+	ApplyPitch = Recoil + RecoilRecovery;
+
+	this->AddControllerPitchInput(ApplyPitch);
+	this->AddControllerYawInput(ApplyPitch);
+
+	Shoot(DeltaTime);
+
+	if (!IsLocallyControlled())
+	{
+		FRotator newRot = CameraComponent->RelativeRotation;
+		newRot.Pitch = RemoteViewPitch * 360.0f / 255.0f;
+		CameraComponent->SetRelativeRotation(newRot);
+	}
 }
 
 // Called to bind functionality to input
@@ -170,5 +277,5 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AMyCharacter::ToggleAiming);
 
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMyCharacter::OnFire);
+	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AMyCharacter::OnFireRelease);
 }
-

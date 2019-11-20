@@ -15,6 +15,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define TimeRush_Source_TimeRush_MyCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execShoot) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaTime); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Shoot(Z_Param_DeltaTime); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execToggleAiming) \
 	{ \
 		P_FINISH; \
@@ -25,6 +34,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define TimeRush_Source_TimeRush_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execShoot) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaTime); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Shoot(Z_Param_DeltaTime); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execToggleAiming) \
 	{ \
@@ -80,6 +98,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 
 
 #define TimeRush_Source_TimeRush_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__fireRate() { return STRUCT_OFFSET(AMyCharacter, fireRate); } \
+	FORCEINLINE static uint32 __PPO__Recoil() { return STRUCT_OFFSET(AMyCharacter, Recoil); } \
+	FORCEINLINE static uint32 __PPO__RecoilRecovery() { return STRUCT_OFFSET(AMyCharacter, RecoilRecovery); } \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AMyCharacter, CameraComponent); } \
 	FORCEINLINE static uint32 __PPO__bIsAiming() { return STRUCT_OFFSET(AMyCharacter, bIsAiming); } \
 	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(AMyCharacter, FP_Gun); } \

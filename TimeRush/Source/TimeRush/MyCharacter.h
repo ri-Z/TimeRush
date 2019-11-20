@@ -26,6 +26,25 @@ protected:
 	void BeginCrouch();
 	void EndCrouch();
 
+	int weaponType;
+	void OnFireRelease();
+	bool isFire;
+
+	UPROPERTY(EditAnywhere)
+		float fireRate;
+
+	float nextShot;
+
+	UPROPERTY(EditAnywhere)
+		float Recoil;
+
+	UPROPERTY(EditAnywhere)
+		float RecoilRecovery;
+
+	float ApplyPitch;
+	float RSaver;
+	float RRSaver;
+
 	void OnFire();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
@@ -48,6 +67,9 @@ protected:
 	UFUNCTION()
 	void ToggleAiming();
 
+	UFUNCTION()
+		void Shoot(float DeltaTime);
+
 	UPROPERTY(VisibleDefaultsOnly, Category = "Mesh")
 		class USkeletalMeshComponent* FP_Gun;
 
@@ -68,4 +90,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 		FVector GunOffset;
+
+	void ChangeWeapon(int pickUp);
 };
