@@ -1,3 +1,0 @@
-D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\Definitions.TimeRush.h
-D:\Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
