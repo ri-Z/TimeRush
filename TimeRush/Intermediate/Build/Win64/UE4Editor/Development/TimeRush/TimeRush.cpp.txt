@@ -1,2 +1,0 @@
-D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Intermediate\Build\Win64\UE4Editor\Development\TimeRush\Definitions.TimeRush.h
-d:\universidade europeia\github\timerush\timerush\source\timerush\TimeRush.h

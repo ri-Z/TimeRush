@@ -1,3 +1,0 @@
-D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRush\TimeRush.Build.cs
-D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRush.Target.cs
-D:\Universidade Europeia\GitHub\TimeRush\TimeRush\Source\TimeRushEditor.Target.cs

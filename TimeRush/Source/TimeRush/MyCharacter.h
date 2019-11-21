@@ -42,8 +42,7 @@ protected:
 		float RecoilRecovery;
 
 	float ApplyPitch;
-	float RSaver;
-	float RRSaver;
+	
 
 	void OnFire();
 
@@ -66,6 +65,9 @@ protected:
 	
 	UFUNCTION()
 	void ToggleAiming();
+
+	/*UFUNCTION(BlueprintCallable, Category = "Game|Weapon")
+		FRotator GetAimOffsets() const;*/
 
 	UFUNCTION()
 		void Shoot(float DeltaTime);
