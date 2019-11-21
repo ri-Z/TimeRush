@@ -75,6 +75,15 @@ void AMyCharacter::MoveRight(float value)
 	}
 }
 
+//FRotator AMyCharacter::GetAimOffsets() const
+//{
+//	const FVector AimDirWS = GetBaseAimRotation().Vector();
+//	const FVector AimDirLS = ActorToWorld().InverseTransformVectorNoScale(AimDirWS);
+//	const FRotator AimRotLS = AimDirLS.Rotation();
+//
+//	return AimRotLS;
+//}
+
 void AMyCharacter::BeginSprint()
 {
 	bIsSprinting = true;
@@ -246,12 +255,18 @@ void AMyCharacter::Tick(float DeltaTime)
 
 	Shoot(DeltaTime);
 
-	if (!IsLocallyControlled())
-	{
-		FRotator newRot = CameraComponent->RelativeRotation;
-		newRot.Pitch = RemoteViewPitch * 360.0f / 255.0f;
-		CameraComponent->SetRelativeRotation(newRot);
-	}
+	//if (!IsLocallyControlled())
+	//{
+	//	//FRotator newRot = CameraComponent->RelativeRotation;
+	//	FRotator newRot = GetActorRotation();
+	//	if (newRot.Pitch == 0.f)
+	//	{
+	//		/*newRot.Pitch = RemoteViewPitch * 360.0f / 255.0f;
+	//		CameraComponent->SetRelativeRotation(newRot);*/
+	//		newRot.Pitch = RemoteViewPitch;
+	//		newRot.Pitch = newRot.Pitch * 360.0f / 255.0f;
+	//	}
+	//}
 }
 
 // Called to bind functionality to input
