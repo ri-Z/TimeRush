@@ -9,6 +9,9 @@
 #include "GameFramework/PlayerController.h" 
 #include "DrawDebugHelpers.h"
 #include "Engine/World.h"
+#include "Components/TimelineComponent.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "TimerManager.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -19,7 +22,6 @@ AMyCharacter::AMyCharacter()
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>("Camera Component");
 	CameraComponent->SetupAttachment(GetMesh(), FName("head"));
 	CameraComponent->bUsePawnControlRotation = true;
-	//CameraComponent->AttachTo(SpringArmComponent, "headSocket");
 
 	//camera = FindComponentByClass<UCameraComponent>();
 
@@ -51,6 +53,11 @@ void AMyCharacter::BeginPlay()
 	Super::BeginPlay();
 	
 	weaponType = 1;
+
+	FullHealth = 1000.0f;
+	Health = FullHealth;
+	HealthPercentage = 1.0f;
+	bCanBeDamaged = true;
 }
 
 void AMyCharacter::MoveForward(float value)
@@ -179,6 +186,50 @@ void AMyCharacter::Shoot(float dt)
 	}
 }
 
+float AMyCharacter::GetHealth()
+{
+	return HealthPercentage;
+}
+
+FText AMyCharacter::GetHealthIntText()
+{
+	int32 HP = FMath::RoundHalfFromZero(HealthPercentage * 100);
+	FString HPS = FString::FromInt(HP);
+	FString HealthHUD = HPS + FString(TEXT("%"));
+	FText HPTEXT = FText::FromString(HealthHUD);
+	return HPTEXT;
+}
+
+//void AMyCharacter::SetDamageState()
+//{
+//	bCanBeDamaged = true;
+//}
+
+bool AMyCharacter::PlayFlash()
+{
+	if (redFlash)
+	{
+		redFlash = false;
+		return true;
+	}
+	return false;
+}
+
+void AMyCharacter::ReceivePointDamage(float Damage, const class UDamageType * DamageType, FVector HitLocation, FVector HitNormal, class UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, class AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
+{
+	//bCanBeDamaged = false;
+	redFlash = true;
+
+	UpdateHealth(-Damage);
+}
+
+void AMyCharacter::UpdateHealth(float HealthChange)
+{
+	Health += HealthPercentage;
+	Health = FMath::Clamp(Health, 0.0f, FullHealth);
+	HealthPercentage = Health / FullHealth;
+}
+
 void AMyCharacter::OnFireRelease()
 {
 	isFire = false;
@@ -222,6 +273,15 @@ void AMyCharacter::ToggleAiming()
 	}
 }
 
+//FRotator AMyCharacter::GetViewRotation() const
+//{
+//	if (Controller)
+//	{
+//		return Controller->GetControlRotation();
+//	}
+//	return FRotator(RemoteViewPitch * 360.0f / 255.0f, GetActorRotation().Yaw, 0.f);
+//}
+
 //void AMyCharacter::OnFire()
 //{
 //	if (ProjectileClass != NULL)
@@ -258,15 +318,18 @@ void AMyCharacter::Tick(float DeltaTime)
 	//if (!IsLocallyControlled())
 	//{
 	//	//FRotator newRot = CameraComponent->RelativeRotation;
-	//	FRotator newRot = GetActorRotation();
+	//	//FRotator newRot = GetActorRotation();
+	//	FRotator newRot = GetControlRotation();
+	//	//this->AddControllerPitchInput(RemoteViewPitch * 360.0f / 255.0f);
 	//	if (newRot.Pitch == 0.f)
 	//	{
 	//		/*newRot.Pitch = RemoteViewPitch * 360.0f / 255.0f;
 	//		CameraComponent->SetRelativeRotation(newRot);*/
-	//		newRot.Pitch = RemoteViewPitch;
-	//		newRot.Pitch = newRot.Pitch * 360.0f / 255.0f;
+	//		this->AddControllerPitchInput(RemoteViewPitch * 360.0f / 255.0f);
 	//	}
 	//}
+
+	//CameraComponent->SetWorldRotation(GetViewRotation());
 }
 
 // Called to bind functionality to input

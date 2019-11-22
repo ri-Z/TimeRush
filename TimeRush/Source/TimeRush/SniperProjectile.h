@@ -51,4 +51,16 @@ public:
 	// when called, gravity will start effecting the bullet, making it drop.
 	UFUNCTION()
 		void ApplyGravity();
+
+	UFUNCTION()
+		void ApplyDamage();
+
+	UPROPERTY(EditAnywhere)
+		AActor * MyCharacter;
+
+	UPROPERTY(EditAnywhere)
+		FHitResult MyHit;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<UDamageType> SniperDamageType;
 };

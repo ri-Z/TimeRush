@@ -78,6 +78,32 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, Category = "Mesh")
 		class USceneComponent* FP_MuzzleLocation;
 
+	/* Health System */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		float FullHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		float Health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		float HealthPercentage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		bool redFlash;
+
+	UFUNCTION(BlueprintPure, Category = "Health")
+		FText GetHealthIntText();
+
+	/*UFUNCTION()
+		void SetDamageState();*/
+
+	UFUNCTION(BlueprintPure, Category = "Health")
+		bool PlayFlash();
+
+	void ReceivePointDamage(float Damage, const class UDamageType * DamageType, FVector HitLocation, FVector HitNormal, class UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, class AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo);
+
+	/* Health System */
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -94,4 +120,14 @@ public:
 		FVector GunOffset;
 
 	void ChangeWeapon(int pickUp);
+
+	/* Health System */
+	UFUNCTION(BlueprintPure, Category = "Health")
+		float GetHealth();
+
+	UFUNCTION(BlueprintCallable, Category = "Health") // should be on protected
+		void UpdateHealth(float HealthChange);
+	/* Health System */
+
+	//FRotator GetViewRotation() const override;
 };

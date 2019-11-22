@@ -5,6 +5,7 @@
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "Target.h"
+#include "MyCharacter.h"
 #include "Engine.h"
 
 
@@ -19,6 +20,9 @@ ASniperProjectile::ASniperProjectile()
 	ProjectileCollision = CreateDefaultSubobject<UBoxComponent>(FName("ProjectileCollision"));
 	ProjectileCollision->InitBoxExtent(FVector(2.f));
 	ProjectileCollision->BodyInstance.SetCollisionProfileName("Projectile");
+	/*ProjectileCollision->BodyInstance.SetCollisionProfileName("BlockAllDynamic");
+	ProjectileCollision->SetSimulatePhysics(true);
+	ProjectileCollision->SetNotifyRigidBodyCollision(true);*/
 	ProjectileCollision->OnComponentHit.AddDynamic(this, &ASniperProjectile::OnProjectileHit);
 	SetRootComponent(ProjectileCollision);
 
@@ -36,7 +40,7 @@ ASniperProjectile::ASniperProjectile()
 	ProjectileParticles = CreateDefaultSubobject<UParticleSystemComponent>(FName("ProjectileParticles"));
 	ProjectileParticles->SetupAttachment(RootComponent);
 
-	//If the bullet doesnt hit anything after 3 seconds, destroy it
+	//If the bullet doesn't hit anything after 3 seconds, destroy it
 	InitialLifeSpan = 3.0f;
 
 
@@ -49,21 +53,26 @@ void ASniperProjectile::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	// after graviydelay amount of time, make the bullet start dropping
+	// after GravityDelay amount of time, make the bullet start dropping
 	FTimerHandle DummyHandle;
 	GetWorldTimerManager().SetTimer(DummyHandle, this, &ASniperProjectile::ApplyGravity, GravityDelay, false);
 }
 
 void ASniperProjectile::OnProjectileHit(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
 {
-	if (OtherActor->IsA(ATarget::StaticClass()))
+	//if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && (OtherActor->IsA(ATarget::StaticClass())))
+	if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && (OtherActor->IsA(AMyCharacter::StaticClass())))
 	{
+		MyCharacter = Cast<AActor>(OtherActor);
+		MyHit = Hit;
+
 		if (Hit.BoneName != NAME_None)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit the bots: %s"), *Hit.BoneName.ToString()));
 		}
 
-		OtherActor->Destroy();
+		ApplyDamage();
+		//OtherActor->Destroy();
 	}
 
 	Destroy();
@@ -72,6 +81,11 @@ void ASniperProjectile::OnProjectileHit(UPrimitiveComponent * OverlappedComp, AA
 void ASniperProjectile::ApplyGravity()
 {
 	ProjectileMovement->ProjectileGravityScale = GravityScale;
+}
+
+void ASniperProjectile::ApplyDamage()
+{
+	UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
 }
 
 
