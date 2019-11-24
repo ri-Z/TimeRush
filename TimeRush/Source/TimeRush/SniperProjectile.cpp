@@ -8,6 +8,7 @@
 #include "MyCharacter.h"
 #include "Engine.h"
 #include "UnrealNetwork.h"
+#include "Kismet/GameplayStatics.h"
 
 
 // Sets default values
@@ -36,6 +37,7 @@ ASniperProjectile::ASniperProjectile()
 
 
 	ProjectileMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName("ProjectileMesh"));
+	//ProjectileMesh->OnComponentHit.AddDynamic(this, &ASniperProjectile::OnProjectileHit);
 	ProjectileMesh->SetupAttachment(RootComponent);
 
 	ProjectileParticles = CreateDefaultSubobject<UParticleSystemComponent>(FName("ProjectileParticles"));
@@ -48,9 +50,9 @@ ASniperProjectile::ASniperProjectile()
 	SetReplicates(true);
 	SetReplicateMovement(true);
 
-	bReplicates = true;
+	//bReplicates = true;
 	//bReplicateInstigator = true;
-	bNetUseOwnerRelevancy = true;
+	//bNetUseOwnerRelevancy = true;
 }
 
 // Called when the game starts or when spawned
@@ -73,7 +75,9 @@ void ASniperProjectile::OnProjectileHit(UPrimitiveComponent * OverlappedComp, AA
 
 		if (Hit.BoneName != NAME_None)
 		{
+			//UE_LOG(LogTemp, Warning, TEXT("bone"));
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit the bots: %s"), *Hit.BoneName.ToString()));
+			//UGameplayStatics::ApplyPointDamage(MyCharacter, 20.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
 		}
 
 		if (MyCharacter)
@@ -81,7 +85,8 @@ void ASniperProjectile::OnProjectileHit(UPrimitiveComponent * OverlappedComp, AA
 			UE_LOG(LogTemp, Warning, TEXT("IM HERE"));
 			//ApplyDamage(/*MyCharacter*/);
 			//MyCharacter->UpdateHealth(-200.f);
-			MyCharacter->UpdateHealthServer(MyCharacter, -20.0f);
+			//MyCharacter->UpdateHealthServer(MyCharacter, -20.0f);
+			UGameplayStatics::ApplyPointDamage(MyCharacter, 20.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
 		}
 		
 		//OtherActor->Destroy();

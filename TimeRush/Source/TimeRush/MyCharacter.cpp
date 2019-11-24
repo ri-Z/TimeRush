@@ -240,13 +240,22 @@ bool AMyCharacter::PlayFlash()
 	return false;
 }
 
-void AMyCharacter::ReceivePointDamage(float Damage, const class UDamageType * DamageType, FVector HitLocation, FVector HitNormal, class UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, class AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
+//void AMyCharacter::ReceivePointDamage(float Damage, const class UDamageType * DamageType, FVector HitLocation, FVector HitNormal, class UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, class AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
+//{
+//	//bCanBeDamaged = false;
+//	redFlash = true;
+//
+//	//UpdateHealth(-Damage);
+//	UpdateHealthServer(this, -Damage);
+//}
+
+float AMyCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
 {
-	//bCanBeDamaged = false;
 	redFlash = true;
 
-	//UpdateHealth(-Damage);
-	UpdateHealthServer(this, -Damage);
+	UpdateHealthServer(this, -DamageAmount);
+
+	return 0.0f;
 }
 
 void AMyCharacter::UpdateHealth(float HealthChange)
