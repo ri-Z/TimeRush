@@ -12,8 +12,8 @@
 AMyHUD::AMyHUD()
 {
 	// set crosshair texture
-	/*static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/FirstPerson/Textures/FirstPersonCrosshair"));
-	CrosshairTex = CrosshairTexObj.Object;*/
+	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/UI/Crosshair"));
+	CrosshairTex = CrosshairTexObj.Object;
 
 	static ConstructorHelpers::FClassFinder<UUserWidget> HealthBarObj(TEXT("/Game/UI/Health_UI"));
 	HUDWidgetClass = HealthBarObj.Class;

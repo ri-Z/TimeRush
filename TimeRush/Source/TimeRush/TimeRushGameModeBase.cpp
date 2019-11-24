@@ -3,6 +3,12 @@
 
 #include "TimeRushGameModeBase.h"
 #include "Kismet/GameplayStatics.h"
+#include "MyHUD.h"
+
+ATimeRushGameModeBase::ATimeRushGameModeBase() : Super()
+{
+	HUDClass = AMyHUD::StaticClass();
+}
 
 void ATimeRushGameModeBase::BeginPlay()
 {

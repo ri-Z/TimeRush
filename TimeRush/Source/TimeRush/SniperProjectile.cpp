@@ -7,6 +7,7 @@
 #include "Target.h"
 #include "MyCharacter.h"
 #include "Engine.h"
+#include "UnrealNetwork.h"
 
 
 // Sets default values
@@ -46,6 +47,10 @@ ASniperProjectile::ASniperProjectile()
 
 	SetReplicates(true);
 	SetReplicateMovement(true);
+
+	bReplicates = true;
+	//bReplicateInstigator = true;
+	bNetUseOwnerRelevancy = true;
 }
 
 // Called when the game starts or when spawned
@@ -63,7 +68,7 @@ void ASniperProjectile::OnProjectileHit(UPrimitiveComponent * OverlappedComp, AA
 	//if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && (OtherActor->IsA(ATarget::StaticClass())))
 	if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && (OtherActor->IsA(AMyCharacter::StaticClass())))
 	{
-		MyCharacter = Cast<AActor>(OtherActor);
+		MyCharacter = Cast<AMyCharacter>(OtherActor);
 		MyHit = Hit;
 
 		if (Hit.BoneName != NAME_None)
@@ -71,7 +76,14 @@ void ASniperProjectile::OnProjectileHit(UPrimitiveComponent * OverlappedComp, AA
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit the bots: %s"), *Hit.BoneName.ToString()));
 		}
 
-		ApplyDamage();
+		if (MyCharacter)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("IM HERE"));
+			//ApplyDamage(/*MyCharacter*/);
+			//MyCharacter->UpdateHealth(-200.f);
+			MyCharacter->UpdateHealthServer(MyCharacter, -20.0f);
+		}
+		
 		//OtherActor->Destroy();
 	}
 
@@ -83,9 +95,17 @@ void ASniperProjectile::ApplyGravity()
 	ProjectileMovement->ProjectileGravityScale = GravityScale;
 }
 
-void ASniperProjectile::ApplyDamage()
+void ASniperProjectile::ApplyDamage_Implementation(/*AMyCharacter Character*/)
 {
-	UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
+	//UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
+	/*AActor * OtherActor;
+	OtherActor = Cast<AActor>(Character);
+	UGameplayStatics::ApplyPointDamage(OtherActor, 200.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);*/
+}
+
+bool ASniperProjectile::ApplyDamage_Validate()
+{
+	return true;
 }
 
 

@@ -12,6 +12,7 @@
 #include "Components/TimelineComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "TimerManager.h"
+#include "Net/UnrealNetwork.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -47,6 +48,7 @@ AMyCharacter::AMyCharacter()
 	SetReplicateMovement(true);
 }
 
+
 // Called when the game starts or when spawned
 void AMyCharacter::BeginPlay()
 {
@@ -54,7 +56,7 @@ void AMyCharacter::BeginPlay()
 	
 	weaponType = 1;
 
-	FullHealth = 1000.0f;
+	FullHealth = 900.0f;
 	Health = FullHealth;
 	HealthPercentage = 1.0f;
 	bCanBeDamaged = true;
@@ -136,8 +138,8 @@ void AMyCharacter::Shoot(float dt)
 					if (World->GetTimeSeconds() > nextShot)
 					{
 
-						Recoil -= 1;
-						RecoilRecovery -= 0.3f;
+						Recoil -= 0;
+						RecoilRecovery -= 0;
 
 						const FRotator SpawnRotation = GetControlRotation();
 						FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
@@ -191,6 +193,29 @@ float AMyCharacter::GetHealth()
 	return HealthPercentage;
 }
 
+void AMyCharacter::UpdateHealthServer_Implementation(AMyCharacter * character, float hp)
+{
+	if (Role == ROLE_Authority)
+	{
+		UpdateHealthClient(character, hp);
+	}
+}
+
+bool AMyCharacter::UpdateHealthServer_Validate(AMyCharacter * character, float hp)
+{
+	return true;
+}
+
+void AMyCharacter::UpdateHealthClient_Implementation(AMyCharacter * character, float hp)
+{
+	//HealthChange->HealthPercentage = hp;
+	//character->UpdateHealth(hp);
+	Health += hp;
+	Health = FMath::Clamp(Health, 0.0f, FullHealth);
+	HealthPercentage = Health / FullHealth;
+	redFlash = true;
+}
+
 FText AMyCharacter::GetHealthIntText()
 {
 	int32 HP = FMath::RoundHalfFromZero(HealthPercentage * 100);
@@ -220,15 +245,28 @@ void AMyCharacter::ReceivePointDamage(float Damage, const class UDamageType * Da
 	//bCanBeDamaged = false;
 	redFlash = true;
 
-	UpdateHealth(-Damage);
+	//UpdateHealth(-Damage);
+	UpdateHealthServer(this, -Damage);
 }
 
 void AMyCharacter::UpdateHealth(float HealthChange)
 {
-	Health += HealthPercentage;
+	Health += HealthChange;
 	Health = FMath::Clamp(Health, 0.0f, FullHealth);
 	HealthPercentage = Health / FullHealth;
 }
+
+//void AMyCharacter::UpdateHealth_Implementation(float HealthChange)
+//{
+//	Health += HealthChange;
+//	Health = FMath::Clamp(Health, 0.0f, FullHealth);
+//	HealthPercentage = Health / FullHealth;
+//}
+//
+//bool AMyCharacter::UpdateHealth_Validate(float HealthChange)
+//{
+//	return true;
+//}
 
 void AMyCharacter::OnFireRelease()
 {
@@ -300,6 +338,16 @@ void AMyCharacter::ToggleAiming()
 //		}
 //	}
 //}
+
+void AMyCharacter::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(AMyCharacter, FullHealth);
+	DOREPLIFETIME(AMyCharacter, Health);
+	DOREPLIFETIME(AMyCharacter, HealthPercentage);
+	DOREPLIFETIME(AMyCharacter, redFlash);
+}
+
 
 // Called every frame
 void AMyCharacter::Tick(float DeltaTime)

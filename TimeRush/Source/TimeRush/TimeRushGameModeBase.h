@@ -25,6 +25,8 @@ class TIMERUSH_API ATimeRushGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 	
 public:
+	ATimeRushGameModeBase();
+
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 

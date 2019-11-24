@@ -15,6 +15,8 @@ public:
 	// Sets default values for this character's properties
 	AMyCharacter();
 
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -79,16 +81,16 @@ protected:
 		class USceneComponent* FP_MuzzleLocation;
 
 	/* Health System */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "Health")
 		float FullHealth;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "Health")
 		float Health;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "Health")
 		float HealthPercentage;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "Health")
 		bool redFlash;
 
 	UFUNCTION(BlueprintPure, Category = "Health")
@@ -100,6 +102,7 @@ protected:
 	UFUNCTION(BlueprintPure, Category = "Health")
 		bool PlayFlash();
 
+	// tentar por public
 	void ReceivePointDamage(float Damage, const class UDamageType * DamageType, FVector HitLocation, FVector HitNormal, class UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, class AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo);
 
 	/* Health System */
@@ -125,9 +128,15 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Health")
 		float GetHealth();
 
-	UFUNCTION(BlueprintCallable, Category = "Health") // should be on protected
+	UFUNCTION(/*Server, Reliable, WithValidation, */BlueprintCallable, Category = "Health") // should be on protected
 		void UpdateHealth(float HealthChange);
 	/* Health System */
 
 	//FRotator GetViewRotation() const override;
+
+	UFUNCTION(Server, Reliable, WithValidation) // should be on protected
+		void UpdateHealthServer(AMyCharacter* character, float hp);
+
+	UFUNCTION(NetMulticast, Reliable)
+		void UpdateHealthClient(AMyCharacter* character, float hp);
 };

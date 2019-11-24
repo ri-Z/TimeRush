@@ -52,11 +52,11 @@ public:
 	UFUNCTION()
 		void ApplyGravity();
 
-	UFUNCTION()
+	UFUNCTION(Server, Reliable, WithValidation)
 		void ApplyDamage();
 
 	UPROPERTY(EditAnywhere)
-		AActor * MyCharacter;
+		class AMyCharacter* MyCharacter;
 
 	UPROPERTY(EditAnywhere)
 		FHitResult MyHit;
