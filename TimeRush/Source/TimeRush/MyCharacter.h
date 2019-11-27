@@ -31,6 +31,9 @@ protected:
 	int weaponType;
 	void OnFireRelease();
 	bool isFire;
+	bool isAlt;
+	bool canFireAltAgain;
+	bool AltRifleTimerStop;
 
 	UPROPERTY(EditAnywhere)
 		float fireRate;
@@ -43,7 +46,17 @@ protected:
 	UPROPERTY(EditAnywhere)
 		float RecoilRecovery;
 
+	UPROPERTY(EditAnywhere)
+		float RecoilH;
+
+	UPROPERTY(EditAnywhere)
+		float RecoilRecoveryH;
+
 	float ApplyPitch;
+	float ApplyPitchH;
+	float minRandValRecoilH;
+	float maxRandValRecoilH;
+	virtual void Landed(const FHitResult& Hit) override;
 	
 
 	void OnFire();
@@ -67,6 +80,17 @@ protected:
 	
 	UFUNCTION()
 	void ToggleAiming();
+
+	UFUNCTION()
+		void ShootAlt(float DeltaTime);
+
+	UFUNCTION()
+		void Alt();
+
+	UFUNCTION()
+		void AltRelease();
+
+	void Ability();
 
 	/*UFUNCTION(BlueprintCallable, Category = "Game|Weapon")
 		FRotator GetAimOffsets() const;*/
@@ -122,6 +146,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 		FVector GunOffset;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Projectile")
+		TSubclassOf<class AMyProjectileGrenade> AltRifleProjectileClass;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Projectile")
+		TSubclassOf<class AAbilityShot> AbilityProjectileClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
+		class UAnimMontage* FireAnimation;
+
 	void ChangeWeapon(int pickUp);
 
 	/* Health System */
@@ -139,4 +172,18 @@ public:
 
 	UFUNCTION(NetMulticast, Reliable)
 		void UpdateHealthClient(AMyCharacter* character, float hp);
+
+	UFUNCTION(Server, Reliable, WithValidation) // should be on protected
+		void ServerShoot(float DeltaTime);
+
+	UPROPERTY()
+		int DoubleJumpCounter;
+	UPROPERTY(EditAnywhere)
+		float JumpHeight;
+	UFUNCTION()
+		void DoubleJump();
+
+	void StopTimer();
+
+	struct FTimerHandle MemberTimerHandle;
 };

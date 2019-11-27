@@ -13,6 +13,10 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "TimerManager.h"
 #include "Net/UnrealNetwork.h"
+#include "MyProjectileGrenade.h"
+#include "AbilityShot.h"
+#include "TimerManager.h"
+#include "Math/UnrealMathUtility.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -42,7 +46,7 @@ AMyCharacter::AMyCharacter()
 	// Default offset from the character location for projectiles to spawn
 	GunOffset = FVector(100.0f, 0.0f, 10.0f);
 
-	isFire = false;
+	//isFire = false;
 
 	SetReplicates(true);
 	SetReplicateMovement(true);
@@ -60,6 +64,13 @@ void AMyCharacter::BeginPlay()
 	Health = FullHealth;
 	HealthPercentage = 1.0f;
 	bCanBeDamaged = true;
+
+	AltRifleTimerStop = true;
+
+	minRandValRecoilH = -.3f;
+	maxRandValRecoilH = .3f;
+	JumpHeight = 600.0f;
+	canFireAltAgain = true;
 }
 
 void AMyCharacter::MoveForward(float value)
@@ -113,79 +124,230 @@ void AMyCharacter::EndCrouch()
 	UnCrouch();
 }
 
-void AMyCharacter::ChangeWeapon(int pickUp)
+void AMyCharacter::DoubleJump()
 {
-	weaponType = pickUp;
+	if (DoubleJumpCounter <= 1)
+	{
+		LaunchCharacter(FVector(0, 0, JumpHeight), false, true);
+		DoubleJumpCounter++;
+	}
 }
 
-void AMyCharacter::Shoot(float dt)
+void AMyCharacter::Landed(const FHitResult & Hit)
 {
-	//AMyCharacter* character = Cast<AMyCharacter>(Controller);
-	//Recoil = RSaver;
-	//RecoilRecovery = RRSaver;
+	DoubleJumpCounter = 0;
+}
 
-	if (isFire)
+void AMyCharacter::Ability()
+{
+	if (AltRifleProjectileClass != NULL /* && AltRifleTimerStop */ )
+	{
+		UWorld* const World = GetWorld();
+		if (World != NULL)
+		{
+
+			//Recoil -= 1;
+			//RecoilRecovery -= 0.3;
+
+			//AltRifleTimerStop = false;
+			//GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AMyCharacter::StopTimer, 2.0f, false, 5.0f);
+
+			const FRotator SpawnRotation = GetControlRotation();
+			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+			//const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+			const FVector SpawnLocation = CameraComponent->GetComponentLocation();
+
+			//Set Spawn Collision Handling Override
+			FActorSpawnParameters ActorSpawnParams;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+			// spawn the projectile at the muzzle
+			World->SpawnActor<AAbilityShot>(AbilityProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+
+		}
+	}
+}
+
+void AMyCharacter::StopTimer()
+{
+	AltRifleTimerStop = true;
+	UE_LOG(LogTemp, Warning, TEXT("hello"));
+}
+
+void AMyCharacter::ShootAlt(float dt)
+{
+	if (isAlt)
 	{
 		if (weaponType == 1)
 		{
-			//fireRate = 1;
-
-			if (ProjectileClass != NULL)
+			if (canFireAltAgain && isFire)
 			{
-				UWorld* const World = GetWorld();
-				if (World != NULL)
+				if (ProjectileClass != NULL)
 				{
-					if (World->GetTimeSeconds() > nextShot)
-					{
+					UE_LOG(LogTemp, Warning, TEXT("2"));
 
-						Recoil -= 0;
-						RecoilRecovery -= 0;
+					UWorld* const World = GetWorld();
+					if (World != NULL)
+					{
+						UE_LOG(LogTemp, Warning, TEXT("3"));
+
+						Recoil -= 1;
+						RecoilRecovery -= 0.3;
+						//Recoil -= 0;
+						//RecoilRecovery -=0 ;
 
 						const FRotator SpawnRotation = GetControlRotation();
-						FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+						//FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+						FVector SpawnLocation = CameraComponent->GetComponentLocation();
 
 						FActorSpawnParameters ActorSpawnParams;
 						ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
 						World->SpawnActor<ASniperProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+						canFireAltAgain = false;
+
 					}
-					nextShot = World->GetTimeSeconds() + fireRate;
 				}
 			}
 		}
 		else if (weaponType == 2)
 		{
-			fireRate = 0.1f;
+			UE_LOG(LogTemp, Warning, TEXT("Alt Fire Rifle"));
 
-			FHitResult* HitResult = new FHitResult();
-			FVector StartTrace = CameraComponent->GetComponentLocation();
-			FVector ForwardVector = CameraComponent->GetForwardVector();
-			FVector EndTrace = ((ForwardVector * 2000.f) + StartTrace);
-			FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
-			UWorld* const World = GetWorld();
-
-			if (World->GetTimeSeconds() > nextShot)
+			if (AltRifleProjectileClass != NULL && AltRifleTimerStop)
 			{
-
-				Recoil -= .3f;
-				RecoilRecovery -= 0.10f;
-				UE_LOG(LogTemp, Warning, TEXT("fireRate: %f"), fireRate);
-
-
-				if (GetWorld()->LineTraceSingleByChannel(*HitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
+				UWorld* const World = GetWorld();
+				if (World != NULL)
 				{
-					DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor::Black, false, 5.f);
 
+					Recoil -= 1;
+					RecoilRecovery -= 0.3;
 
-					//UE_LOG(LogTemp, Warning, TEXT("I should recoil now"));
-					UE_LOG(LogTemp, Warning, TEXT("ApplyPitch%f : "), ApplyPitch);
-					//UE_LOG(LogTemp, Warning, TEXT("DT%f : "), DeltaTime);
+					AltRifleTimerStop = false;
+					GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AMyCharacter::StopTimer, 2.0f, false, 5.0f);
+
+					const FRotator SpawnRotation = GetControlRotation();
+					// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+					//const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+					const FVector SpawnLocation = CameraComponent->GetComponentLocation();
+
+					//Set Spawn Collision Handling Override
+					FActorSpawnParameters ActorSpawnParams;
+					ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+					// spawn the projectile at the muzzle
+					World->SpawnActor<AMyProjectileGrenade>(AltRifleProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+
 				}
-
-				nextShot = World->GetTimeSeconds() + fireRate;
 			}
 		}
+
 	}
+
+	/*if (FireAnimation != NULL)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		if (AnimInstance != NULL)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
+		}
+	}*/
+}
+
+void AMyCharacter::Alt()
+{
+	isAlt = true;
+}
+
+void AMyCharacter::AltRelease()
+{
+	isAlt = false;
+	canFireAltAgain = true;
+}
+
+void AMyCharacter::ChangeWeapon(int pickUp)
+{
+	weaponType = pickUp;
+}
+
+void AMyCharacter::ServerShoot_Implementation(float dt)
+{
+	Shoot(dt);
+}
+
+bool AMyCharacter::ServerShoot_Validate(float dt)
+{
+	return true;
+}
+
+void AMyCharacter::Shoot(float dt)
+{
+	if (Role < ROLE_Authority)
+	{
+		ServerShoot(dt);
+	}
+
+	if (weaponType == 1)
+	{
+		fireRate = 0.5;
+		//change damage var
+		//change recoil
+	}
+	else if (weaponType == 2)
+	{
+		fireRate = 0.1;
+		//change damage var
+	}
+
+
+	if (isFire && !isAlt)
+	{
+
+		FHitResult* HitResult = new FHitResult();
+		FVector StartTrace = CameraComponent->GetComponentLocation();
+		FVector ForwardVector = CameraComponent->GetForwardVector();
+		FVector EndTrace = ((ForwardVector * 2000.f) + StartTrace);
+		FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
+		UWorld* const World = GetWorld();
+
+		if (World->GetTimeSeconds() > nextShot)
+		{
+
+			float randResult = FMath::RandRange(minRandValRecoilH, maxRandValRecoilH);
+			Recoil -= .3f;
+			RecoilRecovery -= 0.3f;
+			RecoilH -= randResult;
+			RecoilRecovery -= randResult;
+
+			UE_LOG(LogTemp, Warning, TEXT("fireRate: %f"), fireRate);
+
+
+			if (GetWorld()->LineTraceSingleByChannel(*HitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
+			{
+				DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor::Black, false, 5.f);
+				//ATargetTest* TestTarget = Cast<ATargetTest>(HitResult->Actor.Get());
+
+				//if (TestTarget != NULL && TestTarget->IsPendingKill())
+				//{
+				//	TestTarget->DamageTarget(50.f); //use damage var
+				//}
+			}
+
+			nextShot = World->GetTimeSeconds() + fireRate;
+		}
+
+	}
+
+	/*if (FireAnimation != NULL)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		if (AnimInstance != NULL)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
+		}
+	}*/
 }
 
 float AMyCharacter::GetHealth()
@@ -363,14 +525,20 @@ void AMyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	Shoot(DeltaTime);
+	ShootAlt(DeltaTime);
+
 	Recoil = FMath::FInterpTo(Recoil, 0, DeltaTime, 10.0f);
 	RecoilRecovery = FMath::FInterpTo(RecoilRecovery, -Recoil, DeltaTime, 20.0f);
 	ApplyPitch = Recoil + RecoilRecovery;
 
-	this->AddControllerPitchInput(ApplyPitch);
-	this->AddControllerYawInput(ApplyPitch);
 
-	Shoot(DeltaTime);
+	RecoilH = FMath::FInterpTo(RecoilH, 0, DeltaTime, 10.0f);
+	RecoilRecoveryH = FMath::FInterpTo(RecoilRecoveryH, -RecoilH, DeltaTime, 20.0f);
+	ApplyPitchH = RecoilH + RecoilRecoveryH;
+
+	this->AddControllerPitchInput(ApplyPitch);
+	this->AddControllerYawInput(ApplyPitchH);
 
 	//if (!IsLocallyControlled())
 	//{
@@ -403,7 +571,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AMyCharacter::BeginCrouch);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AMyCharacter::EndCrouch);
 
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyCharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyCharacter::DoubleJump);
 
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMyCharacter::BeginSprint);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMyCharacter::EndSprint);
@@ -413,4 +581,9 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMyCharacter::OnFire);
 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AMyCharacter::OnFireRelease);
+
+	PlayerInputComponent->BindAction("Ability", IE_Pressed, this, &AMyCharacter::Ability);
+
+	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AMyCharacter::Alt);
+	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AMyCharacter::AltRelease);
 }

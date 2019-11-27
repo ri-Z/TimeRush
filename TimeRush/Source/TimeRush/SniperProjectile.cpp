@@ -67,32 +67,36 @@ void ASniperProjectile::BeginPlay()
 
 void ASniperProjectile::OnProjectileHit(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
 {
-	//if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && (OtherActor->IsA(ATarget::StaticClass())))
-	if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && (OtherActor->IsA(AMyCharacter::StaticClass())))
+	if (Role == ROLE_Authority)
 	{
-		MyCharacter = Cast<AMyCharacter>(OtherActor);
-		MyHit = Hit;
-
-		if (Hit.BoneName != NAME_None)
+		//if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && (OtherActor->IsA(ATarget::StaticClass())))
+		if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && (OtherActor->IsA(AMyCharacter::StaticClass())))
 		{
-			//UE_LOG(LogTemp, Warning, TEXT("bone"));
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit the bots: %s"), *Hit.BoneName.ToString()));
-			//UGameplayStatics::ApplyPointDamage(MyCharacter, 20.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
-		}
+			MyCharacter = Cast<AMyCharacter>(OtherActor);
+			MyHit = Hit;
 
-		if (MyCharacter)
-		{
-			UE_LOG(LogTemp, Warning, TEXT("IM HERE"));
-			//ApplyDamage(/*MyCharacter*/);
-			//MyCharacter->UpdateHealth(-200.f);
-			//MyCharacter->UpdateHealthServer(MyCharacter, -20.0f);
-			UGameplayStatics::ApplyPointDamage(MyCharacter, 20.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
-		}
+			if (Hit.BoneName != NAME_None)
+			{
+				//UE_LOG(LogTemp, Warning, TEXT("bone"));
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit the bots: %s"), *Hit.BoneName.ToString()));
+				//UGameplayStatics::ApplyPointDamage(MyCharacter, 20.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
+			}
+
+			if (MyCharacter)
+			{
+				UE_LOG(LogTemp, Warning, TEXT("IM HERE"));
+				//ApplyDamage(/*MyCharacter*/);
+				//MyCharacter->UpdateHealth(-200.f);
+				//MyCharacter->UpdateHealthServer(MyCharacter, -20.0f);
+				UGameplayStatics::ApplyPointDamage(MyCharacter, 20.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
+			}
 		
-		//OtherActor->Destroy();
-	}
+			//OtherActor->Destroy();
+		}
 
-	Destroy();
+		Destroy();
+
+	}
 }
 
 void ASniperProjectile::ApplyGravity()
