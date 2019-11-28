@@ -13,5 +13,17 @@ UCLASS()
 class TIMERUSH_API AMyGameStateBase : public AGameStateBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	/*UFUNCTION()
+		int CountDroppedItems();
+
+	UFUNCTION(Server, Reliable, WithValidation)
+		void ServerCountDroppedItems();
+
+	UPROPERTY()
+		int ServerCountItems;
+
+	UFUNCTION(NetMulticast, Reliable)
+		void MulticastFinishCollection(bool succeded);*/
 };

@@ -19,7 +19,7 @@ AMyProjectileGrenade::AMyProjectileGrenade()
 	// Use a sphere as a simple collision representation
 	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	CollisionComp->InitSphereRadius(5.0f);
-	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
+	CollisionComp->BodyInstance.SetCollisionProfileName("ProjectileGrenade");
 	CollisionComp->OnComponentHit.AddDynamic(this, &AMyProjectileGrenade::OnHit);		// set up a notification for when this component hits something blocking
 
 	// Players can't walk on it
@@ -93,10 +93,4 @@ void AMyProjectileGrenade::OnDetonate()
 	}
 
 	Destroy();
-	
-
-
 }
-
-
-

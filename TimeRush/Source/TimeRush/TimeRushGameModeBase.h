@@ -4,20 +4,20 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "MyCharacter.h"
+//#include "MyCharacter.h"
 #include "TimeRushGameModeBase.generated.h"
 
 /**
  * 
  */
 
-UENUM()
-enum class EGamePlayState
-{
-	EPlaying,
-	EGameOver,
-	EUnknown
-};
+//UENUM()
+//enum class EGamePlayState
+//{
+//	EPlaying,
+//	EGameOver,
+//	EUnknown
+//};
 
 UCLASS()
 class TIMERUSH_API ATimeRushGameModeBase : public AGameModeBase
@@ -30,15 +30,15 @@ public:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 
-	AMyCharacter * MyCharacter;
+	/*AMyCharacter * MyCharacter;
 
 	UFUNCTION(BlueprintPure, Category = "Health")
 		EGamePlayState GetCurrentState() const;
 
-	void SetCurrentState(EGamePlayState NewState);
+	void SetCurrentState(EGamePlayState NewState);*/
 
 private:
-	EGamePlayState CurrentState;
+	/*EGamePlayState CurrentState;
 
-	void HandleNewState(EGamePlayState NewState);
+	void HandleNewState(EGamePlayState NewState);*/
 };

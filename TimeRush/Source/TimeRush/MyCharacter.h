@@ -65,6 +65,8 @@ protected:
 		class UCameraComponent *CameraComponent;
 	/*UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 		class USpringArmComponent *SpringArmComponent;*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
+		class USceneComponent *SniperSpawn;
 
 	bool bIsSprinting = false;
 
@@ -170,11 +172,14 @@ public:
 	UFUNCTION(Server, Reliable, WithValidation) // should be on protected
 		void UpdateHealthServer(AMyCharacter* character, float hp);
 
-	UFUNCTION(NetMulticast, Reliable)
-		void UpdateHealthClient(AMyCharacter* character, float hp);
+	/*UFUNCTION(NetMulticast, Reliable)
+		void UpdateHealthClient(AMyCharacter* character, float hp);*/
 
 	UFUNCTION(Server, Reliable, WithValidation) // should be on protected
 		void ServerShoot(float DeltaTime);
+
+	UFUNCTION(Server, Reliable, WithValidation)
+		void ServerShootAlt(float DeltaTime);
 
 	UPROPERTY()
 		int DoubleJumpCounter;

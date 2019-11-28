@@ -88,7 +88,7 @@ void ASniperProjectile::OnProjectileHit(UPrimitiveComponent * OverlappedComp, AA
 				//ApplyDamage(/*MyCharacter*/);
 				//MyCharacter->UpdateHealth(-200.f);
 				//MyCharacter->UpdateHealthServer(MyCharacter, -20.0f);
-				UGameplayStatics::ApplyPointDamage(MyCharacter, 20.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
+				UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, SniperDamageType);
 			}
 		
 			//OtherActor->Destroy();

@@ -5,6 +5,7 @@
 #include "SniperProjectile.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Components/SceneComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/PlayerController.h" 
 #include "DrawDebugHelpers.h"
@@ -28,6 +29,8 @@ AMyCharacter::AMyCharacter()
 	CameraComponent->SetupAttachment(GetMesh(), FName("head"));
 	CameraComponent->bUsePawnControlRotation = true;
 
+	SniperSpawn = CreateDefaultSubobject<USceneComponent>("Sniper Spawn");
+	SniperSpawn->SetupAttachment(GetMesh(), FName("head"));
 	//camera = FindComponentByClass<UCameraComponent>();
 
 
@@ -60,7 +63,7 @@ void AMyCharacter::BeginPlay()
 	
 	weaponType = 1;
 
-	FullHealth = 900.0f;
+	FullHealth = 1000.0f;
 	Health = FullHealth;
 	HealthPercentage = 1.0f;
 	bCanBeDamaged = true;
@@ -176,6 +179,10 @@ void AMyCharacter::StopTimer()
 
 void AMyCharacter::ShootAlt(float dt)
 {
+	if (Role < ROLE_Authority)
+	{
+		ServerShootAlt(dt);
+	}
 	if (isAlt)
 	{
 		if (weaponType == 1)
@@ -198,14 +205,14 @@ void AMyCharacter::ShootAlt(float dt)
 
 						const FRotator SpawnRotation = GetControlRotation();
 						//FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
-						FVector SpawnLocation = CameraComponent->GetComponentLocation();
+						FVector SpawnLocation = ((SniperSpawn != nullptr) ? SniperSpawn->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+						//FVector SpawnLocation = SniperSpawn->GetComponentLocation();
 
 						FActorSpawnParameters ActorSpawnParams;
 						ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
 						World->SpawnActor<ASniperProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 						canFireAltAgain = false;
-
 					}
 				}
 			}
@@ -277,6 +284,16 @@ void AMyCharacter::ServerShoot_Implementation(float dt)
 }
 
 bool AMyCharacter::ServerShoot_Validate(float dt)
+{
+	return true;
+}
+
+void AMyCharacter::ServerShootAlt_Implementation(float dt)
+{
+	ShootAlt(dt);
+}
+
+bool AMyCharacter::ServerShootAlt_Validate(float dt)
 {
 	return true;
 }
@@ -357,10 +374,13 @@ float AMyCharacter::GetHealth()
 
 void AMyCharacter::UpdateHealthServer_Implementation(AMyCharacter * character, float hp)
 {
-	if (Role == ROLE_Authority)
-	{
-		UpdateHealthClient(character, hp);
-	}
+	UE_LOG(LogTemp, Warning, TEXT("server handled"));
+	//UpdateHealthClient(character, hp);
+	Health += hp;
+	Health = FMath::Clamp(Health, 0.0f, FullHealth);
+	HealthPercentage = Health / FullHealth;
+	redFlash = true;
+	UE_LOG(LogTemp, Warning, TEXT("handled damage on %f"), Health);
 }
 
 bool AMyCharacter::UpdateHealthServer_Validate(AMyCharacter * character, float hp)
@@ -368,15 +388,7 @@ bool AMyCharacter::UpdateHealthServer_Validate(AMyCharacter * character, float h
 	return true;
 }
 
-void AMyCharacter::UpdateHealthClient_Implementation(AMyCharacter * character, float hp)
-{
-	//HealthChange->HealthPercentage = hp;
-	//character->UpdateHealth(hp);
-	Health += hp;
-	Health = FMath::Clamp(Health, 0.0f, FullHealth);
-	HealthPercentage = Health / FullHealth;
-	redFlash = true;
-}
+
 
 FText AMyCharacter::GetHealthIntText()
 {
@@ -415,6 +427,7 @@ float AMyCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEv
 {
 	redFlash = true;
 
+	UE_LOG(LogTemp, Warning, TEXT("handled damage on %s"), *FString(this->GetName()));
 	UpdateHealthServer(this, -DamageAmount);
 
 	return 0.0f;
@@ -540,19 +553,15 @@ void AMyCharacter::Tick(float DeltaTime)
 	this->AddControllerPitchInput(ApplyPitch);
 	this->AddControllerYawInput(ApplyPitchH);
 
-	//if (!IsLocallyControlled())
-	//{
-	//	//FRotator newRot = CameraComponent->RelativeRotation;
-	//	//FRotator newRot = GetActorRotation();
-	//	FRotator newRot = GetControlRotation();
-	//	//this->AddControllerPitchInput(RemoteViewPitch * 360.0f / 255.0f);
-	//	if (newRot.Pitch == 0.f)
-	//	{
-	//		/*newRot.Pitch = RemoteViewPitch * 360.0f / 255.0f;
-	//		CameraComponent->SetRelativeRotation(newRot);*/
-	//		this->AddControllerPitchInput(RemoteViewPitch * 360.0f / 255.0f);
-	//	}
-	//}
+	
+		FRotator newRot = CameraComponent->RelativeRotation;
+		//FRotator newRot = GetActorRotation();
+		//FRotator newRot = GetControlRotation();
+		//this->AddControllerPitchInput(RemoteViewPitch * 360.0f / 255.0f);
+			newRot.Pitch = RemoteViewPitch * 360.0f / 255.0f;
+			CameraComponent->SetRelativeRotation(newRot);
+			//this->AddControllerPitchInput(RemoteViewPitch * 360.0f / 255.0f);
+	
 
 	//CameraComponent->SetWorldRotation(GetViewRotation());
 }
