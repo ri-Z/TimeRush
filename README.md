@@ -1,2 +1,2 @@
 # TimeRush
-Multiplayer Online Game - TimeRush
+FPS Multiplayer Online Game - TimeRush
